@@ -32,8 +32,6 @@
 .contact-word>a:hover,.contact-word>a:focus-visible{background:none;color:var(--white);filter:none;text-decoration:none}
 .contact-label{display:block}
 .contact-word>a:hover .contact-label,.contact-word>a:focus-visible .contact-label{background:url('assets/textures/pale-marble.png') center/cover;background-clip:text;-webkit-background-clip:text;color:transparent;filter:drop-shadow(calc(4 * var(--ui)) calc(4 * var(--ui)) 0 var(--red))}
-.contact-word>a::after{content:'';position:absolute;left:0;right:0;bottom:calc(-10 * var(--ui));height:calc(4 * var(--ui));background:var(--white);opacity:0;pointer-events:none}
-.contact-word>a:hover::after,.contact-word>a:focus-visible::after{opacity:1}
 .hero h1 a:active,.experience-title:active{filter:drop-shadow(calc(6 * var(--ui)) calc(6 * var(--ui)) 0 var(--red))}
 .contact-word>a:active .contact-label{filter:drop-shadow(calc(6 * var(--ui)) calc(6 * var(--ui)) 0 var(--red))}
 .experience-border{inset:var(--gutter) var(--gutter) 0;border-bottom:0}
