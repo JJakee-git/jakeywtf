@@ -1,8 +1,8 @@
-// A padded union keeps the line around the arrangement. Corner cutting gives it
-// a loose rounded silhouette; small normal offsets roughen that smooth path.
+// Twenty-four widely spaced anchors describe a loose perimeter around the art.
+// Interpolated curves connect them without the old dense sawtooth edge.
 export function artworkContours(rectangles,width,height){
  if(!rectangles.length)return [];
- const padding=230;
+ const padding=350;
  const rects=rectangles.map(r=>({left:Math.max(60,r.left-padding),top:Math.max(60,r.top-padding),right:Math.min(width-60,r.right+padding),bottom:Math.min(height-60,r.bottom+padding)}));
  const xs=[...new Set(rects.flatMap(r=>[r.left,r.right]))].sort((a,b)=>a-b);
  const ys=[...new Set(rects.flatMap(r=>[r.top,r.bottom]))].sort((a,b)=>a-b);
@@ -33,7 +33,7 @@ export function artworkContours(rectangles,width,height){
    return [[p[0]*.76+q[0]*.24,p[1]*.76+q[1]*.24],[p[0]*.24+q[0]*.76,p[1]*.24+q[1]*.76]];
   });
   const lengths=smooth.map((p,i)=>Math.hypot(p[0]-smooth[(i+1)%smooth.length][0],p[1]-smooth[(i+1)%smooth.length][1]));
-  const perimeter=lengths.reduce((a,b)=>a+b,0),count=Math.max(12,Math.ceil(perimeter/43));
+  const perimeter=lengths.reduce((a,b)=>a+b,0),count=24;
   const sampled=[];let edge=0,distance=0;
   for(let i=0;i<count;i++){
    const target=i*perimeter/count;
@@ -44,7 +44,7 @@ export function artworkContours(rectangles,width,height){
   contours.push(sampled.map((p,i)=>{
    const before=sampled[(i+count-1)%count],after=sampled[(i+1)%count],dx=after[0]-before[0],dy=after[1]-before[1],length=Math.hypot(dx,dy)||1;
    const hash=Math.sin(i*127.1+area*.00001)*43758.5453,noise=hash-Math.floor(hash);
-   const offset=(i%2?1:-1)*(13+noise*15)+Math.sin(i*.37)*7;
+   const offset=45+noise*75+Math.sin(i*.83)*30;
    return [Math.max(20,Math.min(width-20,p[0]+dy/length*offset)),Math.max(20,Math.min(height-20,p[1]-dx/length*offset))];
   }));
  }
@@ -52,5 +52,14 @@ export function artworkContours(rectangles,width,height){
 }
 
 export function artworkOutline(rectangles,width,height){
- return artworkContours(rectangles,width,height).map(points=>points.map((p,i)=>(i?'L':'M')+p.map(n=>Number(n.toFixed(2))).join(' ')).join(' ')+' Z').join(' ');
+ const format=p=>p.map(n=>Number(n.toFixed(2))).join(' ');
+ return artworkContours(rectangles,width,height).map(points=>{
+  const n=points.length;
+  return 'M'+format(points[0])+' '+points.map((p,i)=>{
+   const before=points[(i+n-1)%n],next=points[(i+1)%n],after=points[(i+2)%n];
+   const first=p.map((v,axis)=>v+(next[axis]-before[axis])/8);
+   const second=next.map((v,axis)=>v-(after[axis]-p[axis])/8);
+   return 'C'+format(first)+' '+format(second)+' '+format(next);
+  }).join(' ')+' Z';
+ }).join(' ');
 }

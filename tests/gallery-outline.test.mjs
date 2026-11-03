@@ -12,7 +12,7 @@ const inside=(point,polygon)=>{
  return result;
 };
 
-test('rounded, roughened contours still enclose every original artwork corner',async()=>{
+test('loose 24-anchor contours enclose every original artwork corner',async()=>{
  const scene=JSON.parse(await readFile(new URL('../src/content/gallery-scene.json',import.meta.url),'utf8'));
  const rectangles=scene.root.children.map(n=>{
   const t=n.transform;
@@ -20,6 +20,9 @@ test('rounded, roughened contours still enclose every original artwork corner',a
   return {left:Math.min(...points.map(p=>p[0])),right:Math.max(...points.map(p=>p[0])),top:Math.min(...points.map(p=>p[1])),bottom:Math.max(...points.map(p=>p[1]))};
  });
  const contours=artworkContours(rectangles,scene.width,scene.height);
+ for(const contour of contours)assert.equal(contour.length,24,'The boundary should have only 24 anchors');
+ const path=artworkOutline(rectangles,scene.width,scene.height);
+ assert.equal((path.match(/C/g)??[]).length,contours.length*24,'Every anchor should connect through an interpolated curve');
  for(const r of rectangles)for(const point of [[r.left,r.top],[r.right,r.top],[r.right,r.bottom],[r.left,r.bottom]])assert.ok(contours.some(c=>inside(point,c)),'Contour cuts into artwork at '+point.join(','));
  for(const [x,y] of contours.flat())assert.ok(Number.isFinite(x)&&Number.isFinite(y)&&x>0&&y>0&&x<scene.width&&y<scene.height);
  assert.equal(artworkOutline(rectangles,scene.width,scene.height),artworkOutline(rectangles,scene.width,scene.height),'Rebuilding should not randomly change the outline');
