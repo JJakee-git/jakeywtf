@@ -1,15 +1,17 @@
 /* Shared presentation geometry from the Framer reference and current feedback. */
-:root{--ui:1px;--nav-count:4;--menu-width:calc(240 * var(--ui));--nav-gap:var(--space-24);--nav-width:min(calc(130 * var(--nav-count) * var(--ui)),calc(100vw - 2 * var(--gutter) - var(--menu-width) - 112 * var(--ui)));--gutter:var(--content-gutter);--control-height:calc(64 * var(--ui));--supporting-size:max(calc(20 * var(--ui)),1.6vw)}
+:root{--ui:1px;--nav-count:4;--menu-width:var(--button-width);--nav-gap:var(--space-24);--nav-width:min(calc(130 * var(--nav-count) * var(--ui)),calc(100vw - 2 * var(--gutter) - var(--menu-width) - 112 * var(--ui)));--gutter:var(--content-gutter);--control-height:var(--button-height);--supporting-size:max(calc(20 * var(--ui)),1.6vw)}
 .site-header{top:calc(24 * var(--ui))}
 .logo{width:calc(64 * var(--ui));height:calc(64 * var(--ui))}
 .navigation-shell,.menu-toggle,#navigation,#navigation a{height:var(--control-height)}
 #navigation{right:var(--menu-end,0px);width:calc(var(--nav-width) + var(--nav-gap) + var(--menu-width));display:block;overflow:hidden;clip-path:none}
 .navigation-links{display:grid;grid-template-columns:repeat(var(--nav-count),minmax(0,1fr));width:var(--nav-width);height:100%;will-change:transform}
 #navigation a,.navigation-open #navigation a{transform:none;opacity:1;transition:none;transition-delay:0s;font-size:min(calc(24 * var(--ui)),calc(var(--nav-width) / var(--nav-count) * .184615))}
-#navigation a:hover{color:var(--white)}
-.menu-toggle,.submit-button,.project-back-button{display:flex;align-items:center;justify-content:center;width:var(--menu-width);height:var(--control-height);padding:0;border:0;border-radius:0;background:#000;color:var(--white);font:700 calc(48 * var(--ui))/1.2 Brutalisme,sans-serif;box-shadow:calc(8 * var(--ui)) calc(8 * var(--ui)) 0 var(--red);transition:color .2s cubic-bezier(.44,0,.56,1),box-shadow .2s cubic-bezier(.44,0,.56,1)}
+.text-link,#navigation a{color:var(--primary)}
+.text-link:visited,#navigation a:visited{color:var(--primary-2)}
+#navigation a:hover{color:var(--variable-collection-WHITE-80)}
+.menu-toggle,.submit-button,.project-back-button{display:flex;align-items:center;justify-content:center;width:var(--menu-width);height:var(--control-height);padding:var(--button-padding);border:0;border-radius:0;background:#000;color:var(--white);font:700 calc(48 * var(--ui))/1 Brutalisme,sans-serif;box-shadow:var(--button-shadow-offset) var(--button-shadow-offset) 0 var(--red);transition:color .2s cubic-bezier(.44,0,.56,1),box-shadow .2s cubic-bezier(.44,0,.56,1)}
 .menu-toggle:hover,.submit-button:enabled:hover{color:var(--variable-collection-WHITE-80)}
-.menu-toggle:active,.submit-button:enabled:active,.project-back-button:active{box-shadow:calc(10 * var(--ui)) calc(10 * var(--ui)) 0 var(--red)}
+.menu-toggle:active,.submit-button:enabled:active,.project-back-button:active{box-shadow:var(--button-pressed-offset) var(--button-pressed-offset) 0 var(--red)}
 .menu-toggle:active,.submit-button:enabled:active{color:var(--white)}
 .submit-button:disabled{opacity:.5}
 .logo{transition:opacity .4s ease}
@@ -49,7 +51,7 @@
 @keyframes crown-float{0%,100%{transform:translateY(0) rotate(-20deg)}50%{transform:translateY(calc(-25 * var(--ui))) rotate(-20deg)}}
 .page-project .site-header{--nav-width:min(calc(130 * var(--nav-count) * var(--ui)),calc(100vw - 2 * var(--gutter) - var(--menu-width) - 112 * var(--ui) - var(--control-height) - var(--space-24)))}
 .page-project .navigation-shell{display:flex;gap:var(--space-24);--menu-end:calc(var(--control-height) + var(--space-24))}
-.project-back-button{position:relative;z-index:2;flex:none;flex-direction:column;width:var(--control-height);border:calc(2 * var(--ui)) solid #000;background:var(--white);color:#000;font:700 calc(12 * var(--ui))/1.1 Brutalisme,sans-serif}
+.project-back-button{position:relative;z-index:2;flex:none;flex-direction:column;width:var(--control-height);border:calc(2 * var(--ui)) solid #000;background:var(--white);color:#000;font:700 calc(12 * var(--ui))/1 Brutalisme,sans-serif}
 .page-project .menu-toggle{animation:project-menu-reveal 1.05s cubic-bezier(.22,.8,.22,1) both}
 .project-back-button:hover{color:var(--variable-collection-BLACK-90)}
 .project-back-button:active{color:#000}
@@ -72,6 +74,7 @@
  :root{--menu-width:calc(96 * var(--ui));--nav-width:calc(100vw - 180 * var(--ui));--nav-gap:var(--space-12);--control-height:calc(44 * var(--ui));--supporting-size:clamp(calc(16 * var(--ui)),4.7vw,calc(18 * var(--ui)));--content-gutter:var(--space-24);--supporting-inset:var(--space-24)}
  .site-header{top:var(--space-24)}.logo{width:calc(38 * var(--ui));height:calc(44 * var(--ui))}
  .menu-toggle,.submit-button{font-size:calc(24 * var(--ui))}
+ .menu-toggle,.submit-button,.project-back-button{padding:0}
  #navigation a{font-size:min(2.45vw,calc(var(--nav-width)*.046))}
  .hero{--portrait-sleeve-depth:23.4vw;--portrait-arm-depth:18.8vw}
  .experience-meta{left:var(--gutter);right:var(--gutter)}.experience-rule{bottom:19%}

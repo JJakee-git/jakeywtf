@@ -20,4 +20,11 @@
   --panel-gap: var(--space-24);
   --content-gutter: var(--space-48);
   --supporting-inset: var(--space-48);
+  --primary: var(--variable-collection-PRIMARY-1);
+  --primary-2: var(--variable-collection-PRIMARY-2);
+  --button-height: calc(64 * var(--ui));
+  --button-width: calc(240 * var(--ui));
+  --button-padding: calc(8 * var(--ui));
+  --button-shadow-offset: calc(8 * var(--ui));
+  --button-pressed-offset: calc(10 * var(--ui));
 }
