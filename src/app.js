@@ -172,7 +172,13 @@ for(const window of document.querySelectorAll('[data-word-cycle]')){
 
 for(const strip of document.querySelectorAll('[data-horizontal-drag]')){
  let gesture;
- strip.addEventListener('pointerdown',event=>{if(event.button!==0||event.pointerType==='touch')return;gesture={id:event.pointerId,x:event.clientX,scroll:strip.scrollLeft,moved:false};});
+ strip.addEventListener('pointerdown',event=>{
+  if(event.button!==0||event.pointerType==='touch')return;
+  const rect=strip.getBoundingClientRect();
+  const barHeight=strip.scrollWidth>strip.clientWidth?Math.max(4,strip.offsetHeight-strip.clientHeight):0;
+  if(event.clientY>=rect.bottom-barHeight||event.clientX>=rect.left+strip.clientLeft+strip.clientWidth)return;
+  gesture={id:event.pointerId,x:event.clientX,scroll:strip.scrollLeft,moved:false};
+ });
  strip.addEventListener('pointermove',event=>{
   if(!gesture||event.pointerId!==gesture.id)return;
   const delta=event.clientX-gesture.x;if(!gesture.moved&&Math.abs(delta)<6)return;

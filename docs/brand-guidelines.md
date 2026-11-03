@@ -46,11 +46,13 @@ These standards record the user's approved direction. Desktop is the priority. M
 - Writeup inner padding: 24 px. Normal paragraph gaps: 12 px.
 - Home and About supporting text share the same outer insets.
 - Deliberately composed artwork retains its internal geometry.
+- Red scrollbars use 4 px thickness in browsers with pixel-sized scrollbar support; other browsers retain their native thin-scrollbar fallback.
 
 ## Motion and exceptions
 
 - Follow the supplied Framer reference for unspecified motion.
 - Keep explicitly approved behavior, including Soft Spring section scrolling, the Menu/Back cover-and-reveal sequence, the floating crown, and project interactions.
 - On desktop, overflowing project process/sketch strips pin in view while vertical page scrolling moves through all images horizontally. Continue vertically to Contact Me after the last image; scrolling upward reverses the sequence. Dragging and horizontal keyboard controls remain available. Compact layouts, reduced motion, and windows too short to show the content use the regular horizontal strip.
+- Pinned horizontal travel runs at 1.6 times the vertical scroll distance, with a damped momentum glide. Direct dragging and scrollbar input stay synchronized, and the first/last image is reached before the section releases.
 - Do not replace an approved motion with a new interpretation of a generic default.
 - Ask the user before introducing a new exception to these standards. Record approved exceptions here.
