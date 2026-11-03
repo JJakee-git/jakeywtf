@@ -2,6 +2,7 @@ import {clampCamera,galleryScale} from './gallery-math.mjs';
 import {enableSectionScrolling} from './scroll-controller.js';
 import {initializeViewportLayout} from './viewport-layout.js';
 import {createMenuMotion,enableProjectReturn} from './menu-motion.js';
+import {enableProcessScrolling} from './process-scroll.js';
 
 initializeViewportLayout();
 
@@ -120,6 +121,7 @@ if(form)form.addEventListener('submit',async event=>{
 
 const reducedMotion=matchMedia('(prefers-reduced-motion: reduce)').matches;
 enableSectionScrolling();
+enableProcessScrolling();
 for(const dropdown of document.querySelectorAll('[data-dropdown]')){
  const trigger=dropdown.querySelector('.dropdown-trigger'),list=dropdown.querySelector('[role=listbox]'),select=dropdown.querySelector('select'),options=[...list.querySelectorAll('[role=option]')];
  function close(focus=false){list.hidden=true;trigger.setAttribute('aria-expanded','false');if(focus)trigger.focus();}

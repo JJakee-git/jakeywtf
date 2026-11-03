@@ -51,5 +51,6 @@ These standards record the user's approved direction. Desktop is the priority. M
 
 - Follow the supplied Framer reference for unspecified motion.
 - Keep explicitly approved behavior, including Soft Spring section scrolling, the Menu/Back cover-and-reveal sequence, the floating crown, and project interactions.
+- On desktop, overflowing project process/sketch strips pin in view while vertical page scrolling moves through all images horizontally. Continue vertically to Contact Me after the last image; scrolling upward reverses the sequence. Dragging and horizontal keyboard controls remain available. Compact layouts, reduced motion, and windows too short to show the content use the regular horizontal strip.
 - Do not replace an approved motion with a new interpretation of a generic default.
 - Ask the user before introducing a new exception to these standards. Record approved exceptions here.

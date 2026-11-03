@@ -37,6 +37,7 @@ await cp('src/gallery-math.mjs','dist/gallery-math.mjs');
 await cp('src/scroll-controller.js','dist/scroll-controller.js');
 await cp('src/viewport-layout.js','dist/viewport-layout.js');
 await cp('src/menu-motion.js','dist/menu-motion.js');
+await cp('src/process-scroll.js','dist/process-scroll.js');
 const img=(path,alt,cls='',lazy=true)=>`<img src="${esc(path)}" alt="${esc(alt)}" class="${cls}" ${lazy?'loading="lazy"':''} decoding="async" draggable="false">`;
 const pages=renderSitePages({site,projects,galleryScene,references,esc,img});
 for(const [path,html] of pages){await mkdir(dirname('dist/'+path),{recursive:true});await writeFile('dist/'+path,html);}
