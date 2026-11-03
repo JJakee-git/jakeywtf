@@ -9,6 +9,7 @@ function bounds(node){
 }
 
 export function renderGallery({full=false,projects,scene,img,esc}){
+ projects=projects.filter(p=>p.collection!=='testprojects');
  const addedProjects=projects.filter(p=>!p.sceneNode);
  const additionsBounds=addedProjects.map(p=>({left:p.position.x,top:p.position.y,right:p.position.x+p.position.width,bottom:p.position.y+p.position.width*.91}));
  const width=Math.max(scene.width,...additionsBounds.map(r=>r.right+500));

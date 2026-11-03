@@ -1,6 +1,6 @@
 # Project content audit
 
-Updated November 2, 2026. The site now contains 25 project pages: 22 with project descriptions and three artwork-only pages. Fourteen projects were added to the Work canvas, and five existing placeholders were developed into sourced case studies. The three original Figma case studies retain their imported artwork, copy, and interactions.
+Updated November 2, 2026. The site contains 25 project pages: 22 with project descriptions and three artwork-only pages. The 14 new projects are kept separately under `/testprojects/`, with a browsable index, until their frames are arranged for Work. The Work canvas retains its original arrangement. Five existing placeholders were developed into sourced case studies. The three original Figma case studies retain their imported artwork, copy, and interactions.
 
 ## Scope of the search
 
@@ -106,7 +106,7 @@ Still needed or optional:
 
 ### Tarantino Book Set
 
-Route: `/projects/tarantino-book-set/`
+Route: `/testprojects/tarantino-book-set/`
 
 Found: GD 100 · Course project; hardcover coptic binding, japanese stab binding, chain-stitch books; finished artwork and sourced project description.
 
@@ -119,7 +119,7 @@ Still needed or optional:
 
 ### Everybody
 
-Route: `/projects/everybody-poster/`
+Route: `/testprojects/everybody-poster/`
 
 Found: GD 103 · Course project; poster thumbnails, visual research, refined compositions; finished artwork and sourced project description.
 
@@ -131,7 +131,7 @@ Still needed or optional:
 
 ### Norton Wine
 
-Route: `/projects/norton-wine/`
+Route: `/testprojects/norton-wine/`
 
 Found: GD 103 · Course concept; label thumbnails, refined label studies, advertisement compositions; finished artwork and sourced project description.
 
@@ -144,7 +144,7 @@ Still needed or optional:
 
 ### The Uncomfortable Cycle
 
-Route: `/projects/appropriation-exhibition/`
+Route: `/testprojects/appropriation-exhibition/`
 
 Found: GD 103 · Unbuilt exhibition concept; spatial sketches, layout development; finished artwork and sourced project description.
 
@@ -157,7 +157,7 @@ Still needed or optional:
 
 ### AOMedia
 
-Route: `/projects/aomedia-website/`
+Route: `/testprojects/aomedia-website/`
 
 Found: GD 202 · Course project; hand-drawn wireframes, visual direction, digital revisions; finished artwork and sourced project description.
 
@@ -170,7 +170,7 @@ Still needed or optional:
 
 ### Encino
 
-Route: `/projects/encino-app/`
+Route: `/testprojects/encino-app/`
 
 Found: GD 202 · Course concept; initial screen sketches, screen and flow development, color and visual direction; finished artwork and sourced project description.
 
@@ -183,7 +183,7 @@ Still needed or optional:
 
 ### Salus Vitae
 
-Route: `/projects/salus-vitae/`
+Route: `/testprojects/salus-vitae/`
 
 Found: GD 302 · Course concept; logo sketches, logo development, website sketches, website wireframes; finished artwork and sourced project description.
 
@@ -197,7 +197,7 @@ Still needed or optional:
 
 ### Personal Avatar Series
 
-Route: `/projects/avatar-series/`
+Route: `/testprojects/avatar-series/`
 
 Found: GD 309 · Course project; portrait references, composition studies, digital revisions; finished artwork and sourced project description.
 
@@ -209,7 +209,7 @@ Still needed or optional:
 
 ### Princess Cake
 
-Route: `/projects/princess-cake/`
+Route: `/testprojects/princess-cake/`
 
 Found: GD 309 · Course concept for Valhalla Bakery; campaign thumbnails, poster compositions, final visual direction, swan poster revisions; finished artwork and sourced project description.
 
@@ -221,7 +221,7 @@ Still needed or optional:
 
 ### Spring Fig
 
-Route: `/projects/spring-fig/`
+Route: `/testprojects/spring-fig/`
 
 Found: GD 309 · Personal spring illustration; fruit thumbnails, shape and color studies, digital revisions, application study; finished artwork and sourced project description.
 
@@ -233,7 +233,7 @@ Still needed or optional:
 
 ### Chromakopia Collectible
 
-Route: `/projects/chromakopia-collectible/`
+Route: `/testprojects/chromakopia-collectible/`
 
 Found: GD 309 · Fan-art course project; container concept sketches, model development, fabrication materials; finished artwork and sourced project description.
 
@@ -246,7 +246,7 @@ Still needed or optional:
 
 ### NVIDIA Drop
 
-Route: `/projects/nvidia-drop/`
+Route: `/testprojects/nvidia-drop/`
 
 Found: GD 402 · Unofficial course concept; journey and sitemap, low-fidelity sketches, screen wireframes, state and interface revisions; finished artwork and sourced project description.
 
@@ -259,7 +259,7 @@ Still needed or optional:
 
 ### Video Downloader
 
-Route: `/projects/video-downloader/`
+Route: `/testprojects/video-downloader/`
 
 Found: GD 402 · Course redesign concept; journey sketches, sitemap, interface style guide, source selection; finished artwork and sourced project description.
 
@@ -273,7 +273,7 @@ Still needed or optional:
 
 ### Penelope’s Coffee & Tea
 
-Route: `/projects/penelopes-coffee/`
+Route: `/testprojects/penelopes-coffee/`
 
 Found: GD 203 · Course concept; packaging sketches, further packaging studies; finished artwork and sourced project description.
 

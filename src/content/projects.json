@@ -279,7 +279,8 @@
       "assets/projects/tarantino-book-set/japanese-binding.jpg",
       "assets/projects/tarantino-book-set/coptic-binding.jpg"
     ],
-    "preview": "assets/projects/tarantino-book-set/collection.jpg"
+    "preview": "assets/projects/tarantino-book-set/collection.jpg",
+    "collection": "testprojects"
   },
   {
     "slug": "everybody-poster",
@@ -299,7 +300,8 @@
       "assets/projects/everybody-poster/moodboard.jpg",
       "assets/projects/everybody-poster/tights.jpg"
     ],
-    "preview": "assets/projects/everybody-poster/poster.jpg"
+    "preview": "assets/projects/everybody-poster/poster.jpg",
+    "collection": "testprojects"
   },
   {
     "slug": "norton-wine",
@@ -319,7 +321,8 @@
       "assets/projects/norton-wine/tights.jpg",
       "assets/projects/norton-wine/ad-compositions.jpg"
     ],
-    "preview": "assets/projects/norton-wine/advertisement.jpg"
+    "preview": "assets/projects/norton-wine/advertisement.jpg",
+    "collection": "testprojects"
   },
   {
     "slug": "appropriation-exhibition",
@@ -339,7 +342,8 @@
       "assets/projects/appropriation-exhibition/sketches.jpg",
       "assets/projects/appropriation-exhibition/spatial-studies.jpg"
     ],
-    "preview": "assets/projects/appropriation-exhibition/exhibition.jpg"
+    "preview": "assets/projects/appropriation-exhibition/exhibition.jpg",
+    "collection": "testprojects"
   },
   {
     "slug": "aomedia-website",
@@ -360,7 +364,8 @@
       "assets/projects/aomedia-website/moodboard.jpg",
       "assets/projects/aomedia-website/revisions.jpg"
     ],
-    "preview": "assets/projects/aomedia-website/website.jpg"
+    "preview": "assets/projects/aomedia-website/website.jpg",
+    "collection": "testprojects"
   },
   {
     "slug": "encino-app",
@@ -380,7 +385,8 @@
       "assets/projects/encino-app/flow-sketches.jpg",
       "assets/projects/encino-app/moodboard.jpg"
     ],
-    "preview": "assets/projects/encino-app/app.jpg"
+    "preview": "assets/projects/encino-app/app.jpg",
+    "collection": "testprojects"
   },
   {
     "slug": "salus-vitae",
@@ -402,7 +408,8 @@
       "assets/projects/salus-vitae/web-sketches.jpg",
       "assets/projects/salus-vitae/wireframes.jpg"
     ],
-    "preview": "assets/projects/salus-vitae/brand-book.jpg"
+    "preview": "assets/projects/salus-vitae/brand-book.jpg",
+    "collection": "testprojects"
   },
   {
     "slug": "avatar-series",
@@ -423,7 +430,8 @@
       "assets/projects/avatar-series/compositions.jpg",
       "assets/projects/avatar-series/revisions.jpg"
     ],
-    "preview": "assets/projects/avatar-series/color-avatar.jpg"
+    "preview": "assets/projects/avatar-series/color-avatar.jpg",
+    "collection": "testprojects"
   },
   {
     "slug": "princess-cake",
@@ -446,7 +454,8 @@
       "assets/projects/princess-cake/moodboard.jpg",
       "assets/projects/princess-cake/swan-revisions.jpg"
     ],
-    "preview": "assets/projects/princess-cake/campaign.jpg"
+    "preview": "assets/projects/princess-cake/campaign.jpg",
+    "collection": "testprojects"
   },
   {
     "slug": "spring-fig",
@@ -467,7 +476,8 @@
       "assets/projects/spring-fig/revisions.jpg",
       "assets/projects/spring-fig/application.jpg"
     ],
-    "preview": "assets/projects/spring-fig/illustration.jpg"
+    "preview": "assets/projects/spring-fig/illustration.jpg",
+    "collection": "testprojects"
   },
   {
     "slug": "chromakopia-collectible",
@@ -488,7 +498,8 @@
       "assets/projects/chromakopia-collectible/model-development.jpg",
       "assets/projects/chromakopia-collectible/materials.jpg"
     ],
-    "preview": "assets/projects/chromakopia-collectible/collectible.jpg"
+    "preview": "assets/projects/chromakopia-collectible/collectible.jpg",
+    "collection": "testprojects"
   },
   {
     "slug": "nvidia-drop",
@@ -510,7 +521,8 @@
       "assets/projects/nvidia-drop/wireframes.jpg",
       "assets/projects/nvidia-drop/revisions.jpg"
     ],
-    "preview": "assets/projects/nvidia-drop/mobile.jpg"
+    "preview": "assets/projects/nvidia-drop/mobile.jpg",
+    "collection": "testprojects"
   },
   {
     "slug": "video-downloader",
@@ -532,7 +544,8 @@
       "assets/projects/video-downloader/style-guide.jpg",
       "assets/projects/video-downloader/source.jpg"
     ],
-    "preview": "assets/projects/video-downloader/home.jpg"
+    "preview": "assets/projects/video-downloader/home.jpg",
+    "collection": "testprojects"
   },
   {
     "slug": "penelopes-coffee",
@@ -553,6 +566,7 @@
       "assets/projects/penelopes-coffee/sketches.jpg",
       "assets/projects/penelopes-coffee/sketches-2.jpg"
     ],
-    "preview": "assets/projects/penelopes-coffee/packaging.jpg"
+    "preview": "assets/projects/penelopes-coffee/packaging.jpg",
+    "collection": "testprojects"
   }
 ]

@@ -52,6 +52,15 @@
 .case-art>img{display:block;width:100%;height:auto;object-fit:contain}
 .case-art>figcaption{padding:12px 0 0;font:400 14px/1.4 'Helvetica Neue',sans-serif;color:var(--white)}
 .case-credit{margin-top:20px!important;font-size:13px}
+.project-index{max-width:1500px;margin:auto;padding:160px var(--gutter) 70px;color:var(--white)}
+.project-index>h1{font:700 clamp(38px,6vw,90px)/1.15 Brutalisme,sans-serif;overflow-wrap:anywhere}
+.project-index>p{margin:20px 0 40px;font:400 16px/1.4 'Helvetica Neue',sans-serif;color:var(--variable-collection-WHITE-80)}
+.project-index-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px;list-style:none;padding:0;margin:0}
+.project-index-list a{display:flex;align-items:center;gap:24px;height:100%;padding:20px;border:1px solid var(--dark-red);background:var(--variable-collection-BLACK-95);transition:border-color .2s,box-shadow .2s}
+.project-index-list a:hover,.project-index-list a:focus-visible{border-color:var(--red);box-shadow:5px 5px 0 var(--dark-red);outline:none}
+.project-index-list img{flex:none;width:130px;height:110px;object-fit:contain}
+.project-index-list h2{font:700 clamp(19px,1.7vw,26px)/1.25 Brutalisme,sans-serif;overflow-wrap:anywhere}
+.project-index-category{display:block;margin-top:10px;font:400 14px/1.4 'Helvetica Neue',sans-serif;color:var(--variable-collection-WHITE-80)}
 .case-overview .project-story{font-size:16px;line-height:1.4}
 .case-overview .project-column:first-child{justify-content:space-between}
 @media(min-width:810px){
@@ -80,6 +89,10 @@
 .contact-page .submit-button{margin:24px auto 0}
 
 @media(max-width:809px){
+ .project-index{padding-top:125px}
+ .project-index-list{grid-template-columns:1fr;gap:18px}
+ .project-index-list a{gap:18px;padding:16px}
+ .project-index-list img{width:90px;height:90px}
  .origins-section{padding:110px 0 0}
  .origins-section>h2{font-size:20vw;margin:0 20px 34px}
  .origins-copy{width:auto;margin:0 24px;font-size:17px;line-height:1.45}
