@@ -2,7 +2,7 @@
 // as the three original Figma case studies.
 export function renderCaseStudy(project,{esc,img}){
  const study=project.caseStudy;
- const picture=(asset,cls='')=>`<figure class="case-art ${cls}" style="--art-flex:${asset.height/asset.width}"><img src="${esc(asset.path)}" alt="${esc(asset.alt)}" width="${asset.width}" height="${asset.height}" loading="lazy" decoding="async" draggable="false">${asset.caption?`<figcaption>${esc(asset.caption)}</figcaption>`:''}</figure>`;
+ const picture=(asset,cls='')=>`<figure class="case-art ${cls}"><img src="${esc(asset.path)}" alt="${esc(asset.alt)}" width="${asset.width}" height="${asset.height}" loading="lazy" decoding="async" draggable="false">${asset.caption?`<figcaption>${esc(asset.caption)}</figcaption>`:''}</figure>`;
  const story=`<article class="project-story" tabindex="0" aria-label="${esc(project.title)} project description"><h2>${esc(project.title)}</h2><div class="project-story-meta"><span>${esc(project.category)}</span><span>${esc(study.context)}</span></div>${study.sections.map(section=>`<h3>${esc(section.heading)}</h3><p>${esc(section.text)}</p>`).join('')}${study.credit?`<p class="case-credit">${esc(study.credit)}</p>`:''}</article>`;
  const hero=`<section class="case-hero" data-project-start aria-label="${esc(project.title)} finished work">${picture(study.hero)}</section>`;
  const overview=`<section class="project-overview-flow"><div class="project-overview-grid case-overview"><div class="project-column">${study.left.map(asset=>picture(asset)).join('')}</div><div class="project-column">${story}${study.right?picture(study.right):''}</div></div></section>`;

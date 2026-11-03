@@ -8,7 +8,7 @@
 #navigation a,.navigation-open #navigation a{transform:none;opacity:1;transition:none;transition-delay:0s;font-size:min(calc(24 * var(--ui)),calc(var(--nav-width) / var(--nav-count) * .184615))}
 .text-link,#navigation a{color:var(--primary)}
 .text-link:visited,#navigation a:visited{color:var(--primary-2)}
-#navigation a:hover{color:var(--variable-collection-WHITE-80)}
+#navigation a:hover{color:var(--white)}
 .menu-toggle,.submit-button,.project-back-button{display:flex;align-items:center;justify-content:center;width:var(--menu-width);height:var(--control-height);padding:var(--button-padding);border:0;border-radius:0;background:#000;color:var(--white);font:700 calc(48 * var(--ui))/1 Brutalisme,sans-serif;box-shadow:var(--button-shadow-offset) var(--button-shadow-offset) 0 var(--red);transition:color .2s cubic-bezier(.44,0,.56,1),box-shadow .2s cubic-bezier(.44,0,.56,1)}
 .menu-toggle:hover,.submit-button:enabled:hover{color:var(--variable-collection-WHITE-80)}
 .menu-toggle:active,.submit-button:enabled:active,.project-back-button:active{box-shadow:var(--button-pressed-offset) var(--button-pressed-offset) 0 var(--red)}
@@ -51,10 +51,14 @@
 @keyframes crown-float{0%,100%{transform:translateY(0) rotate(-20deg)}50%{transform:translateY(calc(-25 * var(--ui))) rotate(-20deg)}}
 .page-project .site-header{--nav-width:min(calc(130 * var(--nav-count) * var(--ui)),calc(100vw - 2 * var(--gutter) - var(--menu-width) - 112 * var(--ui) - var(--control-height) - var(--space-24)))}
 .page-project .navigation-shell{display:flex;gap:var(--space-24);--menu-end:calc(var(--control-height) + var(--space-24))}
-.project-back-button{position:relative;z-index:2;flex:none;flex-direction:column;width:var(--control-height);border:solid #000;border-width:0 calc(3 * var(--ui)) calc(3 * var(--ui)) 0;background:var(--white);color:#000;font:700 calc(12 * var(--ui))/1 Brutalisme,sans-serif}
+.project-back-button{--back-separation:calc(3 * var(--ui));--back-shadow-offset:var(--button-shadow-offset);position:relative;z-index:2;flex:none;flex-direction:column;width:var(--control-height);border:solid transparent;border-width:0 var(--back-separation) var(--back-separation) 0;background:var(--white);background-clip:padding-box;box-shadow:none;color:#000;font:700 calc(12 * var(--ui))/1 Brutalisme,sans-serif}
+/* Separate shadow strips leave the bottom/right separation truly see-through. */
+.project-back-button::before,.project-back-button::after{content:'';position:absolute;z-index:-1;pointer-events:none;background:var(--red);transition:width .2s,height .2s,top .2s,left .2s}
+.project-back-button::before{left:calc(100% + var(--back-separation));top:var(--back-shadow-offset);width:var(--back-shadow-offset);height:var(--control-height)}
+.project-back-button::after{top:calc(100% + var(--back-separation));left:var(--back-shadow-offset);height:var(--back-shadow-offset);width:var(--control-height)}
 .page-project .menu-toggle{animation:project-menu-reveal 1.05s cubic-bezier(.22,.8,.22,1) both}
 .project-back-button:hover{color:var(--variable-collection-WHITE-80)}
-.project-back-button:active{color:#000}
+.project-back-button:active{color:#000;box-shadow:none;--back-shadow-offset:var(--button-pressed-offset)}
 @keyframes project-menu-reveal{
  0%{transform:translateX(calc(var(--control-height) + var(--space-24)))}
  72%{transform:translateX(calc(-4 * var(--ui)))}

@@ -255,7 +255,7 @@
     ]
   },
   "baps": {
-    "context": "GD 203 · Course concept",
+    "context": "GD 203 · Collaborative course concept",
     "hero": {
       "path": "assets/projects/baps/identity.jpg",
       "width": 1600,
@@ -300,20 +300,24 @@
     ],
     "sections": [
       {
+        "heading": "MY ROLE & CONTRIBUTIONS",
+        "text": "My contributions included early logo drafts and sketches; typography, color, and moodboard explorations; field and visual research; and the social-media post series. I also contributed to the installation concept and 3D model with a teammate, developing the temple form and interactive elements. I produced printed proofs, compared layouts and image treatment, and refined spacing, type, saturation, and color balance with the group."
+      },
+      {
         "heading": "OVERVIEW",
-        "text": "This identity concept for BAPS Shri Swaminarayan brings architectural references, color, typography, and promotional artwork into a shared set of guidelines. The available brand book documents the finished visual system and its applications."
+        "text": "This collaborative rebrand concept explored how BAPS Shri Swaminarayan Mandir could feel contemporary and inviting without losing its cultural identity. The group developed a connected visual system spanning logo treatments, typography, color, photography, promotional assets, and an installation concept. My focus was on helping establish the visual direction and carrying it through the social-media and spatial applications."
       },
       {
         "heading": "CHALLENGES & GOALS",
-        "text": "The identity needed to communicate cultural depth and a sense of community while remaining consistent across different formats. Primary, secondary, and standalone marks give the system options without losing the relationship between its parts."
+        "text": "The challenge was balancing a fresh visual identity with the Mandir’s cultural and spiritual significance. The work needed to feel welcoming to a contemporary audience while remaining recognizable and meaningful to older visitors. A consistent identity had to hold together across small-format posts, banners, photography, and a larger installation, without making every application identical."
       },
       {
         "heading": "RESEARCH & ITERATIONS",
-        "text": "The documented system takes its direction from the Mandir’s architecture. The guidelines establish mark variants, monochrome treatments, usage restrictions, photography, and typographic hierarchy to support consistent application."
+        "text": "My development began with field research and moodboards studying architecture, color, imagery, and typography. Logo sketches translated temple silhouettes into simplified marks, while type studies tested different ways to balance bold display lettering with culturally relevant forms. Printed social-media proofs made it easier to compare the spacing, text, shapes, and image treatment side by side. Feedback from those proofs led to refinements in saturation and color balance with the group."
       },
       {
         "heading": "SOLUTION WITH AESTHETICS",
-        "text": "Deep green, sandstone, yellow, pink, and near-black create a palette with distinct supporting roles. Architectural forms in the mark connect the identity to the temple, while promotional layouts extend that language into event communication."
+        "text": "For the social-media series, I repeated a border shape and pattern to connect the posts while varying imagery, marks, and content for different messages. Layered lotus imagery, contrasting colors, and coordinated photo treatment extended the shared system. In the installation work, I developed the temple model with enlarged steps and an open doorway to feel inviting and monumental. Tapered openings suggested greater depth, while reduced detail in seating areas made those spaces appear more approachable. The result presented the same visual identity across both a digital post series and a physical-space concept."
       }
     ],
     "processHeading": "DESIGN SYSTEM & APPLICATIONS"

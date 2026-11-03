@@ -94,15 +94,13 @@ Still needed or optional:
 
 Route: `/projects/baps/`
 
-Found: GD 203 · Course concept; core color palette, typography system; finished artwork and sourced project description.
+Found: Collaborative GD 203 course concept; final guidelines, palette, typography, and promotional artwork. The newly supplied group process deck also contains the creative brief, Jacob-credited moodboards and logo sketches, final social posts, installation collaboration, print-testing feedback, and field research. The page now includes a sourced My Role & Contributions section.
 
-Written source: `GD 203 - Color/P3 BAPS/PromotionalAssetsV2.pdf`.
+Written sources: `GD 203 - Color/P3 BAPS/PromotionalAssetsV2.pdf` and the supplied `Kim_Spierer_Tsang_Project 3_ BAPS Shri Swaminarayan Mandir Rebrand.pdf`. Exact contribution references are recorded in [baps-content-sources.md](baps-content-sources.md).
 
 Still needed or optional:
 
-- Original creative brief.
-- Early logo sketches and rejected directions.
-- Design rationale/reflection beyond the finished guidelines.
+- No essential written/process material missing for the current page. Original editable files or higher-resolution installation renders would be optional future additions.
 
 ### Tarantino Book Set
 

@@ -67,9 +67,17 @@ try {
     if(await page.locator('.project-overview-grid').count()){
      const geometry=await page.locator('.project-overview-grid').evaluate(grid=>({
       columns:[...grid.children].map(column=>{const children=[...column.children].map(child=>child.getBoundingClientRect());return {top:children[0].top,bottom:children.at(-1).bottom};}),
-      storyHeight:grid.querySelector('.project-story').clientHeight
+      storyHeight:grid.querySelector('.project-story').clientHeight,
+      artwork:[...grid.querySelectorAll('.project-column:first-child>.case-art>img')].map(image=>({
+       width:image.clientWidth,height:image.clientHeight,columnWidth:image.closest('.project-column').clientWidth,
+       ratio:Number(image.getAttribute('width'))/Number(image.getAttribute('height'))
+      }))
      }));
      assert.ok(geometry.storyHeight>=140,'Project description collapsed: '+path);
+     for(const image of geometry.artwork){
+      assert.equal(image.width,image.columnWidth,'Project artwork is not full column width: '+path);
+      assert.ok(Math.abs(image.height-image.width/image.ratio)<1.5,'Project artwork has internal letterbox gaps: '+path);
+     }
      if(!mobile){
       assert.ok(Math.abs(geometry.columns[0].top-geometry.columns[1].top)<1,'Project column top edges differ: '+path);
       assert.ok(Math.abs(geometry.columns[0].bottom-geometry.columns[1].bottom)<1,'Project column bottom edges differ: '+path);
