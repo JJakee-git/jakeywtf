@@ -9,8 +9,8 @@ a:focus-visible,button:focus-visible,[tabindex]:focus-visible{outline-color:var(
 .experience-meta{left:18%;right:5%;top:35.8%}
 .experience-meta::after{display:none}
 .experience-rule{top:calc(35.8% + 32px);bottom:12.7%;left:var(--gutter);right:var(--gutter);height:auto;width:auto;border:1px solid var(--white);background:none;pointer-events:none}
-.continuous-scroll{scroll-snap-type:none;scrollbar-width:auto}
-.continuous-scroll::-webkit-scrollbar{display:initial}
+.continuous-scroll{scroll-snap-type:none;scrollbar-width:none}
+.continuous-scroll::-webkit-scrollbar{display:none}
 .contact-body .contact-page{padding:175px 5vw 100px;max-width:1600px;margin:auto;overflow:visible}
 .contact-page>h1{background:#000 url('assets/textures/hero-grunge.png') center/cover;text-align:center;font:700 clamp(35px,4.45vw,64px)/1.2 Brutalisme,sans-serif;padding:26px;margin:0 0 24px;color:var(--white)}
 .contact-page fieldset{padding:65px clamp(24px,4.5vw,70px);margin-bottom:24px;overflow:visible}
