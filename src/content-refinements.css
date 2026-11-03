@@ -1,0 +1,120 @@
+/* Biography: preserve the collage while keeping its copy in normal flow. */
+.origins-section{position:relative;isolation:isolate;height:auto;min-height:100dvh;padding:clamp(150px,18dvh,220px) 0 58px;overflow:clip;background:#000 url('assets/textures/about-grunge.png') center/cover;color:var(--white)}
+.origins-section>h2{position:relative;z-index:3;width:fit-content;margin:0 0 50px 5.5%;font:700 clamp(86px,11.57vw,200px)/1 Brutalisme,sans-serif;color:var(--white)}
+.origins-copy{position:relative;z-index:3;width:50%;margin-left:8.9%;font:400 clamp(17px,1.45vw,24px)/1.38 'Helvetica Neue',sans-serif;color:var(--white)}
+.origins-copy p+p{margin-top:16px}
+.origins-bracket{position:absolute;z-index:0;left:-1%;right:36.4%;top:27%;bottom:0;border:4px solid var(--red);border-left:0;border-bottom:0;pointer-events:none}
+.origins-corner{position:absolute;top:0;left:0;width:33%;height:10%;border-right:1px solid var(--white);border-bottom:1px solid var(--white);pointer-events:none}
+.origins-corner::after{content:'';position:absolute;left:0;bottom:0;width:200%;height:1px;background:var(--white)}
+.origins-interests{position:absolute;z-index:3;inset:100px 0 0;pointer-events:none}
+.origins-interests span{position:absolute;display:block;white-space:pre;transform:rotate(var(--interest-angle));transform-origin:0 0;font:700 clamp(11px,var(--interest-size),24px)/1.25 Brutalisme,sans-serif;color:var(--white)}
+.origins-portrait{position:absolute;z-index:2;right:0;bottom:0;width:36.4%;aspect-ratio:629/1117;transform:scaleX(-1)}
+.origins-portrait img{position:absolute;inset:0;width:100%;height:100%;object-fit:contain}
+.origins-portrait-colour{opacity:0;transition:opacity .9s ease}
+.origins-portrait:hover .origins-portrait-colour{opacity:1}
+
+/* Continuous case studies follow the Framer title/artwork/story/process order. */
+.page-project .snap-panel,.page-project .reference-panel{scroll-snap-align:none;scroll-snap-stop:normal}
+.project-intro{display:flex;flex-direction:column;justify-content:center;gap:22px;padding:120px var(--gutter);text-align:center}
+.project-intro h1{font:700 clamp(40px,9.2vw,141px)/1.15 Brutalisme,sans-serif;color:var(--white);overflow-wrap:anywhere}
+.project-intro>p{font:400 clamp(16px,1.67vw,24px)/1.35 Brutalisme,sans-serif;color:var(--white)}
+[data-reference-flow]{height:auto;min-height:0;display:block;overflow:clip;scroll-snap-align:none;scroll-snap-stop:normal}
+.project-art-reference{background:transparent}
+.project-overview-flow,.project-process-flow{position:relative;width:100%;background:#000 url('assets/textures/gallery-grunge.png') center/cover;color:var(--white)}
+.project-overview-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:24px;padding:clamp(40px,5.38vw,93px) var(--gutter) 0;align-items:stretch}
+.project-column{display:flex;flex-direction:column;gap:24px;min-width:0;min-height:0}
+.project-column>[data-reference-flow]{flex:none}
+.project-image-stack{display:flex;flex-direction:column;gap:24px;min-width:0}
+.project-story{contain:size;flex:1 1 0;min-height:0;height:auto;padding:20px 24px;overflow-y:auto;overscroll-behavior-y:auto;scrollbar-color:var(--dark-red) #000;scrollbar-width:thin;background:#f2f2f2 url('assets/textures/pale-marble.png') center/cover;color:#1a1a1a;font:400 16px/1.3 'Helvetica Neue',sans-serif}
+.project-story h2{font:700 clamp(30px,2.78vw,48px)/1.15 Brutalisme,sans-serif;color:#000;margin:0 0 8px}
+.project-story-meta{display:flex;flex-wrap:wrap;gap:6px 24px;font:400 12px/1.35 'Helvetica Neue',sans-serif}
+.project-story h3{font:700 24px/1.2 'Helvetica Neue',sans-serif;color:#1a1a1a;margin:16px 0 8px}
+.project-story p{margin:0}
+.project-story:focus-visible{outline:2px solid var(--dark-red);outline-offset:3px}
+.project-process-heading{padding:clamp(40px,3.5vw,60px) var(--gutter) 38px}
+.project-process-heading>h2{font:700 clamp(28px,3.33vw,48px)/1.2 Brutalisme,sans-serif;margin-bottom:16px}
+.project-process-heading .project-story-meta{color:#b0b0b0}
+.process-strip{--sketch-height:clamp(220px,21.53vw,372px);display:flex;align-items:flex-start;gap:clamp(24px,2.78vw,48px);width:100%;padding:clamp(24px,2.78vw,48px) var(--gutter);overflow-x:auto;overflow-y:hidden;background:#f2f2f2 url('assets/textures/pale-marble.png') center/cover;color:#000;scrollbar-color:var(--dark-red) #d0cdca;scrollbar-width:thin;scroll-snap-type:x proximity;cursor:grab;touch-action:pan-x pan-y;user-select:none}
+.process-strip.dragging{cursor:grabbing;scroll-snap-type:none}
+.process-strip>figure{flex:0 0 calc(var(--sketch-height)*var(--sketch-ratio));min-width:0;scroll-snap-align:start;scroll-margin-inline:var(--gutter)}
+.process-strip .process-image{width:100%;height:var(--sketch-height);max-width:none;object-fit:contain;pointer-events:none}
+.process-strip figcaption{padding-top:12px;font:700 24px/1.2 'Helvetica Neue',sans-serif}
+.process-strip:focus-visible{outline:2px solid var(--dark-red);outline-offset:-2px}
+.page-project .project-extra-art{position:relative;width:100%;padding:var(--gutter);overflow:visible}
+.page-project .project-extra-art>img{width:100%;height:auto;max-height:none;object-fit:contain}
+.project-placeholder{padding:40px var(--gutter) 80px;text-align:center}
+.project-placeholder>p{margin-bottom:32px;color:var(--variable-collection-WHITE-80);font:400 16px/1.4 'Helvetica Neue',sans-serif}
+.project-placeholder>img{display:block;width:auto;max-width:100%;height:auto;max-height:80dvh;margin:auto;object-fit:contain}
+.case-hero{padding:0 var(--gutter);background:#000}
+.case-hero .case-art{margin:auto;max-width:1600px}
+.case-hero .case-art>img{max-height:100dvh;object-fit:contain}
+.case-art{margin:0;min-width:0;flex:none}
+.case-art>img{display:block;width:100%;height:auto;object-fit:contain}
+.case-art>figcaption{padding:12px 0 0;font:400 14px/1.4 'Helvetica Neue',sans-serif;color:var(--white)}
+.case-credit{margin-top:20px!important;font-size:13px}
+.case-overview .project-story{font-size:16px;line-height:1.4}
+.case-overview .project-column:first-child{justify-content:space-between}
+@media(min-width:810px){
+ .case-overview .project-story{min-height:440px}
+ .case-overview .project-column:first-child>.case-art{position:relative;flex:calc(10 * var(--art-flex,1)) 1 0;min-height:180px;background:var(--variable-collection-BLACK-95)}
+ .case-overview .project-column:first-child>.case-art>img{position:absolute;inset:0;width:100%;height:100%;object-fit:contain}
+}
+
+/* The contact form keeps its red rules in every state and uses tighter spacing. */
+.contact-body .contact-page{padding:clamp(130px,12.15vw,175px) 5vw 70px;max-width:1600px}
+.contact-page>h1{padding:20px 24px;margin-bottom:20px}
+.contact-page fieldset{padding:38px clamp(24px,4.45vw,64px) 42px;margin-bottom:20px}
+.contact-page legend{font-size:clamp(28px,3.33vw,48px);margin-bottom:30px}
+.contact-page .form-grid{gap:30px 16px}
+.contact-page .form-grid label{font-family:Brutalisme,sans-serif;color:var(--white)}
+.contact-page .form-grid input{padding:8px 4px;min-height:44px}
+.contact-page .form-grid textarea{height:110px;min-height:110px;margin-top:6px;padding:10px 12px}
+.contact-page input,.contact-page textarea,.contact-page select,.contact-page .dropdown-trigger{border-color:var(--dark-red);caret-color:var(--red);outline-color:var(--dark-red);box-shadow:none}
+.contact-page input:focus,.contact-page textarea:focus,.contact-page select:focus,.contact-page .dropdown-trigger:focus{outline:1px solid var(--dark-red);outline-offset:0;border-color:var(--dark-red);box-shadow:inset 0 0 0 1px var(--dark-red);background:#ba11120d}
+.contact-page .dropdown-trigger:focus-visible,.contact-page .dropdown-option:focus-visible{outline:1px solid var(--dark-red);outline-offset:0}
+.contact-page .dropdown-options{border-color:var(--dark-red);top:100%;box-shadow:none}
+.contact-page .dropdown-trigger{height:44px;padding:10px 12px}
+.contact-page .field-error{display:block;margin-top:8px;color:var(--red);font:400 13px/1.35 'Helvetica Neue',sans-serif}
+.contact-page input[aria-invalid=true]{border-color:var(--red)}
+.contact-page .dropdown-option:hover,.contact-page .dropdown-option:focus,.contact-page .dropdown-option[aria-selected=true]{background:var(--dark-red);outline:none}
+.contact-page .submit-button{margin:24px auto 0}
+
+@media(max-width:809px){
+ .origins-section{padding:110px 0 0}
+ .origins-section>h2{font-size:20vw;margin:0 20px 34px}
+ .origins-copy{width:auto;margin:0 24px;font-size:17px;line-height:1.45}
+ .origins-copy p+p{margin-top:18px}
+ .origins-bracket{top:160px;right:16px;bottom:0;border-width:2px}
+ .origins-corner{height:70px}
+ .origins-interests{position:relative;inset:auto;width:100%;height:260px;margin-top:36px}
+ .origins-interests span{font-size:clamp(12px,3vw,17px)}
+ .origins-interests span:nth-child(1){left:12%!important;top:67%!important}
+ .origins-interests span:nth-child(2){left:62%!important;top:54%!important}
+ .origins-interests span:nth-child(3){left:54%!important;top:24%!important}
+ .origins-interests span:nth-child(4){left:8%!important;top:10%!important}
+ .origins-interests span:nth-child(5){left:82%!important;top:76%!important}
+ .origins-interests span:nth-child(6){left:43%!important;top:3%!important}
+ .origins-interests span:nth-child(7){left:32%!important;top:50%!important}
+ .origins-interests span:nth-child(8){left:7%!important;top:43%!important}
+ .origins-interests span:nth-child(9){left:70%!important;top:8%!important}
+ .origins-interests span:nth-child(10){left:24%!important;top:32%!important}
+ .origins-interests span:nth-child(11){left:22%!important;top:87%!important}
+ .origins-interests span:nth-child(12){left:34%!important;top:136%!important;font-size:10px}
+ .origins-portrait{position:relative;right:auto;bottom:auto;width:100%;max-width:500px;margin:-180px 0 0 auto}
+ .project-intro{gap:18px}
+ .project-intro h1{font-size:clamp(40px,12vw,90px)}
+ .project-overview-grid{grid-template-columns:1fr;padding:32px var(--gutter) 0;gap:24px}
+ .project-story{contain:none;flex:auto;height:auto;max-height:none;overflow:visible;padding:24px 20px;font-size:16px;line-height:1.4}
+ .project-story h2{font-size:30px}
+ .project-story h3{font-size:22px;margin-top:24px}
+ .project-story-meta{gap:6px 16px}
+ .project-process-heading{padding:40px var(--gutter) 24px}
+ .process-strip{--sketch-height:210px}
+ .process-strip figcaption{font-size:20px}
+ .contact-body .contact-page{padding:125px 5vw 60px}
+ .contact-page>h1{font-size:35px;padding:18px 16px}
+ .contact-page fieldset{padding:28px 20px 30px}
+ .contact-page legend{font-size:28px;margin-bottom:26px}
+ .contact-page .form-grid{gap:22px}
+ .contact-page .form-grid textarea{height:120px;min-height:120px}
+}

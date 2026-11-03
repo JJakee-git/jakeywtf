@@ -1,0 +1,2164 @@
+{
+  "sourceFrame": "27:638",
+  "canvasFrame": "114:717",
+  "width": 5697,
+  "height": 5201,
+  "referenceViewportWidth": 1632,
+  "centerX": 2848.5,
+  "centerY": 2600,
+  "root": {
+    "id": "114:717",
+    "name": "Frame 35",
+    "type": "FRAME",
+    "size": {
+      "x": 5697,
+      "y": 5201
+    },
+    "transform": {
+      "m00": 1,
+      "m01": 0,
+      "m02": -2032.5,
+      "m10": 0,
+      "m11": 1,
+      "m12": -2600
+    },
+    "opacity": 1,
+    "clip": false,
+    "fills": [
+      {
+        "type": "solid",
+        "color": {
+          "r": 0.949999988079071,
+          "g": 0.949999988079071,
+          "b": 0.949999988079071,
+          "a": 1
+        },
+        "opacity": 1
+      },
+      {
+        "type": "image",
+        "path": "assets/gallery/marble-close-up-view-2025-02-22-15-08-36-utc-a2605a20.jpg",
+        "opacity": 0.3499999940395355,
+        "fit": "cover"
+      }
+    ],
+    "children": [
+      {
+        "id": "114:718",
+        "name": "frame3 1",
+        "type": "ROUNDED_RECTANGLE",
+        "size": {
+          "x": 813,
+          "y": 613
+        },
+        "transform": {
+          "m00": 1,
+          "m01": 0,
+          "m02": 1406,
+          "m10": 0,
+          "m11": 1,
+          "m12": 1765
+        },
+        "opacity": 1,
+        "clip": false,
+        "fills": [
+          {
+            "type": "image",
+            "path": "assets/gallery/frame3-00546e8d.png",
+            "opacity": 1,
+            "fit": "cover"
+          }
+        ],
+        "shadow": {
+          "x": -12,
+          "y": 12,
+          "blur": 24,
+          "color": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0.5
+          }
+        },
+        "children": []
+      },
+      {
+        "id": "114:719",
+        "name": "frame2 1",
+        "type": "ROUNDED_RECTANGLE",
+        "size": {
+          "x": 865,
+          "y": 653
+        },
+        "transform": {
+          "m00": 1,
+          "m01": 0,
+          "m02": 2625,
+          "m10": 0,
+          "m11": 1,
+          "m12": 1235
+        },
+        "opacity": 1,
+        "clip": false,
+        "fills": [
+          {
+            "type": "image",
+            "path": "assets/gallery/frame2-61777bd7.png",
+            "opacity": 1,
+            "fit": "cover"
+          }
+        ],
+        "shadow": {
+          "x": -12,
+          "y": 12,
+          "blur": 24,
+          "color": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0.5
+          }
+        },
+        "children": []
+      },
+      {
+        "id": "114:720",
+        "name": "frame1 1",
+        "type": "ROUNDED_RECTANGLE",
+        "size": {
+          "x": 885,
+          "y": 668
+        },
+        "transform": {
+          "m00": 1,
+          "m01": 0,
+          "m02": 1511,
+          "m10": 0,
+          "m11": 1,
+          "m12": 1030
+        },
+        "opacity": 1,
+        "clip": false,
+        "fills": [
+          {
+            "type": "image",
+            "path": "assets/gallery/frame1-c68b5e58.png",
+            "opacity": 1,
+            "fit": "cover"
+          }
+        ],
+        "shadow": {
+          "x": -12,
+          "y": 12,
+          "blur": 24,
+          "color": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0.5
+          }
+        },
+        "children": []
+      },
+      {
+        "id": "114:721",
+        "name": "Stamps",
+        "type": "FRAME",
+        "size": {
+          "x": 889.45703125,
+          "y": 671.2465209960938
+        },
+        "transform": {
+          "m00": 1,
+          "m01": 0,
+          "m02": 2192,
+          "m10": 0,
+          "m11": 1,
+          "m12": 2780
+        },
+        "opacity": 1,
+        "clip": true,
+        "fills": [],
+        "shadow": {
+          "x": -12,
+          "y": 12,
+          "blur": 24,
+          "color": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0.5
+          }
+        },
+        "children": [
+          {
+            "id": "114:722",
+            "name": "Asset 3mascy",
+            "type": "ROUNDED_RECTANGLE",
+            "size": {
+              "x": 298.6015625,
+              "y": 298.6014709472656
+            },
+            "transform": {
+              "m00": 1,
+              "m01": 0,
+              "m02": 246.74610900878906,
+              "m10": 0,
+              "m11": 1,
+              "m12": 69.2552490234375
+            },
+            "opacity": 1,
+            "clip": false,
+            "fills": [
+              {
+                "type": "image",
+                "path": "assets/gallery/asset-3mascy-08bb1d75.png",
+                "opacity": 1,
+                "fit": "cover"
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "114:723",
+            "name": "Asset 1mascy",
+            "type": "ROUNDED_RECTANGLE",
+            "size": {
+              "x": 298.6015625,
+              "y": 298.6014709472656
+            },
+            "transform": {
+              "m00": 1,
+              "m01": 0,
+              "m02": 157.15663146972656,
+              "m10": 0,
+              "m11": 1,
+              "m12": 304.0641784667969
+            },
+            "opacity": 1,
+            "clip": false,
+            "fills": [
+              {
+                "type": "image",
+                "path": "assets/gallery/asset-1mascy-7b1d0413.png",
+                "opacity": 1,
+                "fit": "cover"
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "114:724",
+            "name": "Asset 2mascy",
+            "type": "ROUNDED_RECTANGLE",
+            "size": {
+              "x": 298.6015625,
+              "y": 298.6014709472656
+            },
+            "transform": {
+              "m00": 1,
+              "m01": 0,
+              "m02": 464.9358825683594,
+              "m10": 0,
+              "m11": 1,
+              "m12": 280.9446716308594
+            },
+            "opacity": 1,
+            "clip": false,
+            "fills": [
+              {
+                "type": "image",
+                "path": "assets/gallery/asset-2mascy-9fa58c4f.png",
+                "opacity": 1,
+                "fit": "cover"
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "114:725",
+            "name": "frame 2",
+            "type": "ROUNDED_RECTANGLE",
+            "size": {
+              "x": 889.45703125,
+              "y": 671.2465209960938
+            },
+            "transform": {
+              "m00": 1,
+              "m01": 0,
+              "m02": 0.00012448430061340332,
+              "m10": 0,
+              "m11": 1,
+              "m12": -1.8189894035458565e-12
+            },
+            "opacity": 1,
+            "clip": false,
+            "fills": [
+              {
+                "type": "image",
+                "path": "assets/gallery/frame-104722ea.png",
+                "opacity": 1,
+                "fit": "cover"
+              }
+            ],
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "114:726",
+        "name": "other",
+        "type": "FRAME",
+        "size": {
+          "x": 828.3260498046875,
+          "y": 625.1128540039062
+        },
+        "transform": {
+          "m00": 1,
+          "m01": 0,
+          "m02": 3401,
+          "m10": 0,
+          "m11": 1,
+          "m12": 2370
+        },
+        "opacity": 1,
+        "clip": true,
+        "fills": [],
+        "shadow": {
+          "x": -12,
+          "y": 12,
+          "blur": 24,
+          "color": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0.5
+          }
+        },
+        "children": [
+          {
+            "id": "114:727",
+            "name": "Asset 3Card",
+            "type": "ROUNDED_RECTANGLE",
+            "size": {
+              "x": 275.5082092285156,
+              "y": 238.9215850830078
+            },
+            "transform": {
+              "m00": 1,
+              "m01": 0,
+              "m02": 255.3714599609375,
+              "m10": 0,
+              "m11": 1,
+              "m12": 315.6908264160156
+            },
+            "opacity": 1,
+            "clip": false,
+            "fills": [
+              {
+                "type": "image",
+                "path": "assets/gallery/asset-3card-eda6ac64.png",
+                "opacity": 1,
+                "fit": "cover"
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "114:728",
+            "name": "Asset 1Card",
+            "type": "ROUNDED_RECTANGLE",
+            "size": {
+              "x": 214.9866943359375,
+              "y": 186.43716430664062
+            },
+            "transform": {
+              "m00": 1,
+              "m01": 0,
+              "m02": 463.74261474609375,
+              "m10": 0,
+              "m11": 1,
+              "m12": 174.6865692138672
+            },
+            "opacity": 1,
+            "clip": false,
+            "fills": [
+              {
+                "type": "image",
+                "path": "assets/gallery/asset-1card-6458b6ed.png",
+                "opacity": 1,
+                "fit": "cover"
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "114:729",
+            "name": "Asset 2Card",
+            "type": "ROUNDED_RECTANGLE",
+            "size": {
+              "x": 266.4751281738281,
+              "y": 231.0880889892578
+            },
+            "transform": {
+              "m00": 1,
+              "m01": 0,
+              "m02": 209.9373779296875,
+              "m10": 0,
+              "m11": 1,
+              "m12": 65.80061340332031
+            },
+            "opacity": 1,
+            "clip": false,
+            "fills": [
+              {
+                "type": "image",
+                "path": "assets/gallery/asset-2card-09a2ec74.png",
+                "opacity": 1,
+                "fit": "cover"
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "114:730",
+            "name": "frame 1",
+            "type": "ROUNDED_RECTANGLE",
+            "size": {
+              "x": 828.3260498046875,
+              "y": 625.1128540039062
+            },
+            "transform": {
+              "m00": 1,
+              "m01": 0,
+              "m02": 0,
+              "m10": 0,
+              "m11": 1,
+              "m12": -0.00007428228855133057
+            },
+            "opacity": 1,
+            "clip": false,
+            "fills": [
+              {
+                "type": "image",
+                "path": "assets/gallery/frame-104722ea.png",
+                "opacity": 1,
+                "fit": "cover"
+              }
+            ],
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "114:731",
+        "name": "fram4 1",
+        "type": "ROUNDED_RECTANGLE",
+        "size": {
+          "x": 843,
+          "y": 636
+        },
+        "transform": {
+          "m00": 1,
+          "m01": 0,
+          "m02": 3676,
+          "m10": 0,
+          "m11": 1,
+          "m12": 1590
+        },
+        "opacity": 1,
+        "clip": false,
+        "fills": [
+          {
+            "type": "image",
+            "path": "assets/gallery/fram4-86b1f644.png",
+            "opacity": 1,
+            "fit": "cover"
+          }
+        ],
+        "shadow": {
+          "x": -12,
+          "y": 12,
+          "blur": 24,
+          "color": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0.5
+          }
+        },
+        "children": []
+      },
+      {
+        "id": "114:732",
+        "name": "baps",
+        "type": "FRAME",
+        "size": {
+          "x": 828.0001831054688,
+          "y": 610.9784545898438
+        },
+        "transform": {
+          "m00": 1,
+          "m01": 0,
+          "m02": 2396,
+          "m10": 0,
+          "m11": 1,
+          "m12": 2072
+        },
+        "opacity": 1,
+        "clip": true,
+        "fills": [],
+        "shadow": {
+          "x": -12,
+          "y": 12,
+          "blur": 24,
+          "color": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0.5
+          }
+        },
+        "children": [
+          {
+            "id": "114:733",
+            "name": "IMG_1622 1",
+            "type": "ROUNDED_RECTANGLE",
+            "size": {
+              "x": 634.2472534179688,
+              "y": 475.6854248046875
+            },
+            "transform": {
+              "m00": 1,
+              "m01": 0,
+              "m02": 193.75271606445312,
+              "m10": 0,
+              "m11": 1,
+              "m12": 41.468631744384766
+            },
+            "opacity": 1,
+            "clip": false,
+            "fills": [
+              {
+                "type": "image",
+                "path": "assets/gallery/img-1622-3ece8a1f.png",
+                "opacity": 1,
+                "fit": "cover"
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "114:734",
+            "name": "BAPS_Logo-04 1",
+            "type": "ROUNDED_RECTANGLE",
+            "size": {
+              "x": 250.63478088378906,
+              "y": 304.41473388671875
+            },
+            "transform": {
+              "m00": 1,
+              "m01": 0,
+              "m02": 128.55410766601562,
+              "m10": 0,
+              "m11": 1,
+              "m12": 174.86146545410156
+            },
+            "opacity": 1,
+            "clip": false,
+            "fills": [
+              {
+                "type": "image",
+                "path": "assets/gallery/baps-logo-04-d2fefa03.png",
+                "opacity": 1,
+                "fit": "cover"
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "114:735",
+            "name": "frame 3",
+            "type": "ROUNDED_RECTANGLE",
+            "size": {
+              "x": 810.7213745117188,
+              "y": 610.9784545898438
+            },
+            "transform": {
+              "m00": 1,
+              "m01": 0,
+              "m02": -0.0001220703125,
+              "m10": 0,
+              "m11": 1,
+              "m12": -0.0000337064266204834
+            },
+            "opacity": 1,
+            "clip": false,
+            "fills": [
+              {
+                "type": "image",
+                "path": "assets/gallery/frame-104722ea.png",
+                "opacity": 1,
+                "fit": "fill"
+              }
+            ],
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "114:736",
+        "name": "Group 6",
+        "type": "FRAME",
+        "size": {
+          "x": 867,
+          "y": 654
+        },
+        "transform": {
+          "m00": 1,
+          "m01": 0,
+          "m02": 1107,
+          "m10": 0,
+          "m11": 1,
+          "m12": 2509
+        },
+        "opacity": 1,
+        "clip": true,
+        "fills": [],
+        "shadow": {
+          "x": -12,
+          "y": 12,
+          "blur": 24,
+          "color": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0.5
+          }
+        },
+        "children": [
+          {
+            "id": "114:737",
+            "name": "Group 5",
+            "type": "FRAME",
+            "size": {
+              "x": 867,
+              "y": 654
+            },
+            "transform": {
+              "m00": 1,
+              "m01": 0,
+              "m02": 0,
+              "m10": 0,
+              "m11": 1,
+              "m12": 0
+            },
+            "opacity": 1,
+            "clip": true,
+            "fills": [],
+            "children": [
+              {
+                "id": "114:738",
+                "name": "frame 5",
+                "type": "ROUNDED_RECTANGLE",
+                "size": {
+                  "x": 867,
+                  "y": 654
+                },
+                "transform": {
+                  "m00": 1,
+                  "m01": 0,
+                  "m02": 0,
+                  "m10": 0,
+                  "m11": 1,
+                  "m12": 0
+                },
+                "opacity": 1,
+                "clip": false,
+                "fills": [
+                  {
+                    "type": "image",
+                    "path": "assets/gallery/frame-104722ea.png",
+                    "opacity": 1,
+                    "fit": "cover"
+                  }
+                ],
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "114:739",
+            "name": "Group 4",
+            "type": "FRAME",
+            "size": {
+              "x": 700,
+              "y": 462
+            },
+            "transform": {
+              "m00": 1,
+              "m01": 0,
+              "m02": 84,
+              "m10": 0,
+              "m11": 1,
+              "m12": 96
+            },
+            "opacity": 1,
+            "clip": true,
+            "fills": [],
+            "children": [
+              {
+                "id": "114:740",
+                "name": "OMEGA",
+                "type": "ROUNDED_RECTANGLE",
+                "size": {
+                  "x": 346,
+                  "y": 462
+                },
+                "transform": {
+                  "m00": 1,
+                  "m01": 0,
+                  "m02": 0,
+                  "m10": 0,
+                  "m11": 1,
+                  "m12": 0
+                },
+                "opacity": 1,
+                "clip": false,
+                "fills": [
+                  {
+                    "type": "image",
+                    "path": "assets/gallery/omega-a19a8f19.png",
+                    "opacity": 1,
+                    "fit": "cover"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "id": "114:741",
+                "name": "Resized-page1",
+                "type": "ROUNDED_RECTANGLE",
+                "size": {
+                  "x": 346,
+                  "y": 462
+                },
+                "transform": {
+                  "m00": 1,
+                  "m01": 0,
+                  "m02": 354,
+                  "m10": 0,
+                  "m11": 1,
+                  "m12": 0
+                },
+                "opacity": 1,
+                "clip": false,
+                "fills": [
+                  {
+                    "type": "image",
+                    "path": "assets/gallery/resized-page1-e3f792cf.png",
+                    "opacity": 1,
+                    "fit": "cover"
+                  }
+                ],
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "114:742",
+        "name": "Group 3",
+        "type": "FRAME",
+        "size": {
+          "x": 932,
+          "y": 703.236328125
+        },
+        "transform": {
+          "m00": 1,
+          "m01": 0,
+          "m02": 3123,
+          "m10": 0,
+          "m11": 1,
+          "m12": 3193
+        },
+        "opacity": 1,
+        "clip": true,
+        "fills": [],
+        "shadow": {
+          "x": -12,
+          "y": 12,
+          "blur": 24,
+          "color": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0.5
+          }
+        },
+        "children": [
+          {
+            "id": "114:743",
+            "name": "frame 4",
+            "type": "ROUNDED_RECTANGLE",
+            "size": {
+              "x": 932,
+              "y": 703.236328125
+            },
+            "transform": {
+              "m00": 1,
+              "m01": 0,
+              "m02": 0,
+              "m10": 0,
+              "m11": 1,
+              "m12": -0.000017754733562469482
+            },
+            "opacity": 1,
+            "clip": false,
+            "fills": [
+              {
+                "type": "image",
+                "path": "assets/gallery/frame-104722ea.png",
+                "opacity": 1,
+                "fit": "cover"
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "114:744",
+            "name": "Asset 3masc 1",
+            "type": "ROUNDED_RECTANGLE",
+            "size": {
+              "x": 237.23635864257812,
+              "y": 372.02972412109375
+            },
+            "transform": {
+              "m00": 1,
+              "m01": 0,
+              "m02": 108.6049575805664,
+              "m10": 0,
+              "m11": 1,
+              "m12": 220.29087829589844
+            },
+            "opacity": 1,
+            "clip": false,
+            "fills": [
+              {
+                "type": "image",
+                "path": "assets/gallery/asset-3masc-e84b2884.png",
+                "opacity": 1,
+                "fit": "cover"
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "114:745",
+            "name": "Asset 5mascy 1",
+            "type": "ROUNDED_RECTANGLE",
+            "size": {
+              "x": 276.71527099609375,
+              "y": 341.2198181152344
+            },
+            "transform": {
+              "m00": 1,
+              "m01": 0,
+              "m02": 327.3553771972656,
+              "m10": 0,
+              "m11": 1,
+              "m12": 65.47105407714844
+            },
+            "opacity": 1,
+            "clip": false,
+            "fills": [
+              {
+                "type": "image",
+                "path": "assets/gallery/asset-5mascy-057b0e12.png",
+                "opacity": 1,
+                "fit": "cover"
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "114:746",
+            "name": "Asset 4mascy 1",
+            "type": "ROUNDED_RECTANGLE",
+            "size": {
+              "x": 264.1950378417969,
+              "y": 349.6925354003906
+            },
+            "transform": {
+              "m00": 1,
+              "m01": 0,
+              "m02": 557.6594848632812,
+              "m10": 0,
+              "m11": 1,
+              "m12": 268.0462341308594
+            },
+            "opacity": 1,
+            "clip": false,
+            "fills": [
+              {
+                "type": "image",
+                "path": "assets/gallery/asset-4mascy-27a60e55.png",
+                "opacity": 1,
+                "fit": "cover"
+              }
+            ],
+            "shadow": {
+              "x": 0,
+              "y": -8,
+              "blur": 24,
+              "color": {
+                "r": 0,
+                "g": 0,
+                "b": 0,
+                "a": 0.25
+              }
+            },
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "114:747",
+        "name": "Group 10",
+        "type": "FRAME",
+        "size": {
+          "x": 712,
+          "y": 884
+        },
+        "transform": {
+          "m00": 1,
+          "m01": 0,
+          "m02": 2381,
+          "m10": 0,
+          "m11": 1,
+          "m12": 3461
+        },
+        "opacity": 1,
+        "clip": true,
+        "fills": [],
+        "children": [
+          {
+            "id": "114:748",
+            "name": "Spierer_Jacob_GD 200_Project 2_Catalog_Page_11 1",
+            "type": "ROUNDED_RECTANGLE",
+            "size": {
+              "x": 610,
+              "y": 790
+            },
+            "transform": {
+              "m00": 1,
+              "m01": 0,
+              "m02": 49,
+              "m10": 0,
+              "m11": 1,
+              "m12": 48
+            },
+            "opacity": 1,
+            "clip": false,
+            "fills": [
+              {
+                "type": "image",
+                "path": "assets/gallery/spierer-jacob-gd-200-project-2-catalog-page-11-7a584508.jpg",
+                "opacity": 1,
+                "fit": "cover"
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "114:749",
+            "name": "frame 4",
+            "type": "ROUNDED_RECTANGLE",
+            "size": {
+              "x": 884,
+              "y": 712
+            },
+            "transform": {
+              "m00": 6.123234262925839e-17,
+              "m01": -1,
+              "m02": 712,
+              "m10": 1,
+              "m11": 9.454024988451575e-33,
+              "m12": -1.8189894035458565e-12
+            },
+            "opacity": 1,
+            "clip": false,
+            "fills": [
+              {
+                "type": "image",
+                "path": "assets/gallery/frame-104722ea.png",
+                "opacity": 1,
+                "fit": "fill"
+              }
+            ],
+            "shadow": {
+              "x": -12,
+              "y": 12,
+              "blur": 24,
+              "color": {
+                "r": 0,
+                "g": 0,
+                "b": 0,
+                "a": 0.5
+              }
+            },
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "114:750",
+        "name": "Group 7",
+        "type": "FRAME",
+        "size": {
+          "x": 500,
+          "y": 663
+        },
+        "transform": {
+          "m00": 1,
+          "m01": 0,
+          "m02": 1576,
+          "m10": 0,
+          "m11": 1,
+          "m12": 3250
+        },
+        "opacity": 1,
+        "clip": true,
+        "fills": [],
+        "shadow": {
+          "x": -12,
+          "y": 12,
+          "blur": 24,
+          "color": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0.5
+          }
+        },
+        "children": [
+          {
+            "id": "114:751",
+            "name": "frame 6",
+            "type": "ROUNDED_RECTANGLE",
+            "size": {
+              "x": 663,
+              "y": 500
+            },
+            "transform": {
+              "m00": 6.123234262925839e-17,
+              "m01": -1,
+              "m02": 500,
+              "m10": 1,
+              "m11": -1.262244070671446e-32,
+              "m12": 0
+            },
+            "opacity": 1,
+            "clip": false,
+            "fills": [
+              {
+                "type": "image",
+                "path": "assets/gallery/frame-104722ea.png",
+                "opacity": 1,
+                "fit": "cover"
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "114:752",
+            "name": "js 1",
+            "type": "ROUNDED_RECTANGLE",
+            "size": {
+              "x": 371,
+              "y": 381
+            },
+            "transform": {
+              "m00": 1,
+              "m01": 0,
+              "m02": 65,
+              "m10": 0,
+              "m11": 1,
+              "m12": 141
+            },
+            "opacity": 1,
+            "clip": false,
+            "fills": [
+              {
+                "type": "image",
+                "path": "assets/gallery/js-2df01cb7.png",
+                "opacity": 1,
+                "fit": "cover"
+              }
+            ],
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "114:753",
+        "name": "Frame 36",
+        "type": "FRAME",
+        "size": {
+          "x": 285,
+          "y": 138
+        },
+        "transform": {
+          "m00": 1,
+          "m01": 0,
+          "m02": 2907,
+          "m10": 0,
+          "m11": 1,
+          "m12": 3383
+        },
+        "opacity": 1,
+        "clip": false,
+        "fills": [
+          {
+            "type": "image",
+            "path": "assets/gallery/label-8eb863fb.png",
+            "opacity": 1,
+            "fit": "contain"
+          }
+        ],
+        "shadow": {
+          "x": -12,
+          "y": 12,
+          "blur": 24,
+          "color": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0.5
+          }
+        },
+        "children": [
+          {
+            "id": "114:754",
+            "name": "SPIERER UNIVERSITY CATALOG & STICKERS",
+            "type": "TEXT",
+            "size": {
+              "x": 257,
+              "y": 58
+            },
+            "transform": {
+              "m00": 1,
+              "m01": 0,
+              "m02": 14,
+              "m10": 0,
+              "m11": 1,
+              "m12": 40
+            },
+            "opacity": 1,
+            "clip": false,
+            "fills": [
+              {
+                "type": "solid",
+                "color": {
+                  "r": 0.10000000149011612,
+                  "g": 0.10000000149011612,
+                  "b": 0.10000000149011612,
+                  "a": 1
+                },
+                "opacity": 0.6100000143051147
+              }
+            ],
+            "text": "SPIERER UNIVERSITY\nCATALOG & STICKERS",
+            "font": {
+              "family": "Helvetica Neue LT Pro",
+              "style": "65 Medium",
+              "postscript": "HelveticaNeueLTPro-Md"
+            },
+            "fontSize": 24,
+            "align": "center",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "114:755",
+        "name": "Frame 36",
+        "type": "FRAME",
+        "size": {
+          "x": 285,
+          "y": 138
+        },
+        "transform": {
+          "m00": 1,
+          "m01": 0,
+          "m02": 3340,
+          "m10": 0,
+          "m11": 1,
+          "m12": 2901
+        },
+        "opacity": 1,
+        "clip": false,
+        "fills": [
+          {
+            "type": "image",
+            "path": "assets/gallery/label-8eb863fb.png",
+            "opacity": 1,
+            "fit": "contain"
+          }
+        ],
+        "shadow": {
+          "x": -12,
+          "y": 12,
+          "blur": 24,
+          "color": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0.5
+          }
+        },
+        "children": [
+          {
+            "id": "114:756",
+            "name": "MATH CONCEPT CARD SET",
+            "type": "TEXT",
+            "size": {
+              "x": 189,
+              "y": 58
+            },
+            "transform": {
+              "m00": 1,
+              "m01": 0,
+              "m02": 48,
+              "m10": 0,
+              "m11": 1,
+              "m12": 40
+            },
+            "opacity": 1,
+            "clip": false,
+            "fills": [
+              {
+                "type": "solid",
+                "color": {
+                  "r": 0.10000000149011612,
+                  "g": 0.10000000149011612,
+                  "b": 0.10000000149011612,
+                  "a": 1
+                },
+                "opacity": 0.6100000143051147
+              }
+            ],
+            "text": "MATH CONCEPT\nCARD SET",
+            "font": {
+              "family": "Helvetica Neue LT Pro",
+              "style": "65 Medium",
+              "postscript": "HelveticaNeueLTPro-Md"
+            },
+            "fontSize": 24,
+            "align": "center",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "114:757",
+        "name": "Frame 37",
+        "type": "FRAME",
+        "size": {
+          "x": 285,
+          "y": 138
+        },
+        "transform": {
+          "m00": 1,
+          "m01": 0,
+          "m02": 2469,
+          "m10": 0,
+          "m11": 1,
+          "m12": 2589
+        },
+        "opacity": 1,
+        "clip": false,
+        "fills": [
+          {
+            "type": "image",
+            "path": "assets/gallery/label-8eb863fb.png",
+            "opacity": 1,
+            "fit": "contain"
+          }
+        ],
+        "shadow": {
+          "x": -12,
+          "y": 12,
+          "blur": 24,
+          "color": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0.5
+          }
+        },
+        "children": [
+          {
+            "id": "114:758",
+            "name": "REBRAND: BAPS SHRI SWAMINARAYAN",
+            "type": "TEXT",
+            "size": {
+              "x": 257,
+              "y": 58
+            },
+            "transform": {
+              "m00": 1,
+              "m01": 0,
+              "m02": 14,
+              "m10": 0,
+              "m11": 1,
+              "m12": 40
+            },
+            "opacity": 1,
+            "clip": false,
+            "fills": [
+              {
+                "type": "solid",
+                "color": {
+                  "r": 0.10000000149011612,
+                  "g": 0.10000000149011612,
+                  "b": 0.10000000149011612,
+                  "a": 1
+                },
+                "opacity": 0.6100000143051147
+              }
+            ],
+            "text": "REBRAND: BAPS SHRI SWAMINARAYAN",
+            "font": {
+              "family": "Helvetica Neue LT Pro",
+              "style": "65 Medium",
+              "postscript": "HelveticaNeueLTPro-Md"
+            },
+            "fontSize": 24,
+            "align": "center",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "114:759",
+        "name": "Frame 38",
+        "type": "FRAME",
+        "size": {
+          "x": 285,
+          "y": 138
+        },
+        "transform": {
+          "m00": 1,
+          "m01": 0,
+          "m02": 3083,
+          "m10": 0,
+          "m11": 1,
+          "m12": 1802
+        },
+        "opacity": 1,
+        "clip": false,
+        "fills": [
+          {
+            "type": "image",
+            "path": "assets/gallery/label-8eb863fb.png",
+            "opacity": 1,
+            "fit": "contain"
+          }
+        ],
+        "shadow": {
+          "x": -12,
+          "y": 12,
+          "blur": 24,
+          "color": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0.5
+          }
+        },
+        "children": [
+          {
+            "id": "114:760",
+            "name": "MERCEDES-BENZ CLASSIC POSTER",
+            "type": "TEXT",
+            "size": {
+              "x": 208,
+              "y": 58
+            },
+            "transform": {
+              "m00": 1,
+              "m01": 0,
+              "m02": 38.5,
+              "m10": 0,
+              "m11": 1,
+              "m12": 40
+            },
+            "opacity": 1,
+            "clip": false,
+            "fills": [
+              {
+                "type": "solid",
+                "color": {
+                  "r": 0.10000000149011612,
+                  "g": 0.10000000149011612,
+                  "b": 0.10000000149011612,
+                  "a": 1
+                },
+                "opacity": 0.6100000143051147
+              }
+            ],
+            "text": "MERCEDES-BENZ\nCLASSIC POSTER",
+            "font": {
+              "family": "Helvetica Neue LT Pro",
+              "style": "65 Medium",
+              "postscript": "HelveticaNeueLTPro-Md"
+            },
+            "fontSize": 24,
+            "align": "center",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "114:761",
+        "name": "Frame 40",
+        "type": "FRAME",
+        "size": {
+          "x": 285,
+          "y": 138
+        },
+        "transform": {
+          "m00": 1,
+          "m01": 0,
+          "m02": 2022,
+          "m10": 0,
+          "m11": 1,
+          "m12": 1594
+        },
+        "opacity": 1,
+        "clip": false,
+        "fills": [
+          {
+            "type": "image",
+            "path": "assets/gallery/label-8eb863fb.png",
+            "opacity": 1,
+            "fit": "contain"
+          }
+        ],
+        "shadow": {
+          "x": -12,
+          "y": 12,
+          "blur": 24,
+          "color": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0.5
+          }
+        },
+        "children": [
+          {
+            "id": "114:762",
+            "name": "3D PRINTED DARKSABEER",
+            "type": "TEXT",
+            "size": {
+              "x": 163,
+              "y": 58
+            },
+            "transform": {
+              "m00": 1,
+              "m01": 0,
+              "m02": 61,
+              "m10": 0,
+              "m11": 1,
+              "m12": 40
+            },
+            "opacity": 1,
+            "clip": false,
+            "fills": [
+              {
+                "type": "solid",
+                "color": {
+                  "r": 0.10000000149011612,
+                  "g": 0.10000000149011612,
+                  "b": 0.10000000149011612,
+                  "a": 1
+                },
+                "opacity": 0.6100000143051147
+              }
+            ],
+            "text": "3D PRINTED\nDARKSABEER",
+            "font": {
+              "family": "Helvetica Neue LT Pro",
+              "style": "65 Medium",
+              "postscript": "HelveticaNeueLTPro-Md"
+            },
+            "fontSize": 24,
+            "align": "center",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "114:763",
+        "name": "Frame 41",
+        "type": "FRAME",
+        "size": {
+          "x": 285,
+          "y": 138
+        },
+        "transform": {
+          "m00": 1,
+          "m01": 0,
+          "m02": 1341,
+          "m10": 0,
+          "m11": 1,
+          "m12": 2282
+        },
+        "opacity": 1,
+        "clip": false,
+        "fills": [
+          {
+            "type": "image",
+            "path": "assets/gallery/label-8eb863fb.png",
+            "opacity": 1,
+            "fit": "contain"
+          }
+        ],
+        "shadow": {
+          "x": -12,
+          "y": 12,
+          "blur": 24,
+          "color": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0.5
+          }
+        },
+        "children": [
+          {
+            "id": "114:764",
+            "name": "FJALLRAVEN PATTERN BACKPACK LINE",
+            "type": "TEXT",
+            "size": {
+              "x": 262,
+              "y": 58
+            },
+            "transform": {
+              "m00": 1,
+              "m01": 0,
+              "m02": 11.5,
+              "m10": 0,
+              "m11": 1,
+              "m12": 40
+            },
+            "opacity": 1,
+            "clip": false,
+            "fills": [
+              {
+                "type": "solid",
+                "color": {
+                  "r": 0.10000000149011612,
+                  "g": 0.10000000149011612,
+                  "b": 0.10000000149011612,
+                  "a": 1
+                },
+                "opacity": 0.6100000143051147
+              }
+            ],
+            "text": "FJALLRAVEN PATTERN\nBACKPACK LINE",
+            "font": {
+              "family": "Helvetica Neue LT Pro",
+              "style": "65 Medium",
+              "postscript": "HelveticaNeueLTPro-Md"
+            },
+            "fontSize": 24,
+            "align": "center",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "114:765",
+        "name": "Frame 42",
+        "type": "FRAME",
+        "size": {
+          "x": 285,
+          "y": 138
+        },
+        "transform": {
+          "m00": 1,
+          "m01": 0,
+          "m02": 1398,
+          "m10": 0,
+          "m11": 1,
+          "m12": 3095
+        },
+        "opacity": 1,
+        "clip": false,
+        "fills": [
+          {
+            "type": "image",
+            "path": "assets/gallery/label-8eb863fb.png",
+            "opacity": 1,
+            "fit": "contain"
+          }
+        ],
+        "shadow": {
+          "x": -12,
+          "y": 12,
+          "blur": 24,
+          "color": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0.5
+          }
+        },
+        "children": [
+          {
+            "id": "114:766",
+            "name": "OMEGA BURGER MENU REVAMP",
+            "type": "TEXT",
+            "size": {
+              "x": 197,
+              "y": 58
+            },
+            "transform": {
+              "m00": 1,
+              "m01": 0,
+              "m02": 44,
+              "m10": 0,
+              "m11": 1,
+              "m12": 40
+            },
+            "opacity": 1,
+            "clip": false,
+            "fills": [
+              {
+                "type": "solid",
+                "color": {
+                  "r": 0.10000000149011612,
+                  "g": 0.10000000149011612,
+                  "b": 0.10000000149011612,
+                  "a": 1
+                },
+                "opacity": 0.6100000143051147
+              }
+            ],
+            "text": "OMEGA BURGER\nMENU REVAMP",
+            "font": {
+              "family": "Helvetica Neue LT Pro",
+              "style": "65 Medium",
+              "postscript": "HelveticaNeueLTPro-Md"
+            },
+            "fontSize": 24,
+            "align": "center",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "114:767",
+        "name": "Frame 43",
+        "type": "FRAME",
+        "size": {
+          "x": 285,
+          "y": 138
+        },
+        "transform": {
+          "m00": 1,
+          "m01": 0,
+          "m02": 1683,
+          "m10": 0,
+          "m11": 1,
+          "m12": 3853
+        },
+        "opacity": 1,
+        "clip": false,
+        "fills": [
+          {
+            "type": "image",
+            "path": "assets/gallery/label-8eb863fb.png",
+            "opacity": 1,
+            "fit": "contain"
+          }
+        ],
+        "shadow": {
+          "x": -12,
+          "y": 12,
+          "blur": 24,
+          "color": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0.5
+          }
+        },
+        "children": [
+          {
+            "id": "114:768",
+            "name": "LOGO FOR: JACOB SPIERER",
+            "type": "TEXT",
+            "size": {
+              "x": 191,
+              "y": 58
+            },
+            "transform": {
+              "m00": 1,
+              "m01": 0,
+              "m02": 47,
+              "m10": 0,
+              "m11": 1,
+              "m12": 40
+            },
+            "opacity": 1,
+            "clip": false,
+            "fills": [
+              {
+                "type": "solid",
+                "color": {
+                  "r": 0.10000000149011612,
+                  "g": 0.10000000149011612,
+                  "b": 0.10000000149011612,
+                  "a": 1
+                },
+                "opacity": 0.6100000143051147
+              }
+            ],
+            "text": "LOGO FOR:\nJACOB SPIERER",
+            "font": {
+              "family": "Helvetica Neue LT Pro",
+              "style": "65 Medium",
+              "postscript": "HelveticaNeueLTPro-Md"
+            },
+            "fontSize": 24,
+            "align": "center",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "114:769",
+        "name": "Frame 39",
+        "type": "FRAME",
+        "size": {
+          "x": 285,
+          "y": 138
+        },
+        "transform": {
+          "m00": 1,
+          "m01": 0,
+          "m02": 3734,
+          "m10": 0,
+          "m11": 1,
+          "m12": 2122
+        },
+        "opacity": 1,
+        "clip": false,
+        "fills": [
+          {
+            "type": "image",
+            "path": "assets/gallery/label-8eb863fb.png",
+            "opacity": 1,
+            "fit": "contain"
+          }
+        ],
+        "shadow": {
+          "x": -12,
+          "y": 12,
+          "blur": 24,
+          "color": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0.5
+          }
+        },
+        "children": [
+          {
+            "id": "114:770",
+            "name": "TRANSYLVANIA TYPEFACE",
+            "type": "TEXT",
+            "size": {
+              "x": 177,
+              "y": 58
+            },
+            "transform": {
+              "m00": 1,
+              "m01": 0,
+              "m02": 54,
+              "m10": 0,
+              "m11": 1,
+              "m12": 40
+            },
+            "opacity": 1,
+            "clip": false,
+            "fills": [
+              {
+                "type": "solid",
+                "color": {
+                  "r": 0.10000000149011612,
+                  "g": 0.10000000149011612,
+                  "b": 0.10000000149011612,
+                  "a": 1
+                },
+                "opacity": 0.6100000143051147
+              }
+            ],
+            "text": "TRANSYLVANIA\nTYPEFACE",
+            "font": {
+              "family": "Helvetica Neue LT Pro",
+              "style": "65 Medium",
+              "postscript": "HelveticaNeueLTPro-Md"
+            },
+            "fontSize": 24,
+            "align": "center",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "114:771",
+        "name": "Group 8",
+        "type": "FRAME",
+        "size": {
+          "x": 618.5224609375,
+          "y": 774
+        },
+        "transform": {
+          "m00": 1,
+          "m01": 0,
+          "m02": 4229,
+          "m10": 0,
+          "m11": 1,
+          "m12": 3061
+        },
+        "opacity": 1,
+        "clip": true,
+        "fills": [],
+        "shadow": {
+          "x": -12,
+          "y": 12,
+          "blur": 24,
+          "color": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0.5
+          }
+        },
+        "children": [
+          {
+            "id": "114:772",
+            "name": "SpiererJ_GD200_Ex1_TypePortrait-01 1",
+            "type": "ROUNDED_RECTANGLE",
+            "size": {
+              "x": 598.0908813476562,
+              "y": 774
+            },
+            "transform": {
+              "m00": 1,
+              "m01": 0,
+              "m02": 20.43147850036621,
+              "m10": 0,
+              "m11": 1,
+              "m12": 0
+            },
+            "opacity": 1,
+            "clip": false,
+            "fills": [
+              {
+                "type": "image",
+                "path": "assets/gallery/spiererj-gd200-ex1-typeportrait-01-7132a6a1.png",
+                "opacity": 1,
+                "fit": "cover"
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "114:773",
+            "name": "frame 7",
+            "type": "ROUNDED_RECTANGLE",
+            "size": {
+              "x": 748.7608642578125,
+              "y": 565.0673217773438
+            },
+            "transform": {
+              "m00": 0,
+              "m01": -1,
+              "m02": 565.0674438476562,
+              "m10": 1,
+              "m11": 0,
+              "m12": 4.807453632354736
+            },
+            "opacity": 1,
+            "clip": false,
+            "fills": [
+              {
+                "type": "image",
+                "path": "assets/gallery/frame-104722ea.png",
+                "opacity": 1,
+                "fit": "cover"
+              }
+            ],
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "114:774",
+        "name": "Frame 44",
+        "type": "FRAME",
+        "size": {
+          "x": 209,
+          "y": 102
+        },
+        "transform": {
+          "m00": 1,
+          "m01": 0,
+          "m02": 4181,
+          "m10": 0,
+          "m11": 1,
+          "m12": 3755
+        },
+        "opacity": 1,
+        "clip": false,
+        "fills": [
+          {
+            "type": "image",
+            "path": "assets/gallery/label-8eb863fb.png",
+            "opacity": 1,
+            "fit": "contain"
+          }
+        ],
+        "shadow": {
+          "x": -12,
+          "y": 12,
+          "blur": 24,
+          "color": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0.5
+          }
+        },
+        "children": [
+          {
+            "id": "114:775",
+            "name": "ELTON JOHN TYPE PORTRAIT",
+            "type": "TEXT",
+            "size": {
+              "x": 140,
+              "y": 44
+            },
+            "transform": {
+              "m00": 1,
+              "m01": 0,
+              "m02": 34.5,
+              "m10": 0,
+              "m11": 1,
+              "m12": 29
+            },
+            "opacity": 1,
+            "clip": false,
+            "fills": [
+              {
+                "type": "solid",
+                "color": {
+                  "r": 0.10000000149011612,
+                  "g": 0.10000000149011612,
+                  "b": 0.10000000149011612,
+                  "a": 1
+                },
+                "opacity": 0.6100000143051147
+              }
+            ],
+            "text": "ELTON JOHN\nTYPE PORTRAIT",
+            "font": {
+              "family": "Helvetica Neue LT Pro",
+              "style": "65 Medium",
+              "postscript": "HelveticaNeueLTPro-Md"
+            },
+            "fontSize": 18,
+            "align": "center",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "114:776",
+        "name": "Group 9",
+        "type": "FRAME",
+        "size": {
+          "x": 706.0000610351562,
+          "y": 935.7417602539062
+        },
+        "transform": {
+          "m00": 1,
+          "m01": 0,
+          "m02": 647,
+          "m10": 0,
+          "m11": 1,
+          "m12": 1136
+        },
+        "opacity": 1,
+        "clip": true,
+        "fills": [],
+        "shadow": {
+          "x": -12,
+          "y": 12,
+          "blur": 24,
+          "color": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0.5
+          }
+        },
+        "children": [
+          {
+            "id": "114:777",
+            "name": "frame 8",
+            "type": "ROUNDED_RECTANGLE",
+            "size": {
+              "x": 935.7417602539062,
+              "y": 706.0000610351562
+            },
+            "transform": {
+              "m00": 0,
+              "m01": -1,
+              "m02": 706.0001831054688,
+              "m10": 1,
+              "m11": 0,
+              "m12": -0.000018149614334106445
+            },
+            "opacity": 1,
+            "clip": false,
+            "fills": [
+              {
+                "type": "image",
+                "path": "assets/gallery/frame-104722ea.png",
+                "opacity": 1,
+                "fit": "cover"
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "114:778",
+            "name": "whisphen 1",
+            "type": "ROUNDED_RECTANGLE",
+            "size": {
+              "x": 493.2013854980469,
+              "y": 688.495849609375
+            },
+            "transform": {
+              "m00": 1,
+              "m01": 0,
+              "m02": 106.48360443115234,
+              "m10": 0,
+              "m11": 1,
+              "m12": 123.98758697509766
+            },
+            "opacity": 1,
+            "clip": false,
+            "fills": [
+              {
+                "type": "image",
+                "path": "assets/gallery/whisphen-3cd022e3.png",
+                "opacity": 1,
+                "fit": "cover"
+              }
+            ],
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "114:779",
+        "name": "Frame 45",
+        "type": "FRAME",
+        "size": {
+          "x": 285,
+          "y": 138
+        },
+        "transform": {
+          "m00": 1,
+          "m01": 0,
+          "m02": 858,
+          "m10": 0,
+          "m11": 1,
+          "m12": 1983
+        },
+        "opacity": 1,
+        "clip": false,
+        "fills": [
+          {
+            "type": "image",
+            "path": "assets/gallery/label-8eb863fb.png",
+            "opacity": 1,
+            "fit": "contain"
+          }
+        ],
+        "shadow": {
+          "x": -12,
+          "y": 12,
+          "blur": 24,
+          "color": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0.5
+          }
+        },
+        "children": [
+          {
+            "id": "114:780",
+            "name": "WHISPHEN POKEMON TCG CARD",
+            "type": "TEXT",
+            "size": {
+              "x": 254,
+              "y": 58
+            },
+            "transform": {
+              "m00": 1,
+              "m01": 0,
+              "m02": 15.5,
+              "m10": 0,
+              "m11": 1,
+              "m12": 40
+            },
+            "opacity": 1,
+            "clip": false,
+            "fills": [
+              {
+                "type": "solid",
+                "color": {
+                  "r": 0.10000000149011612,
+                  "g": 0.10000000149011612,
+                  "b": 0.10000000149011612,
+                  "a": 1
+                },
+                "opacity": 0.6100000143051147
+              }
+            ],
+            "text": "WHISPHEN\nPOKEMON TCG CARD",
+            "font": {
+              "family": "Helvetica Neue LT Pro",
+              "style": "65 Medium",
+              "postscript": "HelveticaNeueLTPro-Md"
+            },
+            "fontSize": 24,
+            "align": "center",
+            "children": []
+          }
+        ]
+      }
+    ]
+  }
+}

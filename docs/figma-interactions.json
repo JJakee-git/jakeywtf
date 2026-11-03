@@ -1,0 +1,3153 @@
+[
+  {
+    "id": "13:184",
+    "name": "Rectangle 1",
+    "events": [
+      {
+        "event": {
+          "interactionType": "ON_CLICK"
+        },
+        "actions": [
+          {
+            "target": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "19:19",
+    "name": "Rectangle 8",
+    "events": [
+      {
+        "event": {
+          "interactionType": "ON_CLICK"
+        },
+        "actions": [
+          {
+            "target": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "19:20",
+    "name": "CONTACT ME",
+    "events": [
+      {
+        "event": {
+          "interactionType": "ON_CLICK"
+        },
+        "actions": [
+          {
+            "target": "32:17",
+            "type": "DISSOLVE",
+            "duration": 0.30000001192092896,
+            "navigation": "NAVIGATE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "27:259",
+    "name": "Property 1=Default",
+    "events": [
+      {
+        "event": {
+          "interactionType": "AFTER_TIMEOUT",
+          "transitionTimeout": 3
+        },
+        "actions": [
+          {
+            "target": "27:302",
+            "type": "SMART_ANIMATE",
+            "duration": 1,
+            "navigation": "SWAP_STATE"
+          }
+        ]
+      },
+      {
+        "event": {
+          "interactionType": "ON_CLICK"
+        },
+        "actions": [
+          {
+            "target": "27:302",
+            "type": "SMART_ANIMATE",
+            "duration": 0.10000000149011612,
+            "navigation": "SWAP_STATE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "27:302",
+    "name": "Property 1=Variant2",
+    "events": [
+      {
+        "event": {
+          "interactionType": "AFTER_TIMEOUT",
+          "transitionTimeout": 3
+        },
+        "actions": [
+          {
+            "target": "27:332",
+            "type": "SMART_ANIMATE",
+            "duration": 1,
+            "navigation": "SWAP_STATE"
+          }
+        ]
+      },
+      {
+        "event": {
+          "interactionType": "ON_CLICK"
+        },
+        "actions": [
+          {
+            "target": "27:332",
+            "type": "SMART_ANIMATE",
+            "duration": 0.10000000149011612,
+            "navigation": "SWAP_STATE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "27:332",
+    "name": "Property 1=Variant3",
+    "events": [
+      {
+        "event": {
+          "interactionType": "AFTER_TIMEOUT",
+          "transitionTimeout": 3
+        },
+        "actions": [
+          {
+            "target": "27:342",
+            "type": "SMART_ANIMATE",
+            "duration": 1,
+            "navigation": "SWAP_STATE"
+          }
+        ]
+      },
+      {
+        "event": {
+          "interactionType": "ON_CLICK"
+        },
+        "actions": [
+          {
+            "target": "27:342",
+            "type": "SMART_ANIMATE",
+            "duration": 0.10000000149011612,
+            "navigation": "SWAP_STATE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "27:342",
+    "name": "Property 1=Variant4",
+    "events": [
+      {
+        "event": {
+          "interactionType": "AFTER_TIMEOUT",
+          "transitionTimeout": 3
+        },
+        "actions": [
+          {
+            "target": "27:352",
+            "type": "SMART_ANIMATE",
+            "duration": 1,
+            "navigation": "SWAP_STATE"
+          }
+        ]
+      },
+      {
+        "event": {
+          "interactionType": "ON_CLICK"
+        },
+        "actions": [
+          {
+            "target": "27:352",
+            "type": "SMART_ANIMATE",
+            "duration": 0.10000000149011612,
+            "navigation": "SWAP_STATE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "27:352",
+    "name": "Property 1=Variant5",
+    "events": [
+      {
+        "event": {
+          "interactionType": "AFTER_TIMEOUT",
+          "transitionTimeout": 3
+        },
+        "actions": [
+          {
+            "target": "27:362",
+            "type": "SMART_ANIMATE",
+            "duration": 1,
+            "navigation": "SWAP_STATE"
+          }
+        ]
+      },
+      {
+        "event": {
+          "interactionType": "ON_CLICK"
+        },
+        "actions": [
+          {
+            "target": "27:362",
+            "type": "SMART_ANIMATE",
+            "duration": 0.10000000149011612,
+            "navigation": "SWAP_STATE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "27:362",
+    "name": "Property 1=Variant6",
+    "events": [
+      {
+        "event": {
+          "interactionType": "AFTER_TIMEOUT",
+          "transitionTimeout": 3
+        },
+        "actions": [
+          {
+            "target": "27:372",
+            "type": "SMART_ANIMATE",
+            "duration": 1,
+            "navigation": "SWAP_STATE"
+          }
+        ]
+      },
+      {
+        "event": {
+          "interactionType": "ON_CLICK"
+        },
+        "actions": [
+          {
+            "target": "27:372",
+            "type": "SMART_ANIMATE",
+            "duration": 0.10000000149011612,
+            "navigation": "SWAP_STATE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "27:372",
+    "name": "Property 1=Variant7",
+    "events": [
+      {
+        "event": {
+          "interactionType": "AFTER_TIMEOUT",
+          "transitionTimeout": 3
+        },
+        "actions": [
+          {
+            "target": "27:382",
+            "type": "SMART_ANIMATE",
+            "duration": 1,
+            "navigation": "SWAP_STATE"
+          }
+        ]
+      },
+      {
+        "event": {
+          "interactionType": "ON_CLICK"
+        },
+        "actions": [
+          {
+            "target": "27:382",
+            "type": "SMART_ANIMATE",
+            "duration": 0.10000000149011612,
+            "navigation": "SWAP_STATE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "27:382",
+    "name": "Property 1=Variant8",
+    "events": [
+      {
+        "event": {
+          "interactionType": "AFTER_TIMEOUT",
+          "transitionTimeout": 3
+        },
+        "actions": [
+          {
+            "target": "27:392",
+            "type": "SMART_ANIMATE",
+            "duration": 1,
+            "navigation": "SWAP_STATE"
+          }
+        ]
+      },
+      {
+        "event": {
+          "interactionType": "ON_CLICK"
+        },
+        "actions": [
+          {
+            "target": "27:392",
+            "type": "SMART_ANIMATE",
+            "duration": 0.10000000149011612,
+            "navigation": "SWAP_STATE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "27:392",
+    "name": "Property 1=Variant9",
+    "events": [
+      {
+        "event": {
+          "interactionType": "AFTER_TIMEOUT",
+          "transitionTimeout": 3
+        },
+        "actions": [
+          {
+            "target": "27:457",
+            "type": "SMART_ANIMATE",
+            "duration": 1,
+            "navigation": "SWAP_STATE"
+          }
+        ]
+      },
+      {
+        "event": {
+          "interactionType": "ON_CLICK"
+        },
+        "actions": [
+          {
+            "target": "27:457",
+            "type": "SMART_ANIMATE",
+            "duration": 0.10000000149011612,
+            "navigation": "SWAP_STATE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "27:433",
+    "name": "Frame 1",
+    "events": [
+      {
+        "event": {
+          "interactionType": "AFTER_TIMEOUT",
+          "transitionTimeout": 3
+        },
+        "actions": [
+          {
+            "target": "27:302",
+            "type": "SMART_ANIMATE",
+            "duration": 1,
+            "navigation": "SWAP_STATE"
+          }
+        ]
+      },
+      {
+        "event": {
+          "interactionType": "ON_CLICK"
+        },
+        "actions": [
+          {
+            "target": "27:302",
+            "type": "SMART_ANIMATE",
+            "duration": 0.10000000149011612,
+            "navigation": "SWAP_STATE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "27:457",
+    "name": "Property 1=Variant10",
+    "events": [
+      {
+        "event": {
+          "interactionType": "AFTER_TIMEOUT",
+          "transitionTimeout": 0.0010000000474974513
+        },
+        "actions": [
+          {
+            "target": "27:259",
+            "type": "INSTANT_TRANSITION",
+            "duration": 1,
+            "navigation": "SWAP_STATE"
+          }
+        ]
+      },
+      {
+        "event": {
+          "interactionType": "ON_CLICK"
+        },
+        "actions": [
+          {
+            "target": "27:259",
+            "type": "SMART_ANIMATE",
+            "duration": 0.10000000149011612,
+            "navigation": "SWAP_STATE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "27:638",
+    "name": "MY WORK",
+    "events": [
+      {
+        "event": {
+          "interactionType": "AFTER_TIMEOUT",
+          "transitionTimeout": 2
+        },
+        "actions": [
+          {
+            "target": "114:784",
+            "type": "SCROLL_ANIMATE",
+            "duration": 0.30000001192092896,
+            "navigation": "SCROLL_TO"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "32:108",
+    "name": "Frame 9",
+    "events": [
+      {
+        "event": {
+          "interactionType": "ON_CLICK"
+        },
+        "actions": [
+          {
+            "target": "77:392",
+            "type": "INSTANT_TRANSITION",
+            "navigation": "OVERLAY"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "37:53",
+    "name": "Property 1=Default",
+    "events": [
+      {
+        "event": {
+          "interactionType": "ON_CLICK"
+        },
+        "actions": [
+          {
+            "target": "37:55",
+            "type": "SMART_ANIMATE",
+            "duration": 2,
+            "navigation": "SWAP_STATE"
+          }
+        ]
+      },
+      {
+        "event": {
+          "interactionType": "AFTER_TIMEOUT",
+          "transitionTimeout": 0.0010000000474974513
+        },
+        "actions": [
+          {
+            "target": "37:55",
+            "type": "SMART_ANIMATE",
+            "duration": 2,
+            "navigation": "SWAP_STATE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "37:55",
+    "name": "Property 1=Variant2",
+    "events": [
+      {
+        "event": {
+          "interactionType": "AFTER_TIMEOUT",
+          "transitionTimeout": 0.0010000000474974513
+        },
+        "actions": [
+          {
+            "target": "37:53",
+            "type": "SMART_ANIMATE",
+            "duration": 2,
+            "navigation": "SWAP_STATE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "37:77",
+    "name": "Frame 2",
+    "events": [
+      {
+        "event": {
+          "interactionType": "ON_CLICK"
+        },
+        "actions": [
+          {
+            "target": "37:55",
+            "type": "SMART_ANIMATE",
+            "duration": 2,
+            "navigation": "SWAP_STATE"
+          }
+        ]
+      },
+      {
+        "event": {
+          "interactionType": "AFTER_TIMEOUT",
+          "transitionTimeout": 0.0010000000474974513
+        },
+        "actions": [
+          {
+            "target": "37:55",
+            "type": "SMART_ANIMATE",
+            "duration": 2,
+            "navigation": "SWAP_STATE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "37:87",
+    "name": "Frame 25",
+    "events": [
+      {
+        "event": {
+          "interactionType": "ON_CLICK"
+        },
+        "actions": [
+          {
+            "target": "53:144",
+            "type": "SCROLL_ANIMATE",
+            "duration": 0.5,
+            "navigation": "SCROLL_TO"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "53:20",
+    "name": "NAV",
+    "events": [
+      {
+        "event": {
+          "interactionType": "ON_CLICK"
+        },
+        "actions": [
+          {
+            "target": "100:532",
+            "type": "INSTANT_TRANSITION",
+            "duration": 0.25,
+            "navigation": "SWAP_STATE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "53:126",
+    "name": "Property 1=Default",
+    "events": [
+      {
+        "event": {
+          "interactionType": "MOUSE_ENTER"
+        },
+        "actions": [
+          {
+            "target": "100:532",
+            "type": "INSTANT_TRANSITION",
+            "duration": 0.30000001192092896,
+            "navigation": "SWAP_STATE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "53:133",
+    "name": "Frame 3",
+    "events": [
+      {
+        "event": {
+          "interactionType": "MOUSE_ENTER"
+        },
+        "actions": [
+          {
+            "target": "100:532",
+            "type": "INSTANT_TRANSITION",
+            "duration": 0.30000001192092896,
+            "navigation": "SWAP_STATE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "53:169",
+    "name": "X",
+    "events": [
+      {
+        "event": {
+          "interactionType": "ON_CLICK"
+        },
+        "actions": [
+          {
+            "target": "100:538",
+            "type": "INSTANT_TRANSITION",
+            "duration": 0.30000001192092896,
+            "navigation": "SWAP_STATE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "53:171",
+    "name": "Property 1=Default",
+    "events": [
+      {
+        "event": {
+          "interactionType": "MOUSE_ENTER"
+        },
+        "actions": [
+          {
+            "target": "100:538",
+            "type": "INSTANT_TRANSITION",
+            "duration": 0.30000001192092896,
+            "navigation": "SWAP_STATE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "55:40",
+    "name": "Property 1=Default",
+    "events": [
+      {
+        "event": {
+          "interactionType": "ON_HOVER"
+        },
+        "actions": [
+          {
+            "target": "55:42",
+            "type": "SMART_ANIMATE",
+            "duration": 0.5,
+            "navigation": "SWAP_STATE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "55:54",
+    "name": "Frame 28",
+    "events": [
+      {
+        "event": {
+          "interactionType": "ON_HOVER"
+        },
+        "actions": [
+          {
+            "target": "55:42",
+            "type": "SMART_ANIMATE",
+            "duration": 0.5,
+            "navigation": "SWAP_STATE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "74:34",
+    "name": "Property 1=Default",
+    "events": [
+      {
+        "event": {
+          "interactionType": "ON_HOVER"
+        },
+        "actions": [
+          {
+            "target": "74:37",
+            "type": "SMART_ANIMATE",
+            "duration": 0.5,
+            "navigation": "SWAP_STATE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "74:45",
+    "name": "Frame 29",
+    "events": [
+      {
+        "event": {
+          "interactionType": "ON_HOVER"
+        },
+        "actions": [
+          {
+            "target": "74:37",
+            "type": "SMART_ANIMATE",
+            "duration": 0.5,
+            "navigation": "SWAP_STATE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "74:49",
+    "name": "PROJECTS",
+    "events": [
+      {
+        "event": {
+          "interactionType": "ON_CLICK"
+        },
+        "actions": [
+          {
+            "target": "74:53",
+            "navigation": "SWAP_STATE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "74:51",
+    "name": "Property 1=Default",
+    "events": [
+      {
+        "event": {
+          "interactionType": "ON_HOVER"
+        },
+        "actions": [
+          {
+            "target": "74:53",
+            "type": "INSTANT_TRANSITION",
+            "duration": 0.30000001192092896,
+            "navigation": "SWAP_STATE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "74:53",
+    "name": "Property 1=Variant2",
+    "events": [
+      {
+        "event": {
+          "interactionType": "AFTER_TIMEOUT",
+          "transitionTimeout": 0.25
+        },
+        "actions": [
+          {
+            "target": "74:51",
+            "navigation": "SWAP_STATE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "77:68",
+    "name": "Property 1=Default",
+    "events": [
+      {
+        "event": {
+          "interactionType": "ON_HOVER"
+        },
+        "actions": [
+          {
+            "target": "77:71",
+            "type": "SMART_ANIMATE",
+            "duration": 0.5,
+            "navigation": "SWAP_STATE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "77:76",
+    "name": "Frame 30",
+    "events": [
+      {
+        "event": {
+          "interactionType": "ON_HOVER"
+        },
+        "actions": [
+          {
+            "target": "77:71",
+            "type": "SMART_ANIMATE",
+            "duration": 0.5,
+            "navigation": "SWAP_STATE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "77:91",
+    "name": "Property 1=Default",
+    "events": [
+      {
+        "event": {
+          "interactionType": "AFTER_TIMEOUT",
+          "transitionTimeout": 3
+        },
+        "actions": [
+          {
+            "target": "77:96",
+            "type": "SMART_ANIMATE",
+            "duration": 0.23955413699150085,
+            "navigation": "SWAP_STATE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "77:96",
+    "name": "Property 1=Variant2",
+    "events": [
+      {
+        "event": {
+          "interactionType": "AFTER_TIMEOUT",
+          "transitionTimeout": 0.15000000596046448
+        },
+        "actions": [
+          {
+            "target": "77:91",
+            "type": "SMART_ANIMATE",
+            "duration": 0.23955413699150085,
+            "navigation": "SWAP_STATE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "77:109",
+    "name": "Property 1=Default",
+    "events": [
+      {
+        "event": {
+          "interactionType": "AFTER_TIMEOUT",
+          "transitionTimeout": 8
+        },
+        "actions": [
+          {
+            "target": "77:111",
+            "type": "INSTANT_TRANSITION",
+            "duration": 0.25,
+            "navigation": "SWAP_STATE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "77:111",
+    "name": "Property 1=Variant2",
+    "events": [
+      {
+        "event": {
+          "interactionType": "AFTER_TIMEOUT",
+          "transitionTimeout": 0.25
+        },
+        "actions": [
+          {
+            "target": "77:109",
+            "type": "INSTANT_TRANSITION",
+            "duration": 0.25,
+            "navigation": "SWAP_STATE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "77:165",
+    "name": "Property 1=Default",
+    "events": [
+      {
+        "event": {
+          "interactionType": "ON_HOVER"
+        },
+        "actions": [
+          {
+            "target": "77:206",
+            "type": "INSTANT_TRANSITION",
+            "duration": 0.30000001192092896,
+            "navigation": "SWAP_STATE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "77:217",
+    "name": "Property 1=start",
+    "events": [
+      {
+        "event": {
+          "interactionType": "AFTER_TIMEOUT",
+          "transitionTimeout": 0.5
+        },
+        "actions": [
+          {
+            "target": "77:219",
+            "type": "INSTANT_TRANSITION",
+            "duration": 0.30000001192092896,
+            "navigation": "SWAP_STATE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "77:219",
+    "name": "Property 1=Variant2",
+    "events": [
+      {
+        "event": {
+          "interactionType": "AFTER_TIMEOUT",
+          "transitionTimeout": 0.5
+        },
+        "actions": [
+          {
+            "target": "77:221",
+            "type": "INSTANT_TRANSITION",
+            "duration": 0.30000001192092896,
+            "navigation": "SWAP_STATE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "77:221",
+    "name": "Property 1=Variant3",
+    "events": [
+      {
+        "event": {
+          "interactionType": "AFTER_TIMEOUT",
+          "transitionTimeout": 0.5
+        },
+        "actions": [
+          {
+            "target": "77:223",
+            "type": "INSTANT_TRANSITION",
+            "duration": 0.30000001192092896,
+            "navigation": "SWAP_STATE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "77:223",
+    "name": "Property 1=Variant4",
+    "events": [
+      {
+        "event": {
+          "interactionType": "AFTER_TIMEOUT",
+          "transitionTimeout": 0.5
+        },
+        "actions": [
+          {
+            "target": "77:225",
+            "type": "INSTANT_TRANSITION",
+            "duration": 0.30000001192092896,
+            "navigation": "SWAP_STATE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "77:225",
+    "name": "Property 1=Variant5",
+    "events": [
+      {
+        "event": {
+          "interactionType": "AFTER_TIMEOUT",
+          "transitionTimeout": 0.5
+        },
+        "actions": [
+          {
+            "target": "77:227",
+            "type": "INSTANT_TRANSITION",
+            "duration": 0.30000001192092896,
+            "navigation": "SWAP_STATE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "77:227",
+    "name": "Property 1=Variant6",
+    "events": [
+      {
+        "event": {
+          "interactionType": "AFTER_TIMEOUT",
+          "transitionTimeout": 0.5
+        },
+        "actions": [
+          {
+            "target": "77:229",
+            "type": "INSTANT_TRANSITION",
+            "duration": 0.30000001192092896,
+            "navigation": "SWAP_STATE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "77:229",
+    "name": "Property 1=Variant7",
+    "events": [
+      {
+        "event": {
+          "interactionType": "AFTER_TIMEOUT",
+          "transitionTimeout": 0.5
+        },
+        "actions": [
+          {
+            "target": "77:231",
+            "type": "INSTANT_TRANSITION",
+            "duration": 0.30000001192092896,
+            "navigation": "SWAP_STATE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "77:231",
+    "name": "Property 1=Variant8",
+    "events": [
+      {
+        "event": {
+          "interactionType": "AFTER_TIMEOUT",
+          "transitionTimeout": 0.5
+        },
+        "actions": [
+          {
+            "target": "77:233",
+            "type": "INSTANT_TRANSITION",
+            "duration": 0.30000001192092896,
+            "navigation": "SWAP_STATE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "77:233",
+    "name": "Property 1=Variant9",
+    "events": [
+      {
+        "event": {
+          "interactionType": "AFTER_TIMEOUT",
+          "transitionTimeout": 0.5
+        },
+        "actions": [
+          {
+            "target": "77:235",
+            "type": "INSTANT_TRANSITION",
+            "duration": 0.30000001192092896,
+            "navigation": "SWAP_STATE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "77:235",
+    "name": "Property 1=Variant10",
+    "events": [
+      {
+        "event": {
+          "interactionType": "AFTER_TIMEOUT",
+          "transitionTimeout": 0.5
+        },
+        "actions": [
+          {
+            "target": "77:237",
+            "type": "INSTANT_TRANSITION",
+            "duration": 0.30000001192092896,
+            "navigation": "SWAP_STATE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "77:237",
+    "name": "Property 1=Default",
+    "events": [
+      {
+        "event": {
+          "interactionType": "AFTER_TIMEOUT",
+          "transitionTimeout": 0.5
+        },
+        "actions": [
+          {
+            "target": "77:239",
+            "type": "INSTANT_TRANSITION",
+            "duration": 0.30000001192092896,
+            "navigation": "SWAP_STATE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "77:239",
+    "name": "Property 1=Variant11",
+    "events": [
+      {
+        "event": {
+          "interactionType": "AFTER_TIMEOUT",
+          "transitionTimeout": 0.5
+        },
+        "actions": [
+          {
+            "target": "77:241",
+            "type": "INSTANT_TRANSITION",
+            "duration": 0.30000001192092896,
+            "navigation": "SWAP_STATE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "77:241",
+    "name": "Property 1=Variant12",
+    "events": [
+      {
+        "event": {
+          "interactionType": "AFTER_TIMEOUT",
+          "transitionTimeout": 0.5
+        },
+        "actions": [
+          {
+            "target": "77:243",
+            "type": "INSTANT_TRANSITION",
+            "duration": 0.30000001192092896,
+            "navigation": "SWAP_STATE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "77:243",
+    "name": "Property 1=Variant13",
+    "events": [
+      {
+        "event": {
+          "interactionType": "AFTER_TIMEOUT",
+          "transitionTimeout": 0.5
+        },
+        "actions": [
+          {
+            "target": "77:245",
+            "type": "INSTANT_TRANSITION",
+            "duration": 0.30000001192092896,
+            "navigation": "SWAP_STATE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "77:245",
+    "name": "Property 1=Variant14",
+    "events": [
+      {
+        "event": {
+          "interactionType": "AFTER_TIMEOUT",
+          "transitionTimeout": 0.5
+        },
+        "actions": [
+          {
+            "target": "77:217",
+            "type": "INSTANT_TRANSITION",
+            "duration": 0.30000001192092896,
+            "navigation": "SWAP_STATE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "77:266",
+    "name": "JACOB SPIERER",
+    "events": [
+      {
+        "event": {
+          "interactionType": "AFTER_TIMEOUT",
+          "transitionTimeout": 0.5
+        },
+        "actions": [
+          {
+            "target": "77:219",
+            "type": "INSTANT_TRANSITION",
+            "duration": 0.30000001192092896,
+            "navigation": "SWAP_STATE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "77:272",
+    "name": "Property 1=Default",
+    "events": [
+      {
+        "event": {
+          "interactionType": "ON_HOVER"
+        },
+        "actions": [
+          {
+            "target": "77:274",
+            "type": "INSTANT_TRANSITION",
+            "duration": 0.30000001192092896,
+            "navigation": "SWAP_STATE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "77:275",
+    "name": "JACOB SPIERER",
+    "events": [
+      {
+        "event": {
+          "interactionType": "AFTER_TIMEOUT",
+          "transitionTimeout": 0.5
+        },
+        "actions": [
+          {
+            "target": "77:219",
+            "type": "INSTANT_TRANSITION",
+            "duration": 0.30000001192092896,
+            "navigation": "SWAP_STATE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "77:282",
+    "name": "Group 1",
+    "events": [
+      {
+        "event": {
+          "interactionType": "ON_HOVER"
+        },
+        "actions": [
+          {
+            "target": "77:274",
+            "type": "INSTANT_TRANSITION",
+            "duration": 0.30000001192092896,
+            "navigation": "SWAP_STATE"
+          }
+        ]
+      },
+      {
+        "event": {
+          "interactionType": "ON_CLICK"
+        },
+        "actions": [
+          {
+            "target": "22:158",
+            "type": "DISSOLVE",
+            "duration": 0.30000001192092896,
+            "navigation": "NAVIGATE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "77:363",
+    "name": "Property 1=Default",
+    "events": [
+      {
+        "event": {
+          "interactionType": "ON_CLICK"
+        },
+        "actions": [
+          {
+            "target": "77:365",
+            "type": "INSTANT_TRANSITION",
+            "duration": 0.30000001192092896,
+            "navigation": "SWAP_STATE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "77:365",
+    "name": "Property 1=Variant2",
+    "events": [
+      {
+        "event": {
+          "interactionType": "AFTER_TIMEOUT",
+          "transitionTimeout": 0.25
+        },
+        "actions": [
+          {
+            "target": "77:363",
+            "type": "INSTANT_TRANSITION",
+            "duration": 0.25,
+            "navigation": "SWAP_STATE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "77:373",
+    "name": "Frame 5",
+    "events": [
+      {
+        "event": {
+          "interactionType": "ON_CLICK"
+        },
+        "actions": [
+          {
+            "target": "77:365",
+            "type": "INSTANT_TRANSITION",
+            "duration": 0.30000001192092896,
+            "navigation": "SWAP_STATE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "77:424",
+    "name": "Frame 11",
+    "events": [
+      {
+        "event": {
+          "interactionType": "ON_CLICK"
+        },
+        "actions": [
+          {
+            "target": "77:412",
+            "type": "INSTANT_TRANSITION",
+            "navigation": "OVERLAY"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "100:448",
+    "name": "Property 1=start",
+    "events": [
+      {
+        "event": {
+          "interactionType": "AFTER_TIMEOUT",
+          "transitionTimeout": 0.02500000037252903
+        },
+        "actions": [
+          {
+            "target": "100:450",
+            "type": "INSTANT_TRANSITION",
+            "duration": 0.30000001192092896,
+            "navigation": "SWAP_STATE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "100:450",
+    "name": "Property 1=Variant2",
+    "events": [
+      {
+        "event": {
+          "interactionType": "AFTER_TIMEOUT",
+          "transitionTimeout": 0.02500000037252903
+        },
+        "actions": [
+          {
+            "target": "100:452",
+            "type": "INSTANT_TRANSITION",
+            "duration": 0.30000001192092896,
+            "navigation": "SWAP_STATE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "100:452",
+    "name": "Property 1=Variant3",
+    "events": [
+      {
+        "event": {
+          "interactionType": "AFTER_TIMEOUT",
+          "transitionTimeout": 0.02500000037252903
+        },
+        "actions": [
+          {
+            "target": "100:454",
+            "type": "INSTANT_TRANSITION",
+            "duration": 0.30000001192092896,
+            "navigation": "SWAP_STATE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "100:454",
+    "name": "Property 1=Variant4",
+    "events": [
+      {
+        "event": {
+          "interactionType": "AFTER_TIMEOUT",
+          "transitionTimeout": 0.02500000037252903
+        },
+        "actions": [
+          {
+            "target": "100:456",
+            "type": "INSTANT_TRANSITION",
+            "duration": 0.30000001192092896,
+            "navigation": "SWAP_STATE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "100:456",
+    "name": "Property 1=Variant5",
+    "events": [
+      {
+        "event": {
+          "interactionType": "AFTER_TIMEOUT",
+          "transitionTimeout": 0.02500000037252903
+        },
+        "actions": [
+          {
+            "target": "100:458",
+            "type": "INSTANT_TRANSITION",
+            "duration": 0.30000001192092896,
+            "navigation": "SWAP_STATE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "100:458",
+    "name": "Property 1=Variant6",
+    "events": [
+      {
+        "event": {
+          "interactionType": "AFTER_TIMEOUT",
+          "transitionTimeout": 0.02500000037252903
+        },
+        "actions": [
+          {
+            "target": "100:460",
+            "type": "INSTANT_TRANSITION",
+            "duration": 0.30000001192092896,
+            "navigation": "SWAP_STATE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "100:460",
+    "name": "Property 1=Variant7",
+    "events": [
+      {
+        "event": {
+          "interactionType": "AFTER_TIMEOUT",
+          "transitionTimeout": 0.02500000037252903
+        },
+        "actions": [
+          {
+            "target": "100:462",
+            "type": "INSTANT_TRANSITION",
+            "duration": 0.30000001192092896,
+            "navigation": "SWAP_STATE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "100:462",
+    "name": "Property 1=Variant8",
+    "events": [
+      {
+        "event": {
+          "interactionType": "AFTER_TIMEOUT",
+          "transitionTimeout": 0.02500000037252903
+        },
+        "actions": [
+          {
+            "target": "100:464",
+            "type": "INSTANT_TRANSITION",
+            "duration": 0.30000001192092896,
+            "navigation": "SWAP_STATE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "100:463",
+    "name": "JACOB SPIERER",
+    "events": [
+      {
+        "event": {
+          "interactionType": "AFTER_TIMEOUT",
+          "transitionTimeout": 0.02500000037252903
+        },
+        "actions": [
+          {
+            "target": "100:448",
+            "type": "INSTANT_TRANSITION",
+            "duration": 0.25,
+            "navigation": "SWAP_STATE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "100:464",
+    "name": "test/Variant9",
+    "events": [
+      {
+        "event": {
+          "interactionType": "AFTER_TIMEOUT",
+          "transitionTimeout": 0.02500000037252903
+        },
+        "actions": [
+          {
+            "target": "100:466",
+            "type": "INSTANT_TRANSITION",
+            "duration": 0.30000001192092896,
+            "navigation": "SWAP_STATE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "100:466",
+    "name": "test/Variant10",
+    "events": [
+      {
+        "event": {
+          "interactionType": "AFTER_TIMEOUT",
+          "transitionTimeout": 0.02500000037252903
+        },
+        "actions": [
+          {
+            "target": "100:468",
+            "type": "INSTANT_TRANSITION",
+            "duration": 0.30000001192092896,
+            "navigation": "SWAP_STATE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "100:468",
+    "name": "test/Default",
+    "events": [
+      {
+        "event": {
+          "interactionType": "AFTER_TIMEOUT",
+          "transitionTimeout": 0.02500000037252903
+        },
+        "actions": [
+          {
+            "target": "100:470",
+            "type": "INSTANT_TRANSITION",
+            "duration": 0.30000001192092896,
+            "navigation": "SWAP_STATE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "100:470",
+    "name": "test/Variant11",
+    "events": [
+      {
+        "event": {
+          "interactionType": "AFTER_TIMEOUT",
+          "transitionTimeout": 0.02500000037252903
+        },
+        "actions": [
+          {
+            "target": "100:472",
+            "type": "INSTANT_TRANSITION",
+            "duration": 0.30000001192092896,
+            "navigation": "SWAP_STATE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "100:472",
+    "name": "test/Variant12",
+    "events": [
+      {
+        "event": {
+          "interactionType": "AFTER_TIMEOUT",
+          "transitionTimeout": 0.02500000037252903
+        },
+        "actions": [
+          {
+            "target": "100:474",
+            "type": "INSTANT_TRANSITION",
+            "duration": 0.30000001192092896,
+            "navigation": "SWAP_STATE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "100:474",
+    "name": "test/Variant13",
+    "events": [
+      {
+        "event": {
+          "interactionType": "AFTER_TIMEOUT",
+          "transitionTimeout": 0.02500000037252903
+        },
+        "actions": [
+          {
+            "target": "100:476",
+            "type": "INSTANT_TRANSITION",
+            "duration": 0.30000001192092896,
+            "navigation": "SWAP_STATE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "100:476",
+    "name": "test/Variant14",
+    "events": [
+      {
+        "event": {
+          "interactionType": "AFTER_TIMEOUT",
+          "transitionTimeout": 0.02500000037252903
+        },
+        "actions": [
+          {
+            "target": "100:448",
+            "type": "INSTANT_TRANSITION",
+            "duration": 0.30000001192092896,
+            "navigation": "SWAP_STATE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "100:479",
+    "name": "Property 1=Default",
+    "events": [
+      {
+        "event": {
+          "interactionType": "ON_HOVER"
+        },
+        "actions": [
+          {
+            "target": "100:485",
+            "type": "INSTANT_TRANSITION",
+            "duration": 0.30000001192092896,
+            "navigation": "SWAP_STATE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "100:480",
+    "name": "JACOB SPIERER",
+    "events": [
+      {
+        "event": {
+          "interactionType": "AFTER_TIMEOUT",
+          "transitionTimeout": 0.5
+        },
+        "actions": [
+          {
+            "target": "77:219",
+            "type": "INSTANT_TRANSITION",
+            "duration": 0.30000001192092896,
+            "navigation": "SWAP_STATE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "100:490",
+    "name": "JACOB SPIERER",
+    "events": [
+      {
+        "event": {
+          "interactionType": "AFTER_TIMEOUT",
+          "transitionTimeout": 0.5
+        },
+        "actions": [
+          {
+            "target": "77:219",
+            "type": "INSTANT_TRANSITION",
+            "duration": 0.30000001192092896,
+            "navigation": "SWAP_STATE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "100:493",
+    "name": "test",
+    "events": [
+      {
+        "event": {
+          "interactionType": "AFTER_TIMEOUT",
+          "transitionTimeout": 0.02500000037252903
+        },
+        "actions": [
+          {
+            "target": "100:450",
+            "type": "INSTANT_TRANSITION",
+            "duration": 0.30000001192092896,
+            "navigation": "SWAP_STATE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "100:504",
+    "name": "Property 1=Default",
+    "events": [
+      {
+        "event": {
+          "interactionType": "AFTER_TIMEOUT",
+          "transitionTimeout": 1.5
+        },
+        "actions": [
+          {
+            "target": "100:506",
+            "type": "INSTANT_TRANSITION",
+            "duration": 0.25,
+            "navigation": "SWAP_STATE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "100:507",
+    "name": "Group 2",
+    "events": [
+      {
+        "event": {
+          "interactionType": "ON_HOVER"
+        },
+        "actions": [
+          {
+            "target": "100:485",
+            "type": "INSTANT_TRANSITION",
+            "duration": 0.30000001192092896,
+            "navigation": "SWAP_STATE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "100:523",
+    "name": "Group 2",
+    "events": [
+      {
+        "event": {
+          "interactionType": "AFTER_TIMEOUT",
+          "transitionTimeout": 1.5
+        },
+        "actions": [
+          {
+            "target": "100:506",
+            "type": "INSTANT_TRANSITION",
+            "duration": 0.25,
+            "navigation": "SWAP_STATE"
+          }
+        ]
+      },
+      {
+        "event": {
+          "interactionType": "ON_CLICK"
+        },
+        "actions": [
+          {
+            "target": "22:158",
+            "type": "DISSOLVE",
+            "duration": 0.30000001192092896,
+            "navigation": "NAVIGATE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "100:532",
+    "name": "Property 1=Variant2",
+    "events": [
+      {
+        "event": {
+          "interactionType": "AFTER_TIMEOUT",
+          "transitionTimeout": 0.25
+        },
+        "actions": [
+          {
+            "target": "53:126",
+            "navigation": "SWAP_STATE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "100:538",
+    "name": "Property 1=Variant2",
+    "events": [
+      {
+        "event": {
+          "interactionType": "AFTER_TIMEOUT",
+          "transitionTimeout": 0.25
+        },
+        "actions": [
+          {
+            "target": "53:171",
+            "type": "INSTANT_TRANSITION",
+            "duration": 0.30000001192092896,
+            "navigation": "SWAP_STATE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "118:901",
+    "name": "Property 1=Default",
+    "events": [
+      {
+        "event": {
+          "interactionType": "ON_HOVER"
+        },
+        "actions": [
+          {
+            "target": "118:903",
+            "type": "INSTANT_TRANSITION",
+            "duration": 0.30000001192092896,
+            "navigation": "SWAP_STATE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "118:911",
+    "name": "Frame 46",
+    "events": [
+      {
+        "event": {
+          "interactionType": "ON_HOVER"
+        },
+        "actions": [
+          {
+            "target": "118:903",
+            "type": "INSTANT_TRANSITION",
+            "duration": 0.30000001192092896,
+            "navigation": "SWAP_STATE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "118:915",
+    "name": "Property 1=Default",
+    "events": [
+      {
+        "event": {
+          "interactionType": "ON_HOVER"
+        },
+        "actions": [
+          {
+            "target": "118:917",
+            "type": "INSTANT_TRANSITION",
+            "duration": 0.30000001192092896,
+            "navigation": "SWAP_STATE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "118:920",
+    "name": "Frame 47",
+    "events": [
+      {
+        "event": {
+          "interactionType": "ON_HOVER"
+        },
+        "actions": [
+          {
+            "target": "118:917",
+            "type": "INSTANT_TRANSITION",
+            "duration": 0.30000001192092896,
+            "navigation": "SWAP_STATE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "118:923",
+    "name": "Frame 48",
+    "events": [
+      {
+        "event": {
+          "interactionType": "ON_CLICK"
+        },
+        "actions": [
+          {
+            "target": "27:638",
+            "type": "DISSOLVE",
+            "duration": 0.30000001192092896,
+            "navigation": "NAVIGATE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "118:932",
+    "name": "Property 1=Default",
+    "events": [
+      {
+        "event": {
+          "interactionType": "ON_HOVER"
+        },
+        "actions": [
+          {
+            "target": "118:934",
+            "type": "INSTANT_TRANSITION",
+            "duration": 0.5,
+            "navigation": "SWAP_STATE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "118:937",
+    "name": "MY STORY",
+    "events": [
+      {
+        "event": {
+          "interactionType": "ON_HOVER"
+        },
+        "actions": [
+          {
+            "target": "118:934",
+            "type": "INSTANT_TRANSITION",
+            "duration": 0.5,
+            "navigation": "SWAP_STATE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "118:942",
+    "name": "MY STORY",
+    "events": [
+      {
+        "event": {
+          "interactionType": "ON_HOVER"
+        },
+        "actions": [
+          {
+            "target": "118:934",
+            "type": "INSTANT_TRANSITION",
+            "duration": 0.5,
+            "navigation": "SWAP_STATE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "118:947",
+    "name": "MY STORY",
+    "events": [
+      {
+        "event": {
+          "interactionType": "ON_HOVER"
+        },
+        "actions": [
+          {
+            "target": "118:934",
+            "type": "INSTANT_TRANSITION",
+            "duration": 0.5,
+            "navigation": "SWAP_STATE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "118:953",
+    "name": "MY STORY",
+    "events": [
+      {
+        "event": {
+          "interactionType": "ON_HOVER"
+        },
+        "actions": [
+          {
+            "target": "118:934",
+            "type": "INSTANT_TRANSITION",
+            "duration": 0.5,
+            "navigation": "SWAP_STATE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "118:985",
+    "name": "MERCEDES",
+    "events": [
+      {
+        "event": {
+          "interactionType": "AFTER_TIMEOUT",
+          "transitionTimeout": 0.30000001192092896
+        },
+        "actions": [
+          {
+            "target": "118:1169",
+            "type": "SCROLL_ANIMATE",
+            "duration": 0.10000000149011612,
+            "navigation": "SCROLL_TO"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "118:1465",
+    "name": "Frame 50",
+    "events": [
+      {
+        "event": {
+          "interactionType": "DRAG"
+        },
+        "actions": [
+          {
+            "target": "118:1718",
+            "type": "SMART_ANIMATE",
+            "duration": 0.30000001192092896,
+            "navigation": "SWAP_STATE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "118:1487",
+    "name": "Rectangle 54",
+    "events": [
+      {
+        "event": {
+          "interactionType": "DRAG"
+        },
+        "actions": [
+          {
+            "target": "118:1718",
+            "type": "SMART_ANIMATE",
+            "duration": 0.30000001192092896,
+            "navigation": "SWAP_STATE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "118:1657",
+    "name": "Frame 50",
+    "events": [
+      {
+        "event": {
+          "interactionType": "DRAG"
+        },
+        "actions": [
+          {
+            "target": "118:1719",
+            "type": "SMART_ANIMATE",
+            "duration": 0.30000001192092896,
+            "navigation": "SWAP_STATE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "118:1687",
+    "name": "Rectangle 54",
+    "events": [
+      {
+        "event": {
+          "interactionType": "DRAG"
+        },
+        "actions": [
+          {
+            "target": "4294967295:4294967295",
+            "type": "SMART_ANIMATE",
+            "duration": 0.30000001192092896,
+            "navigation": "NAVIGATE"
+          }
+        ]
+      },
+      {
+        "event": {
+          "interactionType": "DRAG"
+        },
+        "actions": [
+          {
+            "target": "118:1719",
+            "type": "SMART_ANIMATE",
+            "duration": 0.30000001192092896,
+            "navigation": "SWAP_STATE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "118:1801",
+    "name": "Frame 2",
+    "events": [
+      {
+        "event": {
+          "interactionType": "ON_CLICK"
+        },
+        "actions": [
+          {
+            "target": "118:1168",
+            "type": "SCROLL_ANIMATE",
+            "duration": 0.30000001192092896,
+            "navigation": "SCROLL_TO"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "135:475",
+    "name": "SPIERER UNIV",
+    "events": [
+      {
+        "event": {
+          "interactionType": "AFTER_TIMEOUT",
+          "transitionTimeout": 0.30000001192092896
+        },
+        "actions": [
+          {
+            "target": "135:551",
+            "type": "SCROLL_ANIMATE",
+            "duration": 0.10000000149011612,
+            "navigation": "SCROLL_TO"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "135:556",
+    "name": "Frame 2",
+    "events": [
+      {
+        "event": {
+          "interactionType": "ON_CLICK"
+        },
+        "actions": [
+          {
+            "target": "135:550",
+            "type": "SCROLL_ANIMATE",
+            "duration": 0.30000001192092896,
+            "navigation": "SCROLL_TO"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "135:681",
+    "name": "FJALL RAVEN",
+    "events": [
+      {
+        "event": {
+          "interactionType": "AFTER_TIMEOUT",
+          "transitionTimeout": 0.30000001192092896
+        },
+        "actions": [
+          {
+            "target": "135:757",
+            "type": "SCROLL_ANIMATE",
+            "duration": 0.10000000149011612,
+            "navigation": "SCROLL_TO"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "135:762",
+    "name": "Frame 2",
+    "events": [
+      {
+        "event": {
+          "interactionType": "ON_CLICK"
+        },
+        "actions": [
+          {
+            "target": "135:756",
+            "type": "SCROLL_ANIMATE",
+            "duration": 0.30000001192092896,
+            "navigation": "SCROLL_TO"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "143:456",
+    "name": "Property 1=Default",
+    "events": [
+      {
+        "event": {
+          "interactionType": "AFTER_TIMEOUT",
+          "transitionTimeout": 3
+        },
+        "actions": [
+          {
+            "target": "143:458",
+            "type": "SMART_ANIMATE",
+            "duration": 0.30000001192092896,
+            "navigation": "SWAP_STATE"
+          }
+        ]
+      },
+      {
+        "event": {
+          "interactionType": "ON_CLICK"
+        },
+        "actions": [
+          {
+            "target": "143:458",
+            "type": "SMART_ANIMATE",
+            "duration": 0.30000001192092896,
+            "navigation": "SWAP_STATE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "143:458",
+    "name": "Property 1=Variant2",
+    "events": [
+      {
+        "event": {
+          "interactionType": "ON_CLICK"
+        },
+        "actions": [
+          {
+            "target": "143:460",
+            "type": "SMART_ANIMATE",
+            "duration": 0.30000001192092896,
+            "navigation": "SWAP_STATE"
+          }
+        ]
+      },
+      {
+        "event": {
+          "interactionType": "AFTER_TIMEOUT",
+          "transitionTimeout": 3
+        },
+        "actions": [
+          {
+            "target": "143:460",
+            "type": "SMART_ANIMATE",
+            "duration": 0.30000001192092896,
+            "navigation": "SWAP_STATE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "143:460",
+    "name": "Property 1=Variant3",
+    "events": [
+      {
+        "event": {
+          "interactionType": "ON_CLICK"
+        },
+        "actions": [
+          {
+            "target": "143:462",
+            "type": "SMART_ANIMATE",
+            "duration": 0.30000001192092896,
+            "navigation": "SWAP_STATE"
+          }
+        ]
+      },
+      {
+        "event": {
+          "interactionType": "AFTER_TIMEOUT",
+          "transitionTimeout": 3
+        },
+        "actions": [
+          {
+            "target": "143:462",
+            "type": "SMART_ANIMATE",
+            "duration": 0.30000001192092896,
+            "navigation": "SWAP_STATE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "143:462",
+    "name": "Property 1=Variant4",
+    "events": [
+      {
+        "event": {
+          "interactionType": "ON_CLICK"
+        },
+        "actions": [
+          {
+            "target": "143:464",
+            "type": "SMART_ANIMATE",
+            "duration": 0.30000001192092896,
+            "navigation": "SWAP_STATE"
+          }
+        ]
+      },
+      {
+        "event": {
+          "interactionType": "AFTER_TIMEOUT",
+          "transitionTimeout": 3
+        },
+        "actions": [
+          {
+            "target": "143:464",
+            "type": "SMART_ANIMATE",
+            "duration": 0.30000001192092896,
+            "navigation": "SWAP_STATE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "143:464",
+    "name": "Property 1=Variant5",
+    "events": [
+      {
+        "event": {
+          "interactionType": "ON_CLICK"
+        },
+        "actions": [
+          {
+            "target": "143:466",
+            "type": "SMART_ANIMATE",
+            "duration": 0.30000001192092896,
+            "navigation": "SWAP_STATE"
+          }
+        ]
+      },
+      {
+        "event": {
+          "interactionType": "AFTER_TIMEOUT",
+          "transitionTimeout": 3
+        },
+        "actions": [
+          {
+            "target": "143:466",
+            "type": "SMART_ANIMATE",
+            "duration": 0.30000001192092896,
+            "navigation": "SWAP_STATE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "143:466",
+    "name": "Property 1=Variant6",
+    "events": [
+      {
+        "event": {
+          "interactionType": "ON_CLICK"
+        },
+        "actions": [
+          {
+            "target": "143:468",
+            "type": "SMART_ANIMATE",
+            "duration": 0.30000001192092896,
+            "navigation": "SWAP_STATE"
+          }
+        ]
+      },
+      {
+        "event": {
+          "interactionType": "AFTER_TIMEOUT",
+          "transitionTimeout": 3
+        },
+        "actions": [
+          {
+            "target": "143:468",
+            "type": "SMART_ANIMATE",
+            "duration": 0.30000001192092896,
+            "navigation": "SWAP_STATE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "143:468",
+    "name": "Property 1=Variant7",
+    "events": [
+      {
+        "event": {
+          "interactionType": "ON_CLICK"
+        },
+        "actions": [
+          {
+            "target": "143:470",
+            "type": "SMART_ANIMATE",
+            "duration": 0.30000001192092896,
+            "navigation": "SWAP_STATE"
+          }
+        ]
+      },
+      {
+        "event": {
+          "interactionType": "AFTER_TIMEOUT",
+          "transitionTimeout": 3
+        },
+        "actions": [
+          {
+            "target": "143:470",
+            "type": "SMART_ANIMATE",
+            "duration": 0.30000001192092896,
+            "navigation": "SWAP_STATE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "143:470",
+    "name": "Property 1=Variant8",
+    "events": [
+      {
+        "event": {
+          "interactionType": "ON_CLICK"
+        },
+        "actions": [
+          {
+            "target": "143:472",
+            "type": "SMART_ANIMATE",
+            "duration": 0.30000001192092896,
+            "navigation": "SWAP_STATE"
+          }
+        ]
+      },
+      {
+        "event": {
+          "interactionType": "AFTER_TIMEOUT",
+          "transitionTimeout": 3
+        },
+        "actions": [
+          {
+            "target": "143:472",
+            "type": "SMART_ANIMATE",
+            "duration": 0.30000001192092896,
+            "navigation": "SWAP_STATE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "143:472",
+    "name": "Property 1=Variant9",
+    "events": [
+      {
+        "event": {
+          "interactionType": "ON_CLICK"
+        },
+        "actions": [
+          {
+            "target": "143:474",
+            "type": "SMART_ANIMATE",
+            "duration": 0.30000001192092896,
+            "navigation": "SWAP_STATE"
+          }
+        ]
+      },
+      {
+        "event": {
+          "interactionType": "AFTER_TIMEOUT",
+          "transitionTimeout": 3
+        },
+        "actions": [
+          {
+            "target": "143:474",
+            "type": "SMART_ANIMATE",
+            "duration": 0.30000001192092896,
+            "navigation": "SWAP_STATE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "143:474",
+    "name": "Property 1=Variant10",
+    "events": [
+      {
+        "event": {
+          "interactionType": "ON_CLICK"
+        },
+        "actions": [
+          {
+            "target": "143:476",
+            "type": "SMART_ANIMATE",
+            "duration": 0.30000001192092896,
+            "navigation": "SWAP_STATE"
+          }
+        ]
+      },
+      {
+        "event": {
+          "interactionType": "AFTER_TIMEOUT",
+          "transitionTimeout": 3
+        },
+        "actions": [
+          {
+            "target": "143:476",
+            "type": "SMART_ANIMATE",
+            "duration": 0.30000001192092896,
+            "navigation": "SWAP_STATE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "143:476",
+    "name": "Property 1=Variant11",
+    "events": [
+      {
+        "event": {
+          "interactionType": "ON_CLICK"
+        },
+        "actions": [
+          {
+            "target": "143:478",
+            "type": "SMART_ANIMATE",
+            "duration": 0.30000001192092896,
+            "navigation": "SWAP_STATE"
+          }
+        ]
+      },
+      {
+        "event": {
+          "interactionType": "AFTER_TIMEOUT",
+          "transitionTimeout": 3
+        },
+        "actions": [
+          {
+            "target": "143:478",
+            "type": "SMART_ANIMATE",
+            "duration": 0.30000001192092896,
+            "navigation": "SWAP_STATE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "143:478",
+    "name": "Property 1=Variant12",
+    "events": [
+      {
+        "event": {
+          "interactionType": "ON_CLICK"
+        },
+        "actions": [
+          {
+            "target": "143:456",
+            "type": "SMART_ANIMATE",
+            "duration": 0.30000001192092896,
+            "navigation": "SWAP_STATE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "143:515",
+    "name": "Spierer_Jacob_GD 200_Project 2_Catalog_Page_01",
+    "events": [
+      {
+        "event": {
+          "interactionType": "AFTER_TIMEOUT",
+          "transitionTimeout": 3
+        },
+        "actions": [
+          {
+            "target": "143:458",
+            "type": "SMART_ANIMATE",
+            "duration": 0.30000001192092896,
+            "navigation": "SWAP_STATE"
+          }
+        ]
+      },
+      {
+        "event": {
+          "interactionType": "ON_CLICK"
+        },
+        "actions": [
+          {
+            "target": "143:458",
+            "type": "SMART_ANIMATE",
+            "duration": 0.30000001192092896,
+            "navigation": "SWAP_STATE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "143:542",
+    "name": "Frame 50",
+    "events": [
+      {
+        "event": {
+          "interactionType": "DRAG"
+        },
+        "actions": [
+          {
+            "target": "143:562",
+            "type": "SMART_ANIMATE",
+            "duration": 0.30000001192092896,
+            "navigation": "SWAP_STATE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "143:561",
+    "name": "Rectangle 54",
+    "events": [
+      {
+        "event": {
+          "interactionType": "DRAG"
+        },
+        "actions": [
+          {
+            "target": "143:562",
+            "type": "SMART_ANIMATE",
+            "duration": 0.30000001192092896,
+            "navigation": "SWAP_STATE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "143:563",
+    "name": "Frame 50",
+    "events": [
+      {
+        "event": {
+          "interactionType": "DRAG"
+        },
+        "actions": [
+          {
+            "target": "143:541",
+            "type": "SMART_ANIMATE",
+            "duration": 0.30000001192092896,
+            "navigation": "SWAP_STATE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "143:582",
+    "name": "Rectangle 54",
+    "events": [
+      {
+        "event": {
+          "interactionType": "DRAG"
+        },
+        "actions": [
+          {
+            "target": "4294967295:4294967295",
+            "type": "SMART_ANIMATE",
+            "duration": 0.30000001192092896,
+            "navigation": "NAVIGATE"
+          }
+        ]
+      },
+      {
+        "event": {
+          "interactionType": "DRAG"
+        },
+        "actions": [
+          {
+            "target": "143:541",
+            "type": "SMART_ANIMATE",
+            "duration": 0.30000001192092896,
+            "navigation": "SWAP_STATE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "145:844",
+    "name": "Frame 50",
+    "events": [
+      {
+        "event": {
+          "interactionType": "DRAG"
+        },
+        "actions": [
+          {
+            "target": "145:864",
+            "type": "SMART_ANIMATE",
+            "duration": 0.30000001192092896,
+            "navigation": "SWAP_STATE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "145:863",
+    "name": "Rectangle 54",
+    "events": [
+      {
+        "event": {
+          "interactionType": "DRAG"
+        },
+        "actions": [
+          {
+            "target": "145:864",
+            "type": "SMART_ANIMATE",
+            "duration": 0.30000001192092896,
+            "navigation": "SWAP_STATE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "145:865",
+    "name": "Frame 50",
+    "events": [
+      {
+        "event": {
+          "interactionType": "DRAG"
+        },
+        "actions": [
+          {
+            "target": "145:843",
+            "type": "SMART_ANIMATE",
+            "duration": 0.30000001192092896,
+            "navigation": "SWAP_STATE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "145:884",
+    "name": "Rectangle 54",
+    "events": [
+      {
+        "event": {
+          "interactionType": "DRAG"
+        },
+        "actions": [
+          {
+            "target": "4294967295:4294967295",
+            "type": "SMART_ANIMATE",
+            "duration": 0.30000001192092896,
+            "navigation": "NAVIGATE"
+          }
+        ]
+      },
+      {
+        "event": {
+          "interactionType": "DRAG"
+        },
+        "actions": [
+          {
+            "target": "145:843",
+            "type": "SMART_ANIMATE",
+            "duration": 0.30000001192092896,
+            "navigation": "SWAP_STATE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "147:1363",
+    "name": "Property 1=Default",
+    "events": [
+      {
+        "event": {
+          "interactionType": "ON_CLICK"
+        },
+        "actions": [
+          {
+            "target": "147:1365",
+            "type": "DISSOLVE",
+            "duration": 1,
+            "navigation": "SWAP_STATE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "147:1365",
+    "name": "Property 1=Variant2",
+    "events": [
+      {
+        "event": {
+          "interactionType": "ON_HOVER"
+        },
+        "actions": [
+          {
+            "target": "147:1363",
+            "type": "DISSOLVE",
+            "duration": 1,
+            "navigation": "SWAP_STATE"
+          }
+        ]
+      },
+      {
+        "event": {
+          "interactionType": "ON_CLICK"
+        },
+        "actions": [
+          {
+            "target": "147:1363",
+            "type": "DISSOLVE",
+            "duration": 1,
+            "navigation": "SWAP_STATE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "147:1369",
+    "name": "IMG_30399",
+    "events": [
+      {
+        "event": {
+          "interactionType": "ON_HOVER"
+        },
+        "actions": [
+          {
+            "target": "147:1363",
+            "type": "DISSOLVE",
+            "duration": 1,
+            "navigation": "SWAP_STATE"
+          }
+        ]
+      },
+      {
+        "event": {
+          "interactionType": "ON_CLICK"
+        },
+        "actions": [
+          {
+            "target": "147:1363",
+            "type": "DISSOLVE",
+            "duration": 1,
+            "navigation": "SWAP_STATE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "147:1384",
+    "name": "Property 1=Default",
+    "events": [
+      {
+        "event": {
+          "interactionType": "ON_HOVER"
+        },
+        "actions": [
+          {
+            "target": "147:1386",
+            "type": "INSTANT_TRANSITION",
+            "duration": 0.30000001192092896,
+            "navigation": "SWAP_STATE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "147:1451",
+    "name": "Rectangle 57",
+    "events": [
+      {
+        "event": {
+          "interactionType": "ON_CLICK"
+        },
+        "actions": [
+          {
+            "target": "15:200",
+            "type": "SCROLL_ANIMATE",
+            "duration": 0.15000000596046448,
+            "navigation": "SCROLL_TO"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "147:1453",
+    "name": "Rectangle 58",
+    "events": [
+      {
+        "event": {
+          "interactionType": "ON_CLICK"
+        },
+        "actions": [
+          {
+            "target": "77:82",
+            "type": "SCROLL_ANIMATE",
+            "duration": 0.15000000596046448,
+            "navigation": "SCROLL_TO"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "147:1454",
+    "name": "Rectangle 58",
+    "events": [
+      {
+        "event": {
+          "interactionType": "ON_CLICK"
+        },
+        "actions": [
+          {
+            "target": "118:887",
+            "type": "SCROLL_ANIMATE",
+            "duration": 0.15000000596046448,
+            "navigation": "SCROLL_TO"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "147:1464",
+    "name": "Rectangle 59",
+    "events": [
+      {
+        "event": {
+          "interactionType": "ON_CLICK"
+        },
+        "actions": [
+          {
+            "target": "147:1467",
+            "type": "SCROLL_ANIMATE",
+            "duration": 0.15000000596046448,
+            "navigation": "SCROLL_TO"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "147:1465",
+    "name": "Rectangle 57",
+    "events": [
+      {
+        "event": {
+          "interactionType": "ON_CLICK"
+        },
+        "actions": [
+          {
+            "target": "22:233",
+            "type": "SCROLL_ANIMATE",
+            "duration": 0.15000000596046448,
+            "navigation": "SCROLL_TO"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "147:1466",
+    "name": "Rectangle 58",
+    "events": [
+      {
+        "event": {
+          "interactionType": "ON_CLICK"
+        },
+        "actions": [
+          {
+            "target": "145:1354",
+            "type": "SCROLL_ANIMATE",
+            "duration": 0.15000000596046448,
+            "navigation": "SCROLL_TO"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "147:1478",
+    "name": "Property 1=Default",
+    "events": [
+      {
+        "event": {
+          "interactionType": "ON_HOVER"
+        },
+        "actions": [
+          {
+            "target": "147:1480",
+            "type": "INSTANT_TRANSITION",
+            "duration": 0.30000001192092896,
+            "navigation": "SWAP_STATE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "147:1483",
+    "name": "Frame 51",
+    "events": [
+      {
+        "event": {
+          "interactionType": "ON_HOVER"
+        },
+        "actions": [
+          {
+            "target": "147:1480",
+            "type": "INSTANT_TRANSITION",
+            "duration": 0.30000001192092896,
+            "navigation": "SWAP_STATE"
+          }
+        ]
+      },
+      {
+        "event": {
+          "interactionType": "ON_CLICK"
+        },
+        "actions": [
+          {
+            "target": "114:784",
+            "type": "SCROLL_ANIMATE",
+            "duration": 0.30000001192092896,
+            "navigation": "SCROLL_TO"
+          }
+        ]
+      }
+    ]
+  }
+]

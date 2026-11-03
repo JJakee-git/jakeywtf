@@ -1,0 +1,30 @@
+/* Latest design feedback: shared responsive headings, key geometry and continuous Contact flow. */
+:root{--display-size:max(28px,11.75vw)}
+.hero p{font:400 17px/1.3 Brutalisme,sans-serif;color:var(--white)}
+.hero h1 a:hover,.hero h1 a:focus-visible,.contact-word>a:hover,.contact-word>a:focus-visible,.experience-title:hover{background:var(--dark-red);color:var(--white);filter:none;text-decoration:none}
+a:focus-visible,button:focus-visible,[tabindex]:focus-visible{outline-color:var(--dark-red)}
+#navigation a{transition-duration:.55s,.4s}
+.key-art{left:-21.8%;top:15.2%;width:123.32%;height:70.7%;object-fit:fill}
+.experience-title{top:58.5%}
+.experience-meta{left:18%;right:5%;top:35.8%}
+.experience-meta::after{display:none}
+.experience-rule{top:calc(35.8% + 32px);bottom:12.7%;left:var(--gutter);right:var(--gutter);height:auto;width:auto;border:1px solid var(--white);background:none;pointer-events:none}
+.continuous-scroll{scroll-snap-type:none;scrollbar-width:auto}
+.continuous-scroll::-webkit-scrollbar{display:initial}
+.contact-body .contact-page{padding:175px 5vw 100px;max-width:1600px;margin:auto;overflow:visible}
+.contact-page>h1{background:#000 url('assets/textures/hero-grunge.png') center/cover;text-align:center;font:700 clamp(35px,4.45vw,64px)/1.2 Brutalisme,sans-serif;padding:26px;margin:0 0 24px;color:var(--white)}
+.contact-page fieldset{padding:65px clamp(24px,4.5vw,70px);margin-bottom:24px;overflow:visible}
+.contact-page legend{font-size:48px;margin-bottom:40px}
+.contact-intro{clear:both;text-align:center;margin:0 0 60px;color:#666}
+.contact-page .form-grid{gap:55px 14px}
+.contact-page .form-grid textarea{height:135px;min-height:135px}
+.contact-page .submit-button{margin:24px auto 0}
+.custom-select{position:relative;margin-top:6px;color:var(--white);font-family:'Helvetica Neue',sans-serif}
+.dropdown-trigger{display:flex;align-items:center;justify-content:space-between;gap:16px;width:100%;padding:10px 12px;border:1px solid var(--red);background:#000;color:var(--white);font-size:16px;text-align:left}
+.dropdown-trigger>span:last-child{color:var(--red)}
+.dropdown-options{position:absolute;z-index:50;left:0;right:0;top:calc(100% + 4px);max-height:260px;overflow-y:auto;background:#000;border:1px solid var(--dark-red);box-shadow:0 12px 28px #0008}
+.dropdown-option{padding:12px;font-size:16px;cursor:pointer;color:var(--white)}
+.dropdown-option:hover,.dropdown-option:focus,.dropdown-option[aria-selected=true]{background:var(--dark-red);color:var(--white);outline:none}
+.canvas-boundary{position:absolute;inset:0;width:100%;height:100%;max-width:none;z-index:90;pointer-events:none;overflow:visible}
+.project-extra-art{display:grid;place-items:center;padding:var(--gutter);background:#000 url('assets/textures/gallery-grunge.png') center/cover}.project-extra-art>img{max-height:calc(100dvh - 96px);width:100%;object-fit:contain}
+@media(max-width:809px){.experience-title{top:58.5%}.key-art{top:15.2%;height:70.7%}.experience-meta{left:18%;right:5%}.contact-body .contact-page{padding:130px 5vw 80px}.contact-page fieldset{padding:35px 20px}.contact-page legend{font-size:28px}.contact-page .form-grid{grid-template-columns:1fr;gap:28px}.contact-page .form-grid label,.contact-page .form-grid label:nth-child(-n+3):has(input[type=text]){grid-column:1;font-size:17px}.contact-intro{margin-bottom:35px}.hero p{max-width:92%;font-size:17px}}

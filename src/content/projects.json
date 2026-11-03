@@ -1,0 +1,558 @@
+[
+  {
+    "slug": "mercedesbenz",
+    "title": "Mercedes-Benz",
+    "subtitle": "Art Deco style classic car poster",
+    "category": "Poster design",
+    "preview": "assets/projects/mercedes-poster.jpg",
+    "framedPreview": "assets/projects/mercedes-framed.png",
+    "hero": "assets/projects/mercedes-hero.png",
+    "position": {
+      "x": 2625,
+      "y": 1235,
+      "width": 865
+    },
+    "images": [
+      "assets/projects/mercedes-poster.jpg",
+      "assets/projects/mercedes-process.jpg",
+      "assets/projects/mercedes-moodboard.png"
+    ],
+    "sceneNode": "114:719",
+    "sceneNodes": [
+      "114:719",
+      "114:759"
+    ]
+  },
+  {
+    "slug": "spierer-university",
+    "title": "Spierer University",
+    "subtitle": "Spierer University mascot & identity",
+    "category": "Brand identity",
+    "preview": "assets/projects/spierer-university-identity.png",
+    "hero": "assets/projects/spierer-university-catalog.png",
+    "position": {
+      "x": 3123,
+      "y": 3193,
+      "width": 932
+    },
+    "images": [
+      "assets/projects/spierer-university-identity.png",
+      "assets/projects/spierer-university-sticker.png",
+      "assets/projects/spierer-university-catalog.png",
+      "assets/projects/spierer-university-catalog-contents.png",
+      "assets/projects/spierer-university-catalog-knives.png"
+    ],
+    "sceneNode": "114:742",
+    "sceneNodes": [
+      "114:742",
+      "114:721",
+      "114:747",
+      "114:753"
+    ]
+  },
+  {
+    "slug": "fjallraven",
+    "title": "Fjällräven",
+    "subtitle": "Fjällräven × Scouting America patterns",
+    "category": "Pattern design",
+    "preview": "assets/projects/fjallraven-patterns.png",
+    "framedPreview": "assets/projects/fjallraven-framed.png",
+    "hero": "assets/projects/fjallraven-patterns.png",
+    "position": {
+      "x": 1406,
+      "y": 1765,
+      "width": 813
+    },
+    "images": [
+      "assets/projects/fjallraven-backpack.png",
+      "assets/projects/fjallraven-toss.png"
+    ],
+    "sceneNode": "114:718",
+    "sceneNodes": [
+      "114:718",
+      "114:763"
+    ]
+  },
+  {
+    "slug": "3d-printed-darksaber",
+    "title": "3D Printed Darksaber",
+    "subtitle": "3D printed Darksaber",
+    "category": "3D design",
+    "sceneNodes": [
+      "114:720",
+      "114:761"
+    ],
+    "preview": "assets/gallery/frame1-c68b5e58.png",
+    "hero": "assets/projects/3d-printed-darksaber/finished-hilt.jpg",
+    "images": [
+      "assets/projects/3d-printed-darksaber/finished-hilt.jpg",
+      "assets/projects/3d-printed-darksaber/proportion-study.jpg",
+      "assets/projects/3d-printed-darksaber/detail-measurements.jpg"
+    ],
+    "sceneNode": "114:720",
+    "position": {
+      "x": 1511,
+      "y": 1030,
+      "width": 885
+    }
+  },
+  {
+    "slug": "baps",
+    "title": "BAPS Shri Swaminarayan",
+    "subtitle": "Rebrand: BAPS Shri Swaminarayan",
+    "category": "Brand identity",
+    "sceneNodes": [
+      "114:732",
+      "114:757"
+    ],
+    "preview": "assets/gallery/img-1622-3ece8a1f.png",
+    "hero": "assets/projects/baps/identity.jpg",
+    "images": [
+      "assets/projects/baps/identity.jpg",
+      "assets/projects/baps/promotions.jpg",
+      "assets/projects/baps/palette.jpg",
+      "assets/projects/baps/typography.jpg"
+    ],
+    "sceneNode": "114:732",
+    "position": {
+      "x": 2396,
+      "y": 2072,
+      "width": 828.0001831054688
+    }
+  },
+  {
+    "slug": "math-concept-cards",
+    "title": "Math Concept Cards",
+    "subtitle": "Math concept card set",
+    "category": "Card design",
+    "sceneNodes": [
+      "114:726",
+      "114:755"
+    ],
+    "preview": "assets/gallery/asset-3card-eda6ac64.png",
+    "hero": "assets/gallery/asset-3card-eda6ac64.png",
+    "images": [
+      "assets/gallery/asset-3card-eda6ac64.png",
+      "assets/gallery/asset-1card-6458b6ed.png",
+      "assets/gallery/asset-2card-09a2ec74.png"
+    ],
+    "sceneNode": "114:726",
+    "position": {
+      "x": 3401,
+      "y": 2370,
+      "width": 828.3260498046875
+    }
+  },
+  {
+    "slug": "transylvania-typeface",
+    "title": "Transylvania Typeface",
+    "subtitle": "Transylvania typeface",
+    "category": "Type design",
+    "sceneNodes": [
+      "114:731",
+      "114:769"
+    ],
+    "preview": "assets/gallery/fram4-86b1f644.png",
+    "hero": "assets/projects/transylvania-typeface/specimen.jpg",
+    "images": [
+      "assets/projects/transylvania-typeface/specimen.jpg",
+      "assets/projects/transylvania-typeface/letterforms.jpg",
+      "assets/projects/transylvania-typeface/sketches.jpg",
+      "assets/projects/transylvania-typeface/fontstruct-trials.jpg",
+      "assets/projects/transylvania-typeface/revisions.jpg"
+    ],
+    "sceneNode": "114:731",
+    "position": {
+      "x": 3676,
+      "y": 1590,
+      "width": 843
+    }
+  },
+  {
+    "slug": "omega-burger",
+    "title": "Omega Burger",
+    "subtitle": "Omega Burger menu revamp",
+    "category": "Menu design",
+    "sceneNodes": [
+      "114:736",
+      "114:765"
+    ],
+    "preview": "assets/gallery/omega-a19a8f19.png",
+    "hero": "assets/projects/omega-burger/menu.jpg",
+    "images": [
+      "assets/projects/omega-burger/menu.jpg",
+      "assets/projects/omega-burger/handheld.jpg",
+      "assets/projects/omega-burger/wall-menu.jpg",
+      "assets/projects/omega-burger/moodboard.jpg",
+      "assets/projects/omega-burger/compositions.jpg",
+      "assets/projects/omega-burger/revisions.jpg"
+    ],
+    "sceneNode": "114:736",
+    "position": {
+      "x": 1107,
+      "y": 2509,
+      "width": 867
+    }
+  },
+  {
+    "slug": "jacob-spierer-logo",
+    "title": "Jacob Spierer Logo",
+    "subtitle": "Personal logo for Jacob Spierer",
+    "category": "Visual identity",
+    "sceneNodes": [
+      "114:750",
+      "114:767"
+    ],
+    "preview": "assets/gallery/js-2df01cb7.png",
+    "hero": "assets/projects/jacob-spierer-logo/mark.jpg",
+    "images": [
+      "assets/projects/jacob-spierer-logo/mark.jpg",
+      "assets/projects/jacob-spierer-logo/applications.jpg",
+      "assets/projects/jacob-spierer-logo/palette.jpg",
+      "assets/projects/jacob-spierer-logo/thumbnails.jpg",
+      "assets/projects/jacob-spierer-logo/tights.jpg"
+    ],
+    "sceneNode": "114:750",
+    "position": {
+      "x": 1576,
+      "y": 3250,
+      "width": 500
+    }
+  },
+  {
+    "slug": "elton-john-type-portrait",
+    "title": "Elton John Type Portrait",
+    "subtitle": "Elton John typographic portrait",
+    "category": "Typography",
+    "sceneNodes": [
+      "114:771",
+      "114:774"
+    ],
+    "preview": "assets/gallery/spiererj-gd200-ex1-typeportrait-01-7132a6a1.png",
+    "hero": "assets/gallery/spiererj-gd200-ex1-typeportrait-01-7132a6a1.png",
+    "images": [
+      "assets/gallery/spiererj-gd200-ex1-typeportrait-01-7132a6a1.png"
+    ],
+    "sceneNode": "114:771",
+    "position": {
+      "x": 4229,
+      "y": 3061,
+      "width": 618.5224609375
+    }
+  },
+  {
+    "slug": "whisphen-pokemon-card",
+    "title": "Whisphen Pokémon Card",
+    "subtitle": "Whisphen Pokémon TCG card",
+    "category": "Card design",
+    "sceneNodes": [
+      "114:776",
+      "114:779"
+    ],
+    "preview": "assets/gallery/whisphen-3cd022e3.png",
+    "hero": "assets/gallery/whisphen-3cd022e3.png",
+    "images": [
+      "assets/gallery/whisphen-3cd022e3.png"
+    ],
+    "sceneNode": "114:776",
+    "position": {
+      "x": 647,
+      "y": 1136,
+      "width": 706.0000610351562
+    }
+  },
+  {
+    "slug": "tarantino-book-set",
+    "title": "Tarantino Book Set",
+    "subtitle": "Handmade bindings inspired by film",
+    "category": "Book design",
+    "position": {
+      "x": 5150,
+      "y": 650,
+      "width": 820
+    },
+    "hero": "assets/projects/tarantino-book-set/collection.jpg",
+    "images": [
+      "assets/projects/tarantino-book-set/collection.jpg",
+      "assets/projects/tarantino-book-set/chain-stitch.jpg",
+      "assets/projects/tarantino-book-set/pamphlet.jpg",
+      "assets/projects/tarantino-book-set/japanese-binding.jpg",
+      "assets/projects/tarantino-book-set/coptic-binding.jpg"
+    ],
+    "preview": "assets/projects/tarantino-book-set/collection.jpg"
+  },
+  {
+    "slug": "everybody-poster",
+    "title": "Everybody",
+    "subtitle": "A theatre poster about an uncertain identity",
+    "category": "Poster design",
+    "position": {
+      "x": 6270,
+      "y": 650,
+      "width": 820
+    },
+    "hero": "assets/projects/everybody-poster/poster.jpg",
+    "images": [
+      "assets/projects/everybody-poster/poster.jpg",
+      "assets/projects/everybody-poster/revisions.jpg",
+      "assets/projects/everybody-poster/sketches.jpg",
+      "assets/projects/everybody-poster/moodboard.jpg",
+      "assets/projects/everybody-poster/tights.jpg"
+    ],
+    "preview": "assets/projects/everybody-poster/poster.jpg"
+  },
+  {
+    "slug": "norton-wine",
+    "title": "Norton Wine",
+    "subtitle": "Labels and an advertisement built around sailing",
+    "category": "Packaging & advertising",
+    "position": {
+      "x": 7390,
+      "y": 650,
+      "width": 820
+    },
+    "hero": "assets/projects/norton-wine/advertisement.jpg",
+    "images": [
+      "assets/projects/norton-wine/advertisement.jpg",
+      "assets/projects/norton-wine/labels.jpg",
+      "assets/projects/norton-wine/thumbnails.jpg",
+      "assets/projects/norton-wine/tights.jpg",
+      "assets/projects/norton-wine/ad-compositions.jpg"
+    ],
+    "preview": "assets/projects/norton-wine/advertisement.jpg"
+  },
+  {
+    "slug": "appropriation-exhibition",
+    "title": "The Uncomfortable Cycle",
+    "subtitle": "A spatial concept about cultural appropriation",
+    "category": "Exhibition design",
+    "position": {
+      "x": 5150,
+      "y": 1650,
+      "width": 820
+    },
+    "hero": "assets/projects/appropriation-exhibition/exhibition.jpg",
+    "images": [
+      "assets/projects/appropriation-exhibition/exhibition.jpg",
+      "assets/projects/appropriation-exhibition/interior.jpg",
+      "assets/projects/appropriation-exhibition/model.jpg",
+      "assets/projects/appropriation-exhibition/sketches.jpg",
+      "assets/projects/appropriation-exhibition/spatial-studies.jpg"
+    ],
+    "preview": "assets/projects/appropriation-exhibition/exhibition.jpg"
+  },
+  {
+    "slug": "aomedia-website",
+    "title": "AOMedia",
+    "subtitle": "A connected website for a media business",
+    "category": "Web design",
+    "position": {
+      "x": 6270,
+      "y": 1650,
+      "width": 820
+    },
+    "hero": "assets/projects/aomedia-website/website.jpg",
+    "images": [
+      "assets/projects/aomedia-website/website.jpg",
+      "assets/projects/aomedia-website/style-guide.jpg",
+      "assets/projects/aomedia-website/wireframes.jpg",
+      "assets/projects/aomedia-website/wireframe-sketches.jpg",
+      "assets/projects/aomedia-website/moodboard.jpg",
+      "assets/projects/aomedia-website/revisions.jpg"
+    ],
+    "preview": "assets/projects/aomedia-website/website.jpg"
+  },
+  {
+    "slug": "encino-app",
+    "title": "Encino",
+    "subtitle": "A city app connecting information and community",
+    "category": "App design",
+    "position": {
+      "x": 7390,
+      "y": 1650,
+      "width": 820
+    },
+    "hero": "assets/projects/encino-app/app.jpg",
+    "images": [
+      "assets/projects/encino-app/app.jpg",
+      "assets/projects/encino-app/wireframes.jpg",
+      "assets/projects/encino-app/sketches.jpg",
+      "assets/projects/encino-app/flow-sketches.jpg",
+      "assets/projects/encino-app/moodboard.jpg"
+    ],
+    "preview": "assets/projects/encino-app/app.jpg"
+  },
+  {
+    "slug": "salus-vitae",
+    "title": "Salus Vitae",
+    "subtitle": "A smart-ring brand and campaign system",
+    "category": "Brand identity & web design",
+    "position": {
+      "x": 5150,
+      "y": 2650,
+      "width": 820
+    },
+    "hero": "assets/projects/salus-vitae/brand-book.jpg",
+    "images": [
+      "assets/projects/salus-vitae/brand-book.jpg",
+      "assets/projects/salus-vitae/website.jpg",
+      "assets/projects/salus-vitae/campaign.jpg",
+      "assets/projects/salus-vitae/logo-sketches.jpg",
+      "assets/projects/salus-vitae/logo-development.jpg",
+      "assets/projects/salus-vitae/web-sketches.jpg",
+      "assets/projects/salus-vitae/wireframes.jpg"
+    ],
+    "preview": "assets/projects/salus-vitae/brand-book.jpg"
+  },
+  {
+    "slug": "avatar-series",
+    "title": "Personal Avatar Series",
+    "subtitle": "Abstract portraits with a shared visual language",
+    "category": "Illustration",
+    "position": {
+      "x": 6270,
+      "y": 2650,
+      "width": 820
+    },
+    "hero": "assets/projects/avatar-series/color-avatar.jpg",
+    "images": [
+      "assets/projects/avatar-series/color-avatar.jpg",
+      "assets/projects/avatar-series/monochrome-avatar.jpg",
+      "assets/projects/avatar-series/portrait.jpg",
+      "assets/projects/avatar-series/moodboard.jpg",
+      "assets/projects/avatar-series/compositions.jpg",
+      "assets/projects/avatar-series/revisions.jpg"
+    ],
+    "preview": "assets/projects/avatar-series/color-avatar.jpg"
+  },
+  {
+    "slug": "princess-cake",
+    "title": "Princess Cake",
+    "subtitle": "Elegant, beautiful, delicate: an illustrated campaign",
+    "category": "Illustration & advertising",
+    "position": {
+      "x": 7390,
+      "y": 2650,
+      "width": 820
+    },
+    "hero": "assets/projects/princess-cake/campaign.jpg",
+    "images": [
+      "assets/projects/princess-cake/campaign.jpg",
+      "assets/projects/princess-cake/poster-1.jpg",
+      "assets/projects/princess-cake/poster-2.jpg",
+      "assets/projects/princess-cake/poster-3.jpg",
+      "assets/projects/princess-cake/sketches.jpg",
+      "assets/projects/princess-cake/compositions.jpg",
+      "assets/projects/princess-cake/moodboard.jpg",
+      "assets/projects/princess-cake/swan-revisions.jpg"
+    ],
+    "preview": "assets/projects/princess-cake/campaign.jpg"
+  },
+  {
+    "slug": "spring-fig",
+    "title": "Spring Fig",
+    "subtitle": "A textured illustration from whole fruit to cut fruit",
+    "category": "Illustration",
+    "position": {
+      "x": 5150,
+      "y": 3650,
+      "width": 820
+    },
+    "hero": "assets/projects/spring-fig/illustration.jpg",
+    "images": [
+      "assets/projects/spring-fig/illustration.jpg",
+      "assets/projects/spring-fig/mockup.jpg",
+      "assets/projects/spring-fig/fruit-sketches.jpg",
+      "assets/projects/spring-fig/compositions.jpg",
+      "assets/projects/spring-fig/revisions.jpg",
+      "assets/projects/spring-fig/application.jpg"
+    ],
+    "preview": "assets/projects/spring-fig/illustration.jpg"
+  },
+  {
+    "slug": "chromakopia-collectible",
+    "title": "Chromakopia Collectible",
+    "subtitle": "A printed and hand-finished industrial object",
+    "category": "3D design & illustration",
+    "position": {
+      "x": 6270,
+      "y": 3650,
+      "width": 820
+    },
+    "hero": "assets/projects/chromakopia-collectible/collectible.jpg",
+    "images": [
+      "assets/projects/chromakopia-collectible/collectible.jpg",
+      "assets/projects/chromakopia-collectible/digital-model.jpg",
+      "assets/projects/chromakopia-collectible/details.jpg",
+      "assets/projects/chromakopia-collectible/sketches.jpg",
+      "assets/projects/chromakopia-collectible/model-development.jpg",
+      "assets/projects/chromakopia-collectible/materials.jpg"
+    ],
+    "preview": "assets/projects/chromakopia-collectible/collectible.jpg"
+  },
+  {
+    "slug": "nvidia-drop",
+    "title": "NVIDIA Drop",
+    "subtitle": "A clearer journey through a high-demand release",
+    "category": "UX & interface design",
+    "position": {
+      "x": 7390,
+      "y": 3650,
+      "width": 820
+    },
+    "hero": "assets/projects/nvidia-drop/mobile.jpg",
+    "images": [
+      "assets/projects/nvidia-drop/mobile.jpg",
+      "assets/projects/nvidia-drop/queue-states.jpg",
+      "assets/projects/nvidia-drop/error-states.jpg",
+      "assets/projects/nvidia-drop/journey.jpg",
+      "assets/projects/nvidia-drop/sketches.jpg",
+      "assets/projects/nvidia-drop/wireframes.jpg",
+      "assets/projects/nvidia-drop/revisions.jpg"
+    ],
+    "preview": "assets/projects/nvidia-drop/mobile.jpg"
+  },
+  {
+    "slug": "video-downloader",
+    "title": "Video Downloader",
+    "subtitle": "A connected download and library journey",
+    "category": "UX & interface design",
+    "position": {
+      "x": 5150,
+      "y": 4650,
+      "width": 820
+    },
+    "hero": "assets/projects/video-downloader/home.jpg",
+    "images": [
+      "assets/projects/video-downloader/home.jpg",
+      "assets/projects/video-downloader/library.jpg",
+      "assets/projects/video-downloader/downloaded.jpg",
+      "assets/projects/video-downloader/sketches.jpg",
+      "assets/projects/video-downloader/flow.jpg",
+      "assets/projects/video-downloader/style-guide.jpg",
+      "assets/projects/video-downloader/source.jpg"
+    ],
+    "preview": "assets/projects/video-downloader/home.jpg"
+  },
+  {
+    "slug": "penelopes-coffee",
+    "title": "Penelope’s Coffee & Tea",
+    "subtitle": "A connected packaging family",
+    "category": "Packaging design",
+    "position": {
+      "x": 6270,
+      "y": 4650,
+      "width": 820
+    },
+    "hero": "assets/projects/penelopes-coffee/packaging.jpg",
+    "images": [
+      "assets/projects/penelopes-coffee/packaging.jpg",
+      "assets/projects/penelopes-coffee/coffee-flat.jpg",
+      "assets/projects/penelopes-coffee/tea-flat.jpg",
+      "assets/projects/penelopes-coffee/palette.jpg",
+      "assets/projects/penelopes-coffee/sketches.jpg",
+      "assets/projects/penelopes-coffee/sketches-2.jpg"
+    ],
+    "preview": "assets/projects/penelopes-coffee/packaging.jpg"
+  }
+]

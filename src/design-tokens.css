@@ -1,0 +1,14 @@
+/* Original design values supplied with the user's Figma export. */
+:root {
+  --variable-collection-BLACK-100: rgba(0, 0, 0, 1);
+  --variable-collection-BLACK-90: rgba(26, 26, 26, 1);
+  --variable-collection-BLACK-95: rgba(13, 13, 13, 1);
+  --variable-collection-GRAYISH: rgba(61, 61, 61, 1);
+  --variable-collection-PRIMARY-1: rgba(186, 17, 18, 1);
+  --variable-collection-PRIMARY-2: rgba(246, 12, 9, 1);
+  --variable-collection-WHITE-80: #b0b0b0;
+  --variable-collection-WHITE-95: rgba(242, 242, 242, 1);
+  --red: var(--variable-collection-PRIMARY-2);
+  --dark-red: var(--variable-collection-PRIMARY-1);
+  --white: var(--variable-collection-WHITE-95);
+}

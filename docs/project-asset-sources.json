@@ -1,0 +1,1304 @@
+{
+  "3d-printed-darksaber": [
+    {
+      "path": "assets/projects/3d-printed-darksaber/finished-hilt.jpg",
+      "width": 1800,
+      "height": 1350,
+      "source": "GD 402 - UX2/P3_Portfolio/Works/SABER.png"
+    },
+    {
+      "path": "assets/projects/3d-printed-darksaber/proportion-study.jpg",
+      "width": 608,
+      "height": 608,
+      "source": "ENGR 300 - 3D Printing/_measure00.png"
+    },
+    {
+      "path": "assets/projects/3d-printed-darksaber/detail-measurements.jpg",
+      "width": 608,
+      "height": 608,
+      "source": "ENGR 300 - 3D Printing/_measure06.png"
+    }
+  ],
+  "transylvania-typeface": [
+    {
+      "path": "assets/projects/transylvania-typeface/specimen.jpg",
+      "width": 1800,
+      "height": 1200,
+      "source": "GD 402 - UX2/P3_Portfolio/Works/TRANS.png"
+    },
+    {
+      "path": "assets/projects/transylvania-typeface/letterforms.jpg",
+      "width": 1600,
+      "height": 716,
+      "source": "GD 201 - Type/Font/Spierer_J_Project 02_Process Book_F2024.pdf",
+      "page": 4,
+      "crop": [
+        0.03,
+        0.28,
+        0.94,
+        0.65
+      ]
+    },
+    {
+      "path": "assets/projects/transylvania-typeface/sketches.jpg",
+      "width": 1600,
+      "height": 716,
+      "source": "GD 201 - Type/Font/Spierer_J_Project 02_Process Book_F2024.pdf",
+      "page": 7,
+      "crop": [
+        0.03,
+        0.28,
+        0.94,
+        0.65
+      ]
+    },
+    {
+      "path": "assets/projects/transylvania-typeface/fontstruct-trials.jpg",
+      "width": 1600,
+      "height": 716,
+      "source": "GD 201 - Type/Font/Spierer_J_Project 02_Process Book_F2024.pdf",
+      "page": 8,
+      "crop": [
+        0.03,
+        0.28,
+        0.94,
+        0.65
+      ]
+    },
+    {
+      "path": "assets/projects/transylvania-typeface/revisions.jpg",
+      "width": 1600,
+      "height": 716,
+      "source": "GD 201 - Type/Font/Spierer_J_Project 02_Process Book_F2024.pdf",
+      "page": 9,
+      "crop": [
+        0.03,
+        0.28,
+        0.94,
+        0.65
+      ]
+    }
+  ],
+  "omega-burger": [
+    {
+      "path": "assets/projects/omega-burger/menu.jpg",
+      "width": 1575,
+      "height": 2100,
+      "source": "GD 402 - UX2/P3_Portfolio/Works/OMEGA.png"
+    },
+    {
+      "path": "assets/projects/omega-burger/handheld.jpg",
+      "width": 1600,
+      "height": 1036,
+      "source": "GD 201 - Type/MenusPackaged/Spierer_J_Project 04_Process Book_S2024 Folder/Spierer_J_Project 04_Process Book_S2024.pdf",
+      "page": 3,
+      "crop": [
+        0.03,
+        0.25,
+        0.7,
+        0.7
+      ]
+    },
+    {
+      "path": "assets/projects/omega-burger/wall-menu.jpg",
+      "width": 1600,
+      "height": 474,
+      "source": "GD 201 - Type/MenusPackaged/Spierer_J_Project 04_Process Book_S2024 Folder/Spierer_J_Project 04_Process Book_S2024.pdf",
+      "page": 5,
+      "crop": [
+        0.03,
+        0.25,
+        0.94,
+        0.43
+      ]
+    },
+    {
+      "path": "assets/projects/omega-burger/moodboard.jpg",
+      "width": 1600,
+      "height": 716,
+      "source": "GD 201 - Type/MenusPackaged/Spierer_J_Project 04_Process Book_S2024 Folder/Spierer_J_Project 04_Process Book_S2024.pdf",
+      "page": 18,
+      "crop": [
+        0.03,
+        0.28,
+        0.94,
+        0.65
+      ]
+    },
+    {
+      "path": "assets/projects/omega-burger/compositions.jpg",
+      "width": 1600,
+      "height": 716,
+      "source": "GD 201 - Type/MenusPackaged/Spierer_J_Project 04_Process Book_S2024 Folder/Spierer_J_Project 04_Process Book_S2024.pdf",
+      "page": 21,
+      "crop": [
+        0.03,
+        0.28,
+        0.94,
+        0.65
+      ]
+    },
+    {
+      "path": "assets/projects/omega-burger/revisions.jpg",
+      "width": 1600,
+      "height": 716,
+      "source": "GD 201 - Type/MenusPackaged/Spierer_J_Project 04_Process Book_S2024 Folder/Spierer_J_Project 04_Process Book_S2024.pdf",
+      "page": 23,
+      "crop": [
+        0.03,
+        0.28,
+        0.94,
+        0.65
+      ]
+    }
+  ],
+  "jacob-spierer-logo": [
+    {
+      "path": "assets/projects/jacob-spierer-logo/mark.jpg",
+      "width": 1800,
+      "height": 1850,
+      "source": "GD 402 - UX2/P3_Portfolio/Works/js.png"
+    },
+    {
+      "path": "assets/projects/jacob-spierer-logo/thumbnails.jpg",
+      "width": 1600,
+      "height": 1237,
+      "source": "GD 201 - Type/Font/JacobSpierer_Logo.pdf",
+      "page": 3,
+      "crop": [
+        0.02,
+        0.02,
+        0.96,
+        0.96
+      ]
+    },
+    {
+      "path": "assets/projects/jacob-spierer-logo/tights.jpg",
+      "width": 1600,
+      "height": 1237,
+      "source": "GD 201 - Type/Font/JacobSpierer_Logo.pdf",
+      "page": 4,
+      "crop": [
+        0.02,
+        0.02,
+        0.96,
+        0.96
+      ]
+    },
+    {
+      "path": "assets/projects/jacob-spierer-logo/palette.jpg",
+      "width": 1600,
+      "height": 1237,
+      "source": "GD 201 - Type/Font/JacobSpierer_Logo.pdf",
+      "page": 6,
+      "crop": [
+        0.02,
+        0.02,
+        0.96,
+        0.96
+      ]
+    },
+    {
+      "path": "assets/projects/jacob-spierer-logo/applications.jpg",
+      "width": 1600,
+      "height": 1237,
+      "source": "GD 201 - Type/Font/JacobSpierer_Logo.pdf",
+      "page": 8,
+      "crop": [
+        0.02,
+        0.02,
+        0.96,
+        0.96
+      ]
+    }
+  ],
+  "baps": [
+    {
+      "path": "assets/projects/baps/identity.jpg",
+      "width": 1600,
+      "height": 991,
+      "source": "GD 203 - Color/P3 BAPS/PromotionalAssetsV2.pdf",
+      "page": 4,
+      "crop": [
+        0.03,
+        0.05,
+        0.94,
+        0.9
+      ]
+    },
+    {
+      "path": "assets/projects/baps/palette.jpg",
+      "width": 1600,
+      "height": 991,
+      "source": "GD 203 - Color/P3 BAPS/PromotionalAssetsV2.pdf",
+      "page": 8,
+      "crop": [
+        0.03,
+        0.05,
+        0.94,
+        0.9
+      ]
+    },
+    {
+      "path": "assets/projects/baps/typography.jpg",
+      "width": 1600,
+      "height": 991,
+      "source": "GD 203 - Color/P3 BAPS/PromotionalAssetsV2.pdf",
+      "page": 11,
+      "crop": [
+        0.03,
+        0.05,
+        0.94,
+        0.9
+      ]
+    },
+    {
+      "path": "assets/projects/baps/promotions.jpg",
+      "width": 1600,
+      "height": 862,
+      "source": "GD 203 - Color/P3 BAPS/PromotionalAssetsV2.pdf",
+      "page": 14,
+      "crop": [
+        0.03,
+        0.05,
+        0.94,
+        0.9
+      ]
+    }
+  ],
+  "tarantino-book-set": [
+    {
+      "path": "assets/projects/tarantino-book-set/collection.jpg",
+      "width": 1600,
+      "height": 900,
+      "source": "GD 100 - Lettering/Spierer_J_BooksetPresentation.pdf",
+      "page": 9,
+      "crop": [
+        0.1,
+        0.1,
+        0.8,
+        0.8
+      ]
+    },
+    {
+      "path": "assets/projects/tarantino-book-set/chain-stitch.jpg",
+      "width": 1600,
+      "height": 900,
+      "source": "GD 100 - Lettering/Spierer_J_BooksetPresentation.pdf",
+      "page": 3,
+      "crop": [
+        0.1,
+        0.1,
+        0.8,
+        0.8
+      ]
+    },
+    {
+      "path": "assets/projects/tarantino-book-set/pamphlet.jpg",
+      "width": 1600,
+      "height": 900,
+      "source": "GD 100 - Lettering/Spierer_J_BooksetPresentation.pdf",
+      "page": 4,
+      "crop": [
+        0.1,
+        0.1,
+        0.8,
+        0.8
+      ]
+    },
+    {
+      "path": "assets/projects/tarantino-book-set/japanese-binding.jpg",
+      "width": 1600,
+      "height": 900,
+      "source": "GD 100 - Lettering/Spierer_J_BooksetPresentation.pdf",
+      "page": 7,
+      "crop": [
+        0.1,
+        0.1,
+        0.8,
+        0.8
+      ]
+    },
+    {
+      "path": "assets/projects/tarantino-book-set/coptic-binding.jpg",
+      "width": 1600,
+      "height": 900,
+      "source": "GD 100 - Lettering/Spierer_J_BooksetPresentation.pdf",
+      "page": 8,
+      "crop": [
+        0.1,
+        0.1,
+        0.8,
+        0.8
+      ]
+    }
+  ],
+  "everybody-poster": [
+    {
+      "path": "assets/projects/everybody-poster/poster.jpg",
+      "width": 1504,
+      "height": 1450,
+      "source": "GD 103 - Visualization/Poster/Spierer_Jacob_Project 01_Process Book_F2024.pdf",
+      "page": 3,
+      "crop": [
+        0.03,
+        0.25,
+        0.47,
+        0.7
+      ]
+    },
+    {
+      "path": "assets/projects/everybody-poster/sketches.jpg",
+      "width": 1600,
+      "height": 716,
+      "source": "GD 103 - Visualization/Poster/Spierer_Jacob_Project 01_Process Book_F2024.pdf",
+      "page": 6,
+      "crop": [
+        0.03,
+        0.28,
+        0.94,
+        0.65
+      ]
+    },
+    {
+      "path": "assets/projects/everybody-poster/moodboard.jpg",
+      "width": 1600,
+      "height": 716,
+      "source": "GD 103 - Visualization/Poster/Spierer_Jacob_Project 01_Process Book_F2024.pdf",
+      "page": 7,
+      "crop": [
+        0.03,
+        0.28,
+        0.94,
+        0.65
+      ]
+    },
+    {
+      "path": "assets/projects/everybody-poster/tights.jpg",
+      "width": 1600,
+      "height": 716,
+      "source": "GD 103 - Visualization/Poster/Spierer_Jacob_Project 01_Process Book_F2024.pdf",
+      "page": 8,
+      "crop": [
+        0.03,
+        0.28,
+        0.94,
+        0.65
+      ]
+    },
+    {
+      "path": "assets/projects/everybody-poster/revisions.jpg",
+      "width": 1600,
+      "height": 716,
+      "source": "GD 103 - Visualization/Poster/Spierer_Jacob_Project 01_Process Book_F2024.pdf",
+      "page": 11,
+      "crop": [
+        0.03,
+        0.28,
+        0.94,
+        0.65
+      ]
+    }
+  ],
+  "norton-wine": [
+    {
+      "path": "assets/projects/norton-wine/advertisement.jpg",
+      "width": 1120,
+      "height": 1781,
+      "source": "GD 103 - Visualization/Wine Bottle Proj/Package/spierer_j_P2_WineLabels/processdeck_2022-firstyear.pdf",
+      "page": 10,
+      "crop": [
+        0.57,
+        0.19,
+        0.35,
+        0.72
+      ]
+    },
+    {
+      "path": "assets/projects/norton-wine/labels.jpg",
+      "width": 1600,
+      "height": 1049,
+      "source": "GD 103 - Visualization/Wine Bottle Proj/Package/spierer_j_P2_WineLabels/processdeck_2022-firstyear.pdf",
+      "page": 7,
+      "crop": [
+        0.04,
+        0.15,
+        0.92,
+        0.78
+      ]
+    },
+    {
+      "path": "assets/projects/norton-wine/thumbnails.jpg",
+      "width": 1600,
+      "height": 1049,
+      "source": "GD 103 - Visualization/Wine Bottle Proj/Package/spierer_j_P2_WineLabels/processdeck_2022-firstyear.pdf",
+      "page": 4,
+      "crop": [
+        0.04,
+        0.15,
+        0.92,
+        0.78
+      ]
+    },
+    {
+      "path": "assets/projects/norton-wine/tights.jpg",
+      "width": 1600,
+      "height": 1049,
+      "source": "GD 103 - Visualization/Wine Bottle Proj/Package/spierer_j_P2_WineLabels/processdeck_2022-firstyear.pdf",
+      "page": 6,
+      "crop": [
+        0.04,
+        0.15,
+        0.92,
+        0.78
+      ]
+    },
+    {
+      "path": "assets/projects/norton-wine/ad-compositions.jpg",
+      "width": 1600,
+      "height": 1049,
+      "source": "GD 103 - Visualization/Wine Bottle Proj/Package/spierer_j_P2_WineLabels/processdeck_2022-firstyear.pdf",
+      "page": 8,
+      "crop": [
+        0.04,
+        0.15,
+        0.92,
+        0.78
+      ]
+    }
+  ],
+  "appropriation-exhibition": [
+    {
+      "path": "assets/projects/appropriation-exhibition/exhibition.jpg",
+      "width": 1600,
+      "height": 824,
+      "source": "GD 103 - Visualization/Exhibition/Spierer_J_Project3_Exhibition Folder/Spierer_J_Project3_Exhibition.pdf",
+      "page": 9,
+      "crop": [
+        0.2,
+        0.14,
+        0.57,
+        0.38
+      ]
+    },
+    {
+      "path": "assets/projects/appropriation-exhibition/interior.jpg",
+      "width": 1600,
+      "height": 868,
+      "source": "GD 103 - Visualization/Exhibition/Spierer_J_Project3_Exhibition Folder/Spierer_J_Project3_Exhibition.pdf",
+      "page": 7,
+      "crop": [
+        0.03,
+        0.18,
+        0.94,
+        0.66
+      ]
+    },
+    {
+      "path": "assets/projects/appropriation-exhibition/sketches.jpg",
+      "width": 1600,
+      "height": 1049,
+      "source": "GD 103 - Visualization/Exhibition/Spierer_J_Project3_Exhibition Folder/Spierer_J_Project3_Exhibition.pdf",
+      "page": 4,
+      "crop": [
+        0.04,
+        0.15,
+        0.92,
+        0.78
+      ]
+    },
+    {
+      "path": "assets/projects/appropriation-exhibition/spatial-studies.jpg",
+      "width": 1600,
+      "height": 1049,
+      "source": "GD 103 - Visualization/Exhibition/Spierer_J_Project3_Exhibition Folder/Spierer_J_Project3_Exhibition.pdf",
+      "page": 5,
+      "crop": [
+        0.04,
+        0.15,
+        0.92,
+        0.78
+      ]
+    },
+    {
+      "path": "assets/projects/appropriation-exhibition/model.jpg",
+      "width": 1600,
+      "height": 1049,
+      "source": "GD 103 - Visualization/Exhibition/Spierer_J_Project3_Exhibition Folder/Spierer_J_Project3_Exhibition.pdf",
+      "page": 6,
+      "crop": [
+        0.04,
+        0.15,
+        0.92,
+        0.78
+      ]
+    }
+  ],
+  "aomedia-website": [
+    {
+      "path": "assets/projects/aomedia-website/website.jpg",
+      "width": 1600,
+      "height": 716,
+      "source": "GD 202 - UX/P1_AOMEDIA WEBSITE/FINAL FILES/J_Spierer_P1 AOM_Process Book_F2025.pdf",
+      "page": 3,
+      "crop": [
+        0.03,
+        0.28,
+        0.94,
+        0.65
+      ]
+    },
+    {
+      "path": "assets/projects/aomedia-website/style-guide.jpg",
+      "width": 1600,
+      "height": 716,
+      "source": "GD 202 - UX/P1_AOMEDIA WEBSITE/FINAL FILES/J_Spierer_P1 AOM_Process Book_F2025.pdf",
+      "page": 12,
+      "crop": [
+        0.03,
+        0.28,
+        0.94,
+        0.65
+      ]
+    },
+    {
+      "path": "assets/projects/aomedia-website/wireframe-sketches.jpg",
+      "width": 1600,
+      "height": 716,
+      "source": "GD 202 - UX/P1_AOMEDIA WEBSITE/FINAL FILES/J_Spierer_P1 AOM_Process Book_F2025.pdf",
+      "page": 13,
+      "crop": [
+        0.03,
+        0.28,
+        0.94,
+        0.65
+      ]
+    },
+    {
+      "path": "assets/projects/aomedia-website/moodboard.jpg",
+      "width": 1600,
+      "height": 716,
+      "source": "GD 202 - UX/P1_AOMEDIA WEBSITE/FINAL FILES/J_Spierer_P1 AOM_Process Book_F2025.pdf",
+      "page": 14,
+      "crop": [
+        0.03,
+        0.28,
+        0.94,
+        0.65
+      ]
+    },
+    {
+      "path": "assets/projects/aomedia-website/wireframes.jpg",
+      "width": 1600,
+      "height": 716,
+      "source": "GD 202 - UX/P1_AOMEDIA WEBSITE/FINAL FILES/J_Spierer_P1 AOM_Process Book_F2025.pdf",
+      "page": 16,
+      "crop": [
+        0.03,
+        0.28,
+        0.94,
+        0.65
+      ]
+    },
+    {
+      "path": "assets/projects/aomedia-website/revisions.jpg",
+      "width": 1600,
+      "height": 716,
+      "source": "GD 202 - UX/P1_AOMEDIA WEBSITE/FINAL FILES/J_Spierer_P1 AOM_Process Book_F2025.pdf",
+      "page": 17,
+      "crop": [
+        0.03,
+        0.28,
+        0.94,
+        0.65
+      ]
+    }
+  ],
+  "encino-app": [
+    {
+      "path": "assets/projects/encino-app/app.jpg",
+      "width": 1600,
+      "height": 716,
+      "source": "GD 202 - UX/P2_EncinoApp/FINAL_Spierer_J_P2_ENCINO_ProcessDeck_F2025.pdf",
+      "page": 3,
+      "crop": [
+        0.03,
+        0.28,
+        0.94,
+        0.65
+      ]
+    },
+    {
+      "path": "assets/projects/encino-app/sketches.jpg",
+      "width": 1600,
+      "height": 716,
+      "source": "GD 202 - UX/P2_EncinoApp/FINAL_Spierer_J_P2_ENCINO_ProcessDeck_F2025.pdf",
+      "page": 13,
+      "crop": [
+        0.03,
+        0.28,
+        0.94,
+        0.65
+      ]
+    },
+    {
+      "path": "assets/projects/encino-app/flow-sketches.jpg",
+      "width": 1600,
+      "height": 716,
+      "source": "GD 202 - UX/P2_EncinoApp/FINAL_Spierer_J_P2_ENCINO_ProcessDeck_F2025.pdf",
+      "page": 14,
+      "crop": [
+        0.03,
+        0.28,
+        0.94,
+        0.65
+      ]
+    },
+    {
+      "path": "assets/projects/encino-app/moodboard.jpg",
+      "width": 1600,
+      "height": 716,
+      "source": "GD 202 - UX/P2_EncinoApp/FINAL_Spierer_J_P2_ENCINO_ProcessDeck_F2025.pdf",
+      "page": 15,
+      "crop": [
+        0.03,
+        0.28,
+        0.94,
+        0.65
+      ]
+    },
+    {
+      "path": "assets/projects/encino-app/wireframes.jpg",
+      "width": 1600,
+      "height": 716,
+      "source": "GD 202 - UX/P2_EncinoApp/FINAL_Spierer_J_P2_ENCINO_ProcessDeck_F2025.pdf",
+      "page": 17,
+      "crop": [
+        0.03,
+        0.28,
+        0.94,
+        0.65
+      ]
+    }
+  ],
+  "salus-vitae": [
+    {
+      "path": "assets/projects/salus-vitae/brand-book.jpg",
+      "width": 1600,
+      "height": 716,
+      "source": "GD 302 - Branding/AAA FINALLLLLL/J_Spierer_BRANDING_Process Book_F2025.pdf",
+      "page": 4,
+      "crop": [
+        0.03,
+        0.28,
+        0.94,
+        0.65
+      ]
+    },
+    {
+      "path": "assets/projects/salus-vitae/website.jpg",
+      "width": 1600,
+      "height": 716,
+      "source": "GD 302 - Branding/AAA FINALLLLLL/J_Spierer_BRANDING_Process Book_F2025.pdf",
+      "page": 6,
+      "crop": [
+        0.03,
+        0.28,
+        0.94,
+        0.65
+      ]
+    },
+    {
+      "path": "assets/projects/salus-vitae/campaign.jpg",
+      "width": 1600,
+      "height": 716,
+      "source": "GD 302 - Branding/AAA FINALLLLLL/J_Spierer_BRANDING_Process Book_F2025.pdf",
+      "page": 8,
+      "crop": [
+        0.03,
+        0.28,
+        0.94,
+        0.65
+      ]
+    },
+    {
+      "path": "assets/projects/salus-vitae/logo-sketches.jpg",
+      "width": 1600,
+      "height": 716,
+      "source": "GD 302 - Branding/AAA FINALLLLLL/J_Spierer_BRANDING_Process Book_F2025.pdf",
+      "page": 17,
+      "crop": [
+        0.03,
+        0.28,
+        0.94,
+        0.65
+      ]
+    },
+    {
+      "path": "assets/projects/salus-vitae/logo-development.jpg",
+      "width": 1600,
+      "height": 716,
+      "source": "GD 302 - Branding/AAA FINALLLLLL/J_Spierer_BRANDING_Process Book_F2025.pdf",
+      "page": 20,
+      "crop": [
+        0.03,
+        0.28,
+        0.94,
+        0.65
+      ]
+    },
+    {
+      "path": "assets/projects/salus-vitae/web-sketches.jpg",
+      "width": 1600,
+      "height": 716,
+      "source": "GD 302 - Branding/AAA FINALLLLLL/J_Spierer_BRANDING_Process Book_F2025.pdf",
+      "page": 26,
+      "crop": [
+        0.03,
+        0.28,
+        0.94,
+        0.65
+      ]
+    },
+    {
+      "path": "assets/projects/salus-vitae/wireframes.jpg",
+      "width": 1600,
+      "height": 716,
+      "source": "GD 302 - Branding/AAA FINALLLLLL/J_Spierer_BRANDING_Process Book_F2025.pdf",
+      "page": 28,
+      "crop": [
+        0.03,
+        0.28,
+        0.94,
+        0.65
+      ]
+    }
+  ],
+  "avatar-series": [
+    {
+      "path": "assets/projects/avatar-series/color-avatar.jpg",
+      "width": 1600,
+      "height": 962,
+      "source": "GD 309 - Illustration/Project 1 - Avatar/WorkingFiles/Spierer_J_Process_Presentation_Project 01_GD309.pdf",
+      "page": 3,
+      "crop": [
+        0.03,
+        0.28,
+        0.7,
+        0.65
+      ]
+    },
+    {
+      "path": "assets/projects/avatar-series/monochrome-avatar.jpg",
+      "width": 1600,
+      "height": 962,
+      "source": "GD 309 - Illustration/Project 1 - Avatar/WorkingFiles/Spierer_J_Process_Presentation_Project 01_GD309.pdf",
+      "page": 4,
+      "crop": [
+        0.03,
+        0.28,
+        0.7,
+        0.65
+      ]
+    },
+    {
+      "path": "assets/projects/avatar-series/portrait.jpg",
+      "width": 1600,
+      "height": 962,
+      "source": "GD 309 - Illustration/Project 1 - Avatar/WorkingFiles/Spierer_J_Process_Presentation_Project 01_GD309.pdf",
+      "page": 5,
+      "crop": [
+        0.03,
+        0.28,
+        0.7,
+        0.65
+      ]
+    },
+    {
+      "path": "assets/projects/avatar-series/moodboard.jpg",
+      "width": 1600,
+      "height": 716,
+      "source": "GD 309 - Illustration/Project 1 - Avatar/WorkingFiles/Spierer_J_Process_Presentation_Project 01_GD309.pdf",
+      "page": 18,
+      "crop": [
+        0.03,
+        0.28,
+        0.94,
+        0.65
+      ]
+    },
+    {
+      "path": "assets/projects/avatar-series/compositions.jpg",
+      "width": 1600,
+      "height": 716,
+      "source": "GD 309 - Illustration/Project 1 - Avatar/WorkingFiles/Spierer_J_Process_Presentation_Project 01_GD309.pdf",
+      "page": 21,
+      "crop": [
+        0.03,
+        0.28,
+        0.94,
+        0.65
+      ]
+    },
+    {
+      "path": "assets/projects/avatar-series/revisions.jpg",
+      "width": 1600,
+      "height": 716,
+      "source": "GD 309 - Illustration/Project 1 - Avatar/WorkingFiles/Spierer_J_Process_Presentation_Project 01_GD309.pdf",
+      "page": 25,
+      "crop": [
+        0.03,
+        0.28,
+        0.94,
+        0.65
+      ]
+    }
+  ],
+  "princess-cake": [
+    {
+      "path": "assets/projects/princess-cake/campaign.jpg",
+      "width": 1600,
+      "height": 716,
+      "source": "GD 309 - Illustration/Project 2 - Food Advert/Final File/Spierer_J_FOODADVERT_Project_2_Spring_2026.pdf",
+      "page": 3,
+      "crop": [
+        0.03,
+        0.28,
+        0.94,
+        0.65
+      ]
+    },
+    {
+      "path": "assets/projects/princess-cake/sketches.jpg",
+      "width": 1600,
+      "height": 716,
+      "source": "GD 309 - Illustration/Project 2 - Food Advert/Final File/Spierer_J_FOODADVERT_Project_2_Spring_2026.pdf",
+      "page": 19,
+      "crop": [
+        0.03,
+        0.28,
+        0.94,
+        0.65
+      ]
+    },
+    {
+      "path": "assets/projects/princess-cake/compositions.jpg",
+      "width": 1600,
+      "height": 716,
+      "source": "GD 309 - Illustration/Project 2 - Food Advert/Final File/Spierer_J_FOODADVERT_Project_2_Spring_2026.pdf",
+      "page": 21,
+      "crop": [
+        0.03,
+        0.28,
+        0.94,
+        0.65
+      ]
+    },
+    {
+      "path": "assets/projects/princess-cake/moodboard.jpg",
+      "width": 1600,
+      "height": 716,
+      "source": "GD 309 - Illustration/Project 2 - Food Advert/Final File/Spierer_J_FOODADVERT_Project_2_Spring_2026.pdf",
+      "page": 22,
+      "crop": [
+        0.03,
+        0.28,
+        0.94,
+        0.65
+      ]
+    },
+    {
+      "path": "assets/projects/princess-cake/swan-revisions.jpg",
+      "width": 1600,
+      "height": 716,
+      "source": "GD 309 - Illustration/Project 2 - Food Advert/Final File/Spierer_J_FOODADVERT_Project_2_Spring_2026.pdf",
+      "page": 23,
+      "crop": [
+        0.03,
+        0.28,
+        0.94,
+        0.65
+      ]
+    },
+    {
+      "path": "assets/projects/princess-cake/poster-1.jpg",
+      "width": 1400,
+      "height": 2100,
+      "source": "GD 309 - Illustration/Project 2 - Food Advert/Final File/Spierer_J_P2_FoodAdvert_PrincessCake_SPR2026-01.png"
+    },
+    {
+      "path": "assets/projects/princess-cake/poster-2.jpg",
+      "width": 1401,
+      "height": 2100,
+      "source": "GD 309 - Illustration/Project 2 - Food Advert/Final File/Spierer_J_P2_FoodAdvert_PrincessCake_SPR2026-02.png"
+    },
+    {
+      "path": "assets/projects/princess-cake/poster-3.jpg",
+      "width": 1401,
+      "height": 2100,
+      "source": "GD 309 - Illustration/Project 2 - Food Advert/Final File/Spierer_J_P2_FoodAdvert_PrincessCake_SPR2026-03.png"
+    }
+  ],
+  "spring-fig": [
+    {
+      "path": "assets/projects/spring-fig/mockup.jpg",
+      "width": 1600,
+      "height": 716,
+      "source": "GD 309 - Illustration/Project 3 - Spring/Spierer_J_SpringIllustration_Project_3_Spring_2026.pdf",
+      "page": 3,
+      "crop": [
+        0.03,
+        0.28,
+        0.94,
+        0.65
+      ]
+    },
+    {
+      "path": "assets/projects/spring-fig/fruit-sketches.jpg",
+      "width": 1600,
+      "height": 716,
+      "source": "GD 309 - Illustration/Project 3 - Spring/Spierer_J_SpringIllustration_Project_3_Spring_2026.pdf",
+      "page": 16,
+      "crop": [
+        0.03,
+        0.28,
+        0.94,
+        0.65
+      ]
+    },
+    {
+      "path": "assets/projects/spring-fig/compositions.jpg",
+      "width": 1600,
+      "height": 716,
+      "source": "GD 309 - Illustration/Project 3 - Spring/Spierer_J_SpringIllustration_Project_3_Spring_2026.pdf",
+      "page": 18,
+      "crop": [
+        0.03,
+        0.28,
+        0.94,
+        0.65
+      ]
+    },
+    {
+      "path": "assets/projects/spring-fig/revisions.jpg",
+      "width": 1600,
+      "height": 716,
+      "source": "GD 309 - Illustration/Project 3 - Spring/Spierer_J_SpringIllustration_Project_3_Spring_2026.pdf",
+      "page": 19,
+      "crop": [
+        0.03,
+        0.28,
+        0.94,
+        0.65
+      ]
+    },
+    {
+      "path": "assets/projects/spring-fig/application.jpg",
+      "width": 1600,
+      "height": 716,
+      "source": "GD 309 - Illustration/Project 3 - Spring/Spierer_J_SpringIllustration_Project_3_Spring_2026.pdf",
+      "page": 20,
+      "crop": [
+        0.03,
+        0.28,
+        0.94,
+        0.65
+      ]
+    },
+    {
+      "path": "assets/projects/spring-fig/illustration.jpg",
+      "width": 1800,
+      "height": 1800,
+      "source": "GD 309 - Illustration/Project 3 - Spring/Spierer_J_SpringIllustration_p3_Final.png"
+    }
+  ],
+  "chromakopia-collectible": [
+    {
+      "path": "assets/projects/chromakopia-collectible/collectible.jpg",
+      "width": 1600,
+      "height": 716,
+      "source": "GD 309 - Illustration/Project 4 - 3d/Final Files/Spierer_J_P4_3dIllustration_GD309_S2026.pdf",
+      "page": 3,
+      "crop": [
+        0.03,
+        0.28,
+        0.94,
+        0.65
+      ]
+    },
+    {
+      "path": "assets/projects/chromakopia-collectible/details.jpg",
+      "width": 1600,
+      "height": 716,
+      "source": "GD 309 - Illustration/Project 4 - 3d/Final Files/Spierer_J_P4_3dIllustration_GD309_S2026.pdf",
+      "page": 4,
+      "crop": [
+        0.03,
+        0.28,
+        0.94,
+        0.65
+      ]
+    },
+    {
+      "path": "assets/projects/chromakopia-collectible/digital-model.jpg",
+      "width": 1600,
+      "height": 716,
+      "source": "GD 309 - Illustration/Project 4 - 3d/Final Files/Spierer_J_P4_3dIllustration_GD309_S2026.pdf",
+      "page": 5,
+      "crop": [
+        0.03,
+        0.28,
+        0.94,
+        0.65
+      ]
+    },
+    {
+      "path": "assets/projects/chromakopia-collectible/sketches.jpg",
+      "width": 1600,
+      "height": 716,
+      "source": "GD 309 - Illustration/Project 4 - 3d/Final Files/Spierer_J_P4_3dIllustration_GD309_S2026.pdf",
+      "page": 17,
+      "crop": [
+        0.03,
+        0.28,
+        0.94,
+        0.65
+      ]
+    },
+    {
+      "path": "assets/projects/chromakopia-collectible/model-development.jpg",
+      "width": 1600,
+      "height": 716,
+      "source": "GD 309 - Illustration/Project 4 - 3d/Final Files/Spierer_J_P4_3dIllustration_GD309_S2026.pdf",
+      "page": 19,
+      "crop": [
+        0.03,
+        0.28,
+        0.94,
+        0.65
+      ]
+    },
+    {
+      "path": "assets/projects/chromakopia-collectible/materials.jpg",
+      "width": 1600,
+      "height": 716,
+      "source": "GD 309 - Illustration/Project 4 - 3d/Final Files/Spierer_J_P4_3dIllustration_GD309_S2026.pdf",
+      "page": 20,
+      "crop": [
+        0.03,
+        0.28,
+        0.94,
+        0.65
+      ]
+    }
+  ],
+  "nvidia-drop": [
+    {
+      "path": "assets/projects/nvidia-drop/mobile.jpg",
+      "width": 1600,
+      "height": 716,
+      "source": "GD 402 - UX2/p2/final/Spierer_J_NVIDIA_Project_2_Spring_2026.pdf",
+      "page": 3,
+      "crop": [
+        0.03,
+        0.28,
+        0.94,
+        0.65
+      ]
+    },
+    {
+      "path": "assets/projects/nvidia-drop/queue-states.jpg",
+      "width": 1600,
+      "height": 716,
+      "source": "GD 402 - UX2/p2/final/Spierer_J_NVIDIA_Project_2_Spring_2026.pdf",
+      "page": 4,
+      "crop": [
+        0.03,
+        0.28,
+        0.94,
+        0.65
+      ]
+    },
+    {
+      "path": "assets/projects/nvidia-drop/error-states.jpg",
+      "width": 1600,
+      "height": 716,
+      "source": "GD 402 - UX2/p2/final/Spierer_J_NVIDIA_Project_2_Spring_2026.pdf",
+      "page": 5,
+      "crop": [
+        0.03,
+        0.28,
+        0.94,
+        0.65
+      ]
+    },
+    {
+      "path": "assets/projects/nvidia-drop/tablet.jpg",
+      "width": 1600,
+      "height": 716,
+      "source": "GD 402 - UX2/p2/final/Spierer_J_NVIDIA_Project_2_Spring_2026.pdf",
+      "page": 7,
+      "crop": [
+        0.03,
+        0.28,
+        0.94,
+        0.65
+      ]
+    },
+    {
+      "path": "assets/projects/nvidia-drop/journey.jpg",
+      "width": 1600,
+      "height": 716,
+      "source": "GD 402 - UX2/p2/final/Spierer_J_NVIDIA_Project_2_Spring_2026.pdf",
+      "page": 14,
+      "crop": [
+        0.03,
+        0.28,
+        0.94,
+        0.65
+      ]
+    },
+    {
+      "path": "assets/projects/nvidia-drop/sketches.jpg",
+      "width": 1600,
+      "height": 716,
+      "source": "GD 402 - UX2/p2/final/Spierer_J_NVIDIA_Project_2_Spring_2026.pdf",
+      "page": 20,
+      "crop": [
+        0.03,
+        0.28,
+        0.94,
+        0.65
+      ]
+    },
+    {
+      "path": "assets/projects/nvidia-drop/wireframes.jpg",
+      "width": 1600,
+      "height": 716,
+      "source": "GD 402 - UX2/p2/final/Spierer_J_NVIDIA_Project_2_Spring_2026.pdf",
+      "page": 21,
+      "crop": [
+        0.03,
+        0.28,
+        0.94,
+        0.65
+      ]
+    },
+    {
+      "path": "assets/projects/nvidia-drop/revisions.jpg",
+      "width": 1600,
+      "height": 716,
+      "source": "GD 402 - UX2/p2/final/Spierer_J_NVIDIA_Project_2_Spring_2026.pdf",
+      "page": 23,
+      "crop": [
+        0.03,
+        0.28,
+        0.94,
+        0.65
+      ]
+    }
+  ],
+  "video-downloader": [
+    {
+      "path": "assets/projects/video-downloader/home.jpg",
+      "width": 402,
+      "height": 874,
+      "source": "GD 402 - UX2/p1/finals/Home Page.png"
+    },
+    {
+      "path": "assets/projects/video-downloader/library.jpg",
+      "width": 404,
+      "height": 874,
+      "source": "GD 402 - UX2/p1/finals/Library.png"
+    },
+    {
+      "path": "assets/projects/video-downloader/downloaded.jpg",
+      "width": 402,
+      "height": 874,
+      "source": "GD 402 - UX2/p1/finals/Successfully Downloaded.png"
+    },
+    {
+      "path": "assets/projects/video-downloader/source.jpg",
+      "width": 402,
+      "height": 874,
+      "source": "GD 402 - UX2/p1/finals/Send from.png"
+    },
+    {
+      "path": "assets/projects/video-downloader/flow.jpg",
+      "width": 1800,
+      "height": 1058,
+      "source": "GD 402 - UX2/p1/sketches/SITEMAP.png"
+    },
+    {
+      "path": "assets/projects/video-downloader/sketches.jpg",
+      "width": 1536,
+      "height": 2048,
+      "source": "GD 402 - UX2/p1/sketches/IMG_4101.JPEG"
+    },
+    {
+      "path": "assets/projects/video-downloader/style-guide.jpg",
+      "width": 800,
+      "height": 800,
+      "source": "GD 402 - UX2/p1/StyleGuide.png"
+    }
+  ],
+  "penelopes-coffee": [
+    {
+      "path": "assets/projects/penelopes-coffee/packaging.jpg",
+      "width": 725,
+      "height": 1211,
+      "source": "GD 203 - Color/P1_Penelopes/P2 Packaging/Yep/Coffee.png"
+    },
+    {
+      "path": "assets/projects/penelopes-coffee/sketches.jpg",
+      "width": 1459,
+      "height": 2100,
+      "source": "GD 203 - Color/P1_Penelopes/8 Sketches/IMG_0096.PNG"
+    },
+    {
+      "path": "assets/projects/penelopes-coffee/sketches-2.jpg",
+      "width": 1459,
+      "height": 2100,
+      "source": "GD 203 - Color/P1_Penelopes/8 Sketches/IMG_0098.PNG"
+    },
+    {
+      "path": "assets/projects/penelopes-coffee/coffee-flat.jpg",
+      "width": 1600,
+      "height": 1095,
+      "source": "GD 203 - Color/P1_Penelopes/09 Digital Re/Spierer_J_PenelopesPackaging.pdf",
+      "page": 2,
+      "crop": [
+        0.02,
+        0.02,
+        0.96,
+        0.96
+      ]
+    },
+    {
+      "path": "assets/projects/penelopes-coffee/tea-flat.jpg",
+      "width": 1600,
+      "height": 1095,
+      "source": "GD 203 - Color/P1_Penelopes/09 Digital Re/Spierer_J_PenelopesPackaging.pdf",
+      "page": 3,
+      "crop": [
+        0.02,
+        0.02,
+        0.96,
+        0.96
+      ]
+    },
+    {
+      "path": "assets/projects/penelopes-coffee/palette.jpg",
+      "width": 1600,
+      "height": 732,
+      "source": "GD 203 - Color/P1_Penelopes/09 Digital Re/Spierer_J_PenelopesPackaging.pdf",
+      "page": 8,
+      "crop": [
+        0.02,
+        0.02,
+        0.96,
+        0.96
+      ]
+    }
+  ]
+}

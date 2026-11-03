@@ -1,0 +1,5 @@
+Arrow Left Alt — Google Material Symbols Outlined
+Source: https://fonts.gstatic.com/s/i/short-term/release/materialsymbolsoutlined/arrow_left_alt/default/24px.svg
+Configuration: weight 400, grade 0, fill 0, optical size 24.
+Licensed under Apache License 2.0; see LICENSE.txt.
+https://developers.google.com/fonts/docs/material_symbols

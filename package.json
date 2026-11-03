@@ -1,0 +1,14 @@
+{
+  "name": "jacob-spierer-portfolio",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "dev": "node scripts/serve.mjs",
+    "preview": "node scripts/serve.mjs",
+    "test": "node --test"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.56.0"
+  }
+}

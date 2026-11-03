@@ -1,0 +1,1423 @@
+{
+  "pages": [
+    {
+      "id": "0:1",
+      "parent": "0:0",
+      "order": "!",
+      "name": "WIREFRAMES",
+      "type": "CANVAS",
+      "visible": true,
+      "opacity": 1,
+      "transform": {
+        "m00": 1,
+        "m01": 0,
+        "m02": 0,
+        "m10": 0,
+        "m11": 1,
+        "m12": 0
+      },
+      "clipsContent": false
+    },
+    {
+      "id": "1:2",
+      "parent": "0:0",
+      "order": "~!",
+      "name": "STYLE_TILE",
+      "type": "CANVAS",
+      "visible": true,
+      "opacity": 1,
+      "transform": {
+        "m00": 1,
+        "m01": 0,
+        "m02": 0,
+        "m10": 0,
+        "m11": 1,
+        "m12": 0
+      },
+      "clipsContent": false
+    },
+    {
+      "id": "1:3",
+      "parent": "0:0",
+      "order": " ~",
+      "name": "COMPONENTS",
+      "type": "CANVAS",
+      "visible": true,
+      "opacity": 1,
+      "transform": {
+        "m00": 1,
+        "m01": 0,
+        "m02": 0,
+        "m10": 0,
+        "m11": 1,
+        "m12": 0
+      },
+      "clipsContent": false
+    },
+    {
+      "id": "1:4",
+      "parent": "0:0",
+      "order": " }",
+      "name": "FINAL_WEBSITE",
+      "type": "CANVAS",
+      "visible": true,
+      "opacity": 1,
+      "transform": {
+        "m00": 1,
+        "m01": 0,
+        "m02": 0,
+        "m10": 0,
+        "m11": 1,
+        "m12": 0
+      },
+      "clipsContent": false
+    }
+  ],
+  "frames": [
+    {
+      "id": "1:7",
+      "parent": "1:2",
+      "order": "!",
+      "name": "Style Guide",
+      "type": "FRAME",
+      "visible": true,
+      "opacity": 1,
+      "size": {
+        "x": 1728,
+        "y": 1710
+      },
+      "transform": {
+        "m00": 1,
+        "m01": 0,
+        "m02": 0,
+        "m10": 0,
+        "m11": 1,
+        "m12": 0
+      },
+      "clipsContent": true,
+      "images": []
+    },
+    {
+      "id": "6:2",
+      "parent": "0:1",
+      "order": "!",
+      "name": "MacBook Pro 16\" - 1",
+      "type": "FRAME",
+      "visible": true,
+      "opacity": 1,
+      "size": {
+        "x": 1728,
+        "y": 4467
+      },
+      "transform": {
+        "m00": 1,
+        "m01": 0,
+        "m02": 0,
+        "m10": 0,
+        "m11": 1,
+        "m12": 0
+      },
+      "clipsContent": true,
+      "images": []
+    },
+    {
+      "id": "6:15",
+      "parent": "1:3",
+      "order": "\"",
+      "name": "MacBook Pro 16\" - 1",
+      "type": "FRAME",
+      "visible": true,
+      "opacity": 1,
+      "size": {
+        "x": 1901,
+        "y": 4149
+      },
+      "transform": {
+        "m00": 1,
+        "m01": 0,
+        "m02": -572,
+        "m10": 0,
+        "m11": 1,
+        "m12": -1053
+      },
+      "clipsContent": true,
+      "images": []
+    },
+    {
+      "id": "6:16",
+      "parent": "1:3",
+      "order": "#",
+      "name": "MacBook Pro 16\" - 2",
+      "type": "FRAME",
+      "visible": true,
+      "opacity": 1,
+      "size": {
+        "x": 1728,
+        "y": 1117
+      },
+      "transform": {
+        "m00": 1,
+        "m01": 0,
+        "m02": -2352,
+        "m10": 0,
+        "m11": 1,
+        "m12": -1053
+      },
+      "clipsContent": true,
+      "images": []
+    },
+    {
+      "id": "6:135",
+      "parent": "0:1",
+      "order": "\"",
+      "name": "MacBook Pro 16\" - 2",
+      "type": "FRAME",
+      "visible": true,
+      "opacity": 1,
+      "size": {
+        "x": 1728,
+        "y": 4467
+      },
+      "transform": {
+        "m00": 1,
+        "m01": 0,
+        "m02": 2435,
+        "m10": 0,
+        "m11": 1,
+        "m12": 0
+      },
+      "clipsContent": true,
+      "images": []
+    },
+    {
+      "id": "9:23",
+      "parent": "0:1",
+      "order": "!O",
+      "name": "MacBook Pro 16\" - 3",
+      "type": "FRAME",
+      "visible": true,
+      "opacity": 1,
+      "size": {
+        "x": 1728,
+        "y": 3708
+      },
+      "transform": {
+        "m00": 1,
+        "m01": 0,
+        "m02": 4870,
+        "m10": 0,
+        "m11": 1,
+        "m12": 0
+      },
+      "clipsContent": true,
+      "images": []
+    },
+    {
+      "id": "9:112",
+      "parent": "0:1",
+      "order": "!f",
+      "name": "MacBook Pro 16\" - 4",
+      "type": "FRAME",
+      "visible": true,
+      "opacity": 1,
+      "size": {
+        "x": 1728,
+        "y": 4467
+      },
+      "transform": {
+        "m00": 1,
+        "m01": 0,
+        "m02": 7123,
+        "m10": 0,
+        "m11": 1,
+        "m12": 0
+      },
+      "clipsContent": true,
+      "images": []
+    },
+    {
+      "id": "9:207",
+      "parent": "0:1",
+      "order": "!r",
+      "name": "MacBook Pro 16\" - 5",
+      "type": "FRAME",
+      "visible": true,
+      "opacity": 1,
+      "size": {
+        "x": 1728,
+        "y": 2444
+      },
+      "transform": {
+        "m00": 1,
+        "m01": 0,
+        "m02": 9376,
+        "m10": 0,
+        "m11": 1,
+        "m12": 0
+      },
+      "clipsContent": true,
+      "images": []
+    },
+    {
+      "id": "13:5",
+      "parent": "1:4",
+      "order": ",",
+      "name": "HOME",
+      "type": "FRAME",
+      "visible": true,
+      "opacity": 1,
+      "size": {
+        "x": 1728,
+        "y": 4467
+      },
+      "transform": {
+        "m00": 1,
+        "m01": 0,
+        "m02": 345,
+        "m10": 0,
+        "m11": 1,
+        "m12": 0
+      },
+      "clipsContent": true,
+      "images": []
+    },
+    {
+      "id": "22:158",
+      "parent": "1:4",
+      "order": "$",
+      "name": "ABOUT ME",
+      "type": "FRAME",
+      "visible": true,
+      "opacity": 1,
+      "size": {
+        "x": 1728,
+        "y": 4467
+      },
+      "transform": {
+        "m00": 1,
+        "m01": 0,
+        "m02": 2833,
+        "m10": 0,
+        "m11": 1,
+        "m12": 0
+      },
+      "clipsContent": true,
+      "images": []
+    },
+    {
+      "id": "27:638",
+      "parent": "1:4",
+      "order": "$O",
+      "name": "MY WORK",
+      "type": "FRAME",
+      "visible": true,
+      "opacity": 1,
+      "size": {
+        "x": 1728,
+        "y": 3351
+      },
+      "transform": {
+        "m00": 1,
+        "m01": 0,
+        "m02": 4945,
+        "m10": 0,
+        "m11": 1,
+        "m12": 0
+      },
+      "clipsContent": true,
+      "images": []
+    },
+    {
+      "id": "32:17",
+      "parent": "1:4",
+      "order": ")",
+      "name": "CONTACT",
+      "type": "FRAME",
+      "visible": true,
+      "opacity": 1,
+      "size": {
+        "x": 1728,
+        "y": 2026
+      },
+      "transform": {
+        "m00": 1,
+        "m01": 0,
+        "m02": 6875,
+        "m10": 0,
+        "m11": 1,
+        "m12": 0
+      },
+      "clipsContent": true,
+      "images": [
+        {
+          "name": "marble-close-up-view-2025-02-22-15-08-36-utc",
+          "hash": "a2605a20b4f21729b20a89dad2b2fe170c52acce",
+          "thumbnail": "38bdbfb40c754ced7dc04b2e8e27c65a41c3629f",
+          "mode": "FILL",
+          "opacity": 0.3499999940395355,
+          "transform": {
+            "m00": 0.5945355296134949,
+            "m01": 0,
+            "m02": 0.02273823320865631,
+            "m10": 0,
+            "m11": 0.5764020085334778,
+            "m12": 0.054587166756391525
+          }
+        }
+      ]
+    },
+    {
+      "id": "53:22",
+      "parent": "1:3",
+      "order": "\"7",
+      "name": "MacBook Pro 16\" - 3",
+      "type": "FRAME",
+      "visible": true,
+      "opacity": 1,
+      "size": {
+        "x": 1901,
+        "y": 4149
+      },
+      "transform": {
+        "m00": 1,
+        "m01": 0,
+        "m02": 1426,
+        "m10": 0,
+        "m11": 1,
+        "m12": -1053
+      },
+      "clipsContent": true,
+      "images": []
+    },
+    {
+      "id": "55:41",
+      "parent": "1:3",
+      "order": "#P",
+      "name": "Frame 28",
+      "type": "FRAME",
+      "visible": true,
+      "opacity": 1,
+      "size": {
+        "x": 1769,
+        "y": 804.6666870117188
+      },
+      "transform": {
+        "m00": 1,
+        "m01": 0,
+        "m02": 1547,
+        "m10": 0,
+        "m11": 1,
+        "m12": -395
+      },
+      "clipsContent": true
+    },
+    {
+      "id": "74:33",
+      "parent": "1:3",
+      "order": "#Q",
+      "name": "Frame 29",
+      "type": "FRAME",
+      "visible": true,
+      "opacity": 1,
+      "size": {
+        "x": 1769,
+        "y": 804.6666870117188
+      },
+      "transform": {
+        "m00": 1,
+        "m01": 0,
+        "m02": 1547,
+        "m10": 0,
+        "m11": 1,
+        "m12": 602
+      },
+      "clipsContent": true
+    },
+    {
+      "id": "74:52",
+      "parent": "1:3",
+      "order": "#SP",
+      "name": "PROJECTS",
+      "type": "FRAME",
+      "visible": true,
+      "opacity": 1,
+      "size": {
+        "x": 986,
+        "y": 598
+      },
+      "transform": {
+        "m00": 1,
+        "m01": 0,
+        "m02": 3425,
+        "m10": 0,
+        "m11": 1,
+        "m12": 2233
+      },
+      "clipsContent": true
+    },
+    {
+      "id": "77:67",
+      "parent": "1:3",
+      "order": "#QO",
+      "name": "Frame 30",
+      "type": "FRAME",
+      "visible": true,
+      "opacity": 1,
+      "size": {
+        "x": 1769,
+        "y": 804.6666870117188
+      },
+      "transform": {
+        "m00": 1,
+        "m01": 0,
+        "m02": 1547,
+        "m10": 0,
+        "m11": 1,
+        "m12": 1642
+      },
+      "clipsContent": true
+    },
+    {
+      "id": "77:95",
+      "parent": "1:3",
+      "order": "#ST",
+      "name": "yeps",
+      "type": "FRAME",
+      "visible": true,
+      "opacity": 1,
+      "size": {
+        "x": 104,
+        "y": 188
+      },
+      "transform": {
+        "m00": 1,
+        "m01": 0,
+        "m02": 4532,
+        "m10": 0,
+        "m11": 1,
+        "m12": 2295
+      },
+      "clipsContent": true
+    },
+    {
+      "id": "77:108",
+      "parent": "1:3",
+      "order": "#SV",
+      "name": "yepy",
+      "type": "FRAME",
+      "visible": true,
+      "opacity": 1,
+      "size": {
+        "x": 104,
+        "y": 188
+      },
+      "transform": {
+        "m00": 1,
+        "m01": 0,
+        "m02": 4845,
+        "m10": 0,
+        "m11": 1,
+        "m12": 2295
+      },
+      "clipsContent": true
+    },
+    {
+      "id": "77:205",
+      "parent": "1:3",
+      "order": "#SVQR",
+      "name": "JACOB",
+      "type": "FRAME",
+      "visible": false,
+      "opacity": 1,
+      "size": {
+        "x": 1464,
+        "y": 582
+      },
+      "transform": {
+        "m00": 1,
+        "m01": 0,
+        "m02": 5874,
+        "m10": 0,
+        "m11": 1,
+        "m12": 2185
+      },
+      "clipsContent": true
+    },
+    {
+      "id": "77:216",
+      "parent": "1:3",
+      "order": "#SVPO",
+      "name": "JACOB SPIERER",
+      "type": "FRAME",
+      "visible": false,
+      "opacity": 1,
+      "size": {
+        "x": 2270,
+        "y": 2510
+      },
+      "transform": {
+        "m00": 1,
+        "m01": 0,
+        "m02": 6293,
+        "m10": 0,
+        "m11": 1,
+        "m12": 3019
+      },
+      "clipsContent": true
+    },
+    {
+      "id": "77:273",
+      "parent": "1:3",
+      "order": "#SVQRP",
+      "name": "Group 1",
+      "type": "FRAME",
+      "visible": true,
+      "opacity": 1,
+      "size": {
+        "x": 1477,
+        "y": 497
+      },
+      "transform": {
+        "m00": 1,
+        "m01": 0,
+        "m02": 9085,
+        "m10": 0,
+        "m11": 1,
+        "m12": 1280
+      },
+      "clipsContent": true
+    },
+    {
+      "id": "77:364",
+      "parent": "1:3",
+      "order": "#SVQRPP",
+      "name": "Frame 5",
+      "type": "FRAME",
+      "visible": true,
+      "opacity": 1,
+      "size": {
+        "x": 226,
+        "y": 186
+      },
+      "transform": {
+        "m00": 1,
+        "m01": 0,
+        "m02": 2223,
+        "m10": 0,
+        "m11": 1,
+        "m12": 3195
+      },
+      "clipsContent": true
+    },
+    {
+      "id": "77:392",
+      "parent": "1:4",
+      "order": " }",
+      "name": "Timeline",
+      "type": "FRAME",
+      "visible": true,
+      "opacity": 1,
+      "size": {
+        "x": 400,
+        "y": 184
+      },
+      "transform": {
+        "m00": 1,
+        "m01": 0,
+        "m02": 8805,
+        "m10": 0,
+        "m11": 1,
+        "m12": 0
+      },
+      "clipsContent": false,
+      "images": [
+        {
+          "name": "V10",
+          "hash": "a25a503f94c18af44c503361d955d1696bbdf40f",
+          "thumbnail": "530872d7226c3c350810dfcac510849b378c74ad",
+          "mode": "FILL",
+          "opacity": 0.3499999940395355,
+          "transform": {
+            "m00": -0.8701879978179932,
+            "m01": 1.2246468525851679e-16,
+            "m02": 0.9942358136177063,
+            "m10": -1.0656729297176226e-16,
+            "m11": -1,
+            "m12": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "77:412",
+      "parent": "1:4",
+      "order": " ~",
+      "name": "Budget",
+      "type": "FRAME",
+      "visible": true,
+      "opacity": 1,
+      "size": {
+        "x": 400,
+        "y": 184
+      },
+      "transform": {
+        "m00": 1,
+        "m01": 0,
+        "m02": 9279,
+        "m10": 0,
+        "m11": 1,
+        "m12": 0
+      },
+      "clipsContent": false,
+      "images": [
+        {
+          "name": "V10",
+          "hash": "a25a503f94c18af44c503361d955d1696bbdf40f",
+          "thumbnail": "530872d7226c3c350810dfcac510849b378c74ad",
+          "mode": "FILL",
+          "opacity": 0.3499999940395355,
+          "transform": {
+            "m00": -0.8701879978179932,
+            "m01": 1.2246468525851679e-16,
+            "m02": 0.9942358136177063,
+            "m10": -1.0656729297176226e-16,
+            "m11": -1,
+            "m12": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "100:447",
+      "parent": "1:3",
+      "order": "#SVPf",
+      "name": "test",
+      "type": "FRAME",
+      "visible": true,
+      "opacity": 1,
+      "size": {
+        "x": 2270,
+        "y": 2510
+      },
+      "transform": {
+        "m00": 1,
+        "m01": 0,
+        "m02": 10470,
+        "m10": 0,
+        "m11": 1,
+        "m12": 4274
+      },
+      "clipsContent": true
+    },
+    {
+      "id": "100:478",
+      "parent": "1:3",
+      "order": "#SVQRP8",
+      "name": "Group 2",
+      "type": "FRAME",
+      "visible": true,
+      "opacity": 1,
+      "size": {
+        "x": 1477,
+        "y": 497
+      },
+      "transform": {
+        "m00": 1,
+        "m01": 0,
+        "m02": 10658,
+        "m10": 0,
+        "m11": 1,
+        "m12": 3258
+      },
+      "clipsContent": true
+    },
+    {
+      "id": "100:505",
+      "parent": "1:3",
+      "order": "#SVQRPPP",
+      "name": "Group 2",
+      "type": "FRAME",
+      "visible": true,
+      "opacity": 1,
+      "size": {
+        "x": 1477,
+        "y": 372
+      },
+      "transform": {
+        "m00": 1,
+        "m01": 0,
+        "m02": 10658,
+        "m10": 0,
+        "m11": 1,
+        "m12": 3755
+      },
+      "clipsContent": true
+    },
+    {
+      "id": "118:902",
+      "parent": "1:3",
+      "order": "#SVQRPPPO7P",
+      "name": "Frame 46",
+      "type": "FRAME",
+      "visible": true,
+      "opacity": 1,
+      "size": {
+        "x": 1530,
+        "y": 372
+      },
+      "transform": {
+        "m00": 1,
+        "m01": 0,
+        "m02": 9091,
+        "m10": 0,
+        "m11": 1,
+        "m12": 1942
+      },
+      "clipsContent": true
+    },
+    {
+      "id": "118:914",
+      "parent": "1:3",
+      "order": "#SVQRPPPO7Q",
+      "name": "Frame 47",
+      "type": "FRAME",
+      "visible": true,
+      "opacity": 1,
+      "size": {
+        "x": 1349,
+        "y": 357
+      },
+      "transform": {
+        "m00": 1,
+        "m01": 0,
+        "m02": 9091,
+        "m10": 0,
+        "m11": 1,
+        "m12": 2479
+      },
+      "clipsContent": true
+    },
+    {
+      "id": "118:933",
+      "parent": "1:3",
+      "order": "#SVQRPPPO7R",
+      "name": "MY STORY",
+      "type": "FRAME",
+      "visible": true,
+      "opacity": 1,
+      "size": {
+        "x": 436,
+        "y": 132
+      },
+      "transform": {
+        "m00": 1,
+        "m01": 0,
+        "m02": 3288,
+        "m10": 0,
+        "m11": 1,
+        "m12": -1384
+      },
+      "clipsContent": true
+    },
+    {
+      "id": "118:985",
+      "parent": "1:4",
+      "order": "$`",
+      "name": "MERCEDES",
+      "type": "FRAME",
+      "visible": true,
+      "opacity": 1,
+      "size": {
+        "x": 1728,
+        "y": 6310
+      },
+      "transform": {
+        "m00": 1,
+        "m01": 0,
+        "m02": 4945,
+        "m10": 0,
+        "m11": 1,
+        "m12": 4993
+      },
+      "clipsContent": true,
+      "images": []
+    },
+    {
+      "id": "118:1720",
+      "parent": "1:3",
+      "order": "#SVQRPPPO7RF",
+      "name": "Frame 6",
+      "type": "FRAME",
+      "visible": true,
+      "opacity": 1,
+      "size": {
+        "x": 1770,
+        "y": 488
+      },
+      "transform": {
+        "m00": 1,
+        "m01": 0,
+        "m02": 3425,
+        "m10": 0,
+        "m11": 1,
+        "m12": 358
+      },
+      "clipsContent": false
+    },
+    {
+      "id": "135:475",
+      "parent": "1:4",
+      "order": "$i",
+      "name": "SPIERER UNIV",
+      "type": "FRAME",
+      "visible": true,
+      "opacity": 1,
+      "size": {
+        "x": 1728,
+        "y": 6723
+      },
+      "transform": {
+        "m00": 1,
+        "m01": 0,
+        "m02": 6875,
+        "m10": 0,
+        "m11": 1,
+        "m12": 4993
+      },
+      "clipsContent": true,
+      "images": []
+    },
+    {
+      "id": "135:681",
+      "parent": "1:4",
+      "order": "$m",
+      "name": "FJALL RAVEN",
+      "type": "FRAME",
+      "visible": true,
+      "opacity": 1,
+      "size": {
+        "x": 1728,
+        "y": 6310
+      },
+      "transform": {
+        "m00": 1,
+        "m01": 0,
+        "m02": 8805,
+        "m10": 0,
+        "m11": 1,
+        "m12": 4993
+      },
+      "clipsContent": true,
+      "images": []
+    },
+    {
+      "id": "143:457",
+      "parent": "1:3",
+      "order": "#SVQRPPPO7RQOP",
+      "name": "Spierer_Jacob_GD 200_Project 2_Catalog_Page_01",
+      "type": "FRAME",
+      "visible": true,
+      "opacity": 1,
+      "size": {
+        "x": 1013,
+        "y": 11444
+      },
+      "transform": {
+        "m00": 1,
+        "m01": 0,
+        "m02": -785,
+        "m10": 0,
+        "m11": 1,
+        "m12": 3466
+      },
+      "clipsContent": true
+    },
+    {
+      "id": "143:540",
+      "parent": "1:3",
+      "order": "#SVQRPPPO7RK",
+      "name": "Frame 48",
+      "type": "FRAME",
+      "visible": true,
+      "opacity": 1,
+      "size": {
+        "x": 1770,
+        "y": 488
+      },
+      "transform": {
+        "m00": 1,
+        "m01": 0,
+        "m02": 3425,
+        "m10": 0,
+        "m11": 1,
+        "m12": 1212
+      },
+      "clipsContent": false
+    },
+    {
+      "id": "145:842",
+      "parent": "1:3",
+      "order": "#SVQRPPPO7RN",
+      "name": "Frame 49",
+      "type": "FRAME",
+      "visible": true,
+      "opacity": 1,
+      "size": {
+        "x": 1770,
+        "y": 773
+      },
+      "transform": {
+        "m00": 1,
+        "m01": 0,
+        "m02": 5474,
+        "m10": 0,
+        "m11": 1,
+        "m12": 1212
+      },
+      "clipsContent": false
+    },
+    {
+      "id": "147:1364",
+      "parent": "1:3",
+      "order": "#SVQRPPPO7RQOS",
+      "name": "IMG_30399",
+      "type": "FRAME",
+      "visible": true,
+      "opacity": 1,
+      "size": {
+        "x": 696,
+        "y": 1120
+      },
+      "transform": {
+        "m00": 1,
+        "m01": 0,
+        "m02": 3873,
+        "m10": 0,
+        "m11": 1,
+        "m12": 2988
+      },
+      "clipsContent": true
+    },
+    {
+      "id": "147:1383",
+      "parent": "1:3",
+      "order": "#SVQRPPPO7PO",
+      "name": "Frame 50",
+      "type": "FRAME",
+      "visible": true,
+      "opacity": 1,
+      "size": {
+        "x": 1530,
+        "y": 372
+      },
+      "transform": {
+        "m00": 1,
+        "m01": 0,
+        "m02": 10696,
+        "m10": 0,
+        "m11": 1,
+        "m12": 1942
+      },
+      "clipsContent": true
+    },
+    {
+      "id": "147:1477",
+      "parent": "1:3",
+      "order": "#SVQRPPPO7Pf",
+      "name": "Frame 51",
+      "type": "FRAME",
+      "visible": true,
+      "opacity": 1,
+      "size": {
+        "x": 1530,
+        "y": 372
+      },
+      "transform": {
+        "m00": 1,
+        "m01": 0,
+        "m02": 10696,
+        "m10": 0,
+        "m11": 1,
+        "m12": 1405
+      },
+      "clipsContent": true
+    },
+    {
+      "id": "271:513",
+      "parent": "1:3",
+      "order": "#SVQRPPPO7,",
+      "name": "Frame 52",
+      "type": "FRAME",
+      "visible": true,
+      "opacity": 1,
+      "size": {
+        "x": 1901,
+        "y": 1117
+      },
+      "transform": {
+        "m00": 1,
+        "m01": 0,
+        "m02": 10735,
+        "m10": 0,
+        "m11": 1,
+        "m12": 9257
+      },
+      "clipsContent": false
+    },
+    {
+      "id": "273:585",
+      "parent": "1:3",
+      "order": "#SVQRPPPO7>",
+      "name": "Frame 53",
+      "type": "FRAME",
+      "visible": true,
+      "opacity": 1,
+      "size": {
+        "x": 1901,
+        "y": 1117
+      },
+      "transform": {
+        "m00": 1,
+        "m01": 0,
+        "m02": 16941,
+        "m10": 0,
+        "m11": 1,
+        "m12": 9153
+      },
+      "clipsContent": false
+    },
+    {
+      "id": "274:730",
+      "parent": "1:4",
+      "order": "/",
+      "name": "Frame 62",
+      "type": "FRAME",
+      "visible": true,
+      "opacity": 1,
+      "size": {
+        "x": 1666,
+        "y": 1060
+      },
+      "transform": {
+        "m00": 1,
+        "m01": 0,
+        "m02": 8978,
+        "m10": 0,
+        "m11": 1,
+        "m12": 2113
+      },
+      "clipsContent": true,
+      "images": []
+    }
+  ],
+  "imageReferences": [
+    {
+      "hash": "820aa43703c72b4aa73ee527fb88d5c60680a4a5",
+      "name": "LogoWhite-01"
+    },
+    {
+      "hash": "0401e4add44057e2a0e9574bdcb3e4965f4a2fcd",
+      "name": "819EY4xkkCL._AC_SL1500_"
+    },
+    {
+      "hash": "9687d70c9c4d28e1b856bc28d095011b3f08d090",
+      "name": "Freebie-DarkGrungeTextures-Preview-03"
+    },
+    {
+      "hash": "7f12ea1300756f144a0fb5daaf68dbfc01103a46",
+      "name": "Checker"
+    },
+    {
+      "hash": "a25a503f94c18af44c503361d955d1696bbdf40f",
+      "name": "V10"
+    },
+    {
+      "hash": "93909d900eef90efb173b59ab8a8f3e9219f6c7e",
+      "name": "1"
+    },
+    {
+      "hash": "80b44a5132a23aef8567edfd4af57af06784383c",
+      "name": "Assets3"
+    },
+    {
+      "hash": "0f28922c8e6f2916234766a2c939427c0720a689",
+      "name": "Freebie-DarkGrungeTextures-Preview-03"
+    },
+    {
+      "hash": "a2605a20b4f21729b20a89dad2b2fe170c52acce",
+      "name": "marble-close-up-view-2025-02-22-15-08-36-utc"
+    },
+    {
+      "hash": "26d3ce3acf2ec38e53b560b3d16c81f126180b7b",
+      "name": "194-1941681_basquiat-crown-png-jean-michel-basquiat-crown-png"
+    },
+    {
+      "hash": "76e68dc41c204974a6993f17f1bcece21a1413e3",
+      "name": "TRANSBW"
+    },
+    {
+      "hash": "f34eb3abee5956c70d410810c4565421df84c1ff",
+      "name": "TRANS"
+    },
+    {
+      "hash": "a19a8f19029171983feb243bf1a02e2ff6657842",
+      "name": "OMEGA"
+    },
+    {
+      "hash": "231fd83adb4ad853d3bf9ae9cdb838d24fb38c7f",
+      "name": "OMEGABW"
+    },
+    {
+      "hash": "cc9ddbba74e1ba6da971eb2fd85a8e89ccf09d7d",
+      "name": "Asset 3pattern"
+    },
+    {
+      "hash": "86dc99165264efb9a6db3d90eec8147bad1d00f3",
+      "name": "BWAsset 3pattern"
+    },
+    {
+      "hash": "3ece8a1f7e4bc5c67869e462861b5188273079ed",
+      "name": "IMG_1622"
+    },
+    {
+      "hash": "e84b288455c955e45ec914dc1714749feba290ce",
+      "name": "Asset 3masc"
+    },
+    {
+      "hash": "08bb1d75897f53e514bb5798d20b5b0fa4520a69",
+      "name": "Asset 3mascy"
+    },
+    {
+      "hash": "7b1d0413001598d0717d444d99c24bc5038a9502",
+      "name": "Asset 1mascy"
+    },
+    {
+      "hash": "9fa58c4f9f75f0402ed50fe216dc3f508bc6f423",
+      "name": "Asset 2mascy"
+    },
+    {
+      "hash": "eda6ac644624308fe6e2a7028a93d443befef43f",
+      "name": "Asset 3Card"
+    },
+    {
+      "hash": "6458b6ed6d33f8bd00f741a21c7093e4172fa6d2",
+      "name": "Asset 1Card"
+    },
+    {
+      "hash": "09a2ec7480d7ff4a9072361c3a7ef07d42c2f8ad",
+      "name": "Asset 2Card"
+    },
+    {
+      "hash": "d2fefa03e36cdfb89e3e606e631f3aa26a769369",
+      "name": "BAPS_Logo-04"
+    },
+    {
+      "hash": "104722ea8a3f317bb72eb9021b8e5639b31e2f97",
+      "name": "frame"
+    },
+    {
+      "hash": "00546e8d7242b92342db389cf77f6a909486727d",
+      "name": "frame3"
+    },
+    {
+      "hash": "61777bd7f691da4dad4a58b89e77cc6ceac2954f",
+      "name": "frame2"
+    },
+    {
+      "hash": "c68b5e58a80d94a02b27b137833aa6dcdf69c7f3",
+      "name": "frame1"
+    },
+    {
+      "hash": "057b0e122b4cd23112c68c5a571ab133fb6eb676",
+      "name": "Asset 5mascy"
+    },
+    {
+      "hash": "27a60e5553c1e55fd0d5a316178ee5f7d10570f1",
+      "name": "Asset 4mascy"
+    },
+    {
+      "hash": "86b1f644eb3dde2b26c6afe636aa1adcba00b976",
+      "name": "fram4"
+    },
+    {
+      "hash": "e3f792cf3e744fd7c9f619d3999c3e18b8a3bc3e",
+      "name": "Resized-page1"
+    },
+    {
+      "hash": "2df01cb7cc247cbcf7e86b02cdbb5af4aad37a2f",
+      "name": "js"
+    },
+    {
+      "hash": "8eb863fba501e22cb09f1d34d8e4facc8132be96",
+      "name": "LABEL"
+    },
+    {
+      "hash": "7132a6a15f920aa1bcd376248189816dbd53667c",
+      "name": "SpiererJ_GD200_Ex1_TypePortrait-01"
+    },
+    {
+      "hash": "3cd022e39550ff8c7eb4de9415f0b19feb10663a",
+      "name": "whisphen"
+    },
+    {
+      "hash": "7a5845084af254b5e358891a2a3794c701df8a2a",
+      "name": "Spierer_Jacob_GD 200_Project 2_Catalog_Page_11"
+    },
+    {
+      "hash": "687bbccef965cccc9c24d521adde084dc1abffb0",
+      "name": "Spierer_J_P1_MBCC_POSTER_F2024_GD200"
+    },
+    {
+      "hash": "79857bfbfc5229066966b44d2c0ac7ab6101031b",
+      "name": "PosterMockup"
+    },
+    {
+      "hash": "d44dc18cb7714a6031a429fd8ff99930b636f02f",
+      "name": ""
+    },
+    {
+      "hash": "3c9585aa6c0785ab2f242cb93c3a4f08d280e95d",
+      "name": "g55 Cabrio v2"
+    },
+    {
+      "hash": "e2622d5ba1c198361fc056f57b1c92c9c9dac838",
+      "name": "Volc2"
+    },
+    {
+      "hash": "90280e06c9ca5c9926291cbc6125bcd7c384eec4",
+      "name": "image"
+    },
+    {
+      "hash": "2afbe8fc380578339dee45b8874425517b2ae479",
+      "name": "Mood Board"
+    },
+    {
+      "hash": "b6ce55187a170f7baee7757770f345616367b725",
+      "name": "image"
+    },
+    {
+      "hash": "b43c8e977f83fbcdfe7bd6319d9fc33da51d2bbf",
+      "name": "texture-of-teak-brown-wood-board-2025-02-02-23-41-52-utc"
+    },
+    {
+      "hash": "7a1ff9fe0a9aface1f98229e87596f24edd98c2f",
+      "name": "FINAL_Spierer_J_FinalSell_Patterns-01"
+    },
+    {
+      "hash": "e42b69c9b3f8ec25d61dc44aacffafcd18235b2c",
+      "name": "Asset 2pattern"
+    },
+    {
+      "hash": "662e68c1fabd38dad085a36a97c4a14581c9f5c3",
+      "name": "Catalog"
+    },
+    {
+      "hash": "8693f3cd4c9d98a659e4611995907552d3768d40",
+      "name": "Catalog2"
+    },
+    {
+      "hash": "728a8623f3c5720b75ab69d13fb34feabca22750",
+      "name": "Catalog3"
+    },
+    {
+      "hash": "2979eac7770384d7c5280560676f7931436cb9a5",
+      "name": "Spierer_Jacob_GD 200_Project 2_Catalog_Page_01"
+    },
+    {
+      "hash": "e7ed57b2b29fd7e4e823b685b5e0e1e71b77ac75",
+      "name": "Spierer_Jacob_GD 200_Project 2_Catalog_Page_02"
+    },
+    {
+      "hash": "9eec5adb93a35130d4584b7e271cec000d14994a",
+      "name": "Spierer_Jacob_GD 200_Project 2_Catalog_Page_03"
+    },
+    {
+      "hash": "5f34c3968bb7cbcee0ef50b6ad6dd3521952e41f",
+      "name": "Spierer_Jacob_GD 200_Project 2_Catalog_Page_09"
+    },
+    {
+      "hash": "b742338756dd0793a4b3e9b6757239e31c330b61",
+      "name": "Spierer_Jacob_GD 200_Project 2_Catalog_Page_10"
+    },
+    {
+      "hash": "d145ed6645b6560ed85ac4574cf4e44a2c6e6b75",
+      "name": "Spierer_Jacob_GD 200_Project 2_Catalog_Page_12"
+    },
+    {
+      "hash": "9c1b9633ebe57d63073da478564d7c9e6444bb44",
+      "name": "Spierer_Jacob_GD 200_Project 2_Catalog_Page_04"
+    },
+    {
+      "hash": "390d0b43d11050878f4417f7d8c02eaeaf569edc",
+      "name": "Spierer_Jacob_GD 200_Project 2_Catalog_Page_05"
+    },
+    {
+      "hash": "02cc17420eae882e8599983b4d348c7d465e7479",
+      "name": "Spierer_Jacob_GD 200_Project 2_Catalog_Page_06"
+    },
+    {
+      "hash": "9ee555533e158583b2065165c91d7f10c94f4efe",
+      "name": "Spierer_Jacob_GD 200_Project 2_Catalog_Page_07"
+    },
+    {
+      "hash": "c41cb00f9d713846b0f2477d67bf546958e8504b",
+      "name": "Spierer_Jacob_GD 200_Project 2_Catalog_Page_08"
+    },
+    {
+      "hash": "da1f977892038a44cba6b80f9873c11d151df42c",
+      "name": "image"
+    },
+    {
+      "hash": "f4056ab579c1812a96551b9d08d7f867bdacda4c",
+      "name": "image"
+    },
+    {
+      "hash": "d532be788382658d97551752174eff925808bc31",
+      "name": "123124"
+    },
+    {
+      "hash": "99b9014e10a6ceee0d7eee41e876e83cc57a3dc8",
+      "name": "image"
+    },
+    {
+      "hash": "f7191b2bd8de62ad85feba570f40945fbc80622a",
+      "name": "image"
+    },
+    {
+      "hash": "1ecc2cc8fcd4af6215e9d989382c2dc8dab3b745",
+      "name": "image"
+    },
+    {
+      "hash": "788a5d34063c765fd07cf2986b4e8ebc82dc4566",
+      "name": "image"
+    },
+    {
+      "hash": "96ad3846983381a984420311422fc44ab49d716b",
+      "name": "image"
+    },
+    {
+      "hash": "82bfba014027d4d919898cabc8fbf45ada0597f6",
+      "name": "Asset 4pattern"
+    },
+    {
+      "hash": "df6e153e2376704f9b42cdcae0e4cb08041c004a",
+      "name": "image"
+    },
+    {
+      "hash": "055cda940298dcf2a88f28b243096f263bbdcdbe",
+      "name": "PLEASEPLEASE"
+    },
+    {
+      "hash": "029d61ceeb544aba0910f57724de2aa797ac5ec4",
+      "name": "please2"
+    },
+    {
+      "hash": "d3f43932f4c5fed8dde43d690118935eb41ddb02",
+      "name": "IMG_30399"
+    },
+    {
+      "hash": "46faa97e2714a80215171ddf54912ad4826d1e13",
+      "name": "IMG_3039"
+    }
+  ]
+}

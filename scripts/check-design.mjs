@@ -1,0 +1,74 @@
+import {chromium} from '@playwright/test';
+import assert from 'node:assert/strict';
+const browser=await chromium.launch({channel:'msedge',headless:true});
+try{
+ const page=await browser.newPage({viewport:{width:1440,height:1000}});
+ await page.goto('http://127.0.0.1:4173/',{waitUntil:'networkidle'});
+ await page.evaluate(()=>document.fonts.ready);
+ const sizes=await page.locator('.display-heading').evaluateAll(es=>es.map(e=>getComputedStyle(e).fontSize));
+ assert.equal(new Set(sizes).size,1);assert.ok(parseFloat(sizes[0])>141);
+ const panelSizes=await page.locator('#main > section,#main > footer').evaluateAll(es=>es.map(e=>[e.clientWidth,e.clientHeight]));
+ assert.deepEqual(panelSizes,Array.from({length:4},()=>[1440,1000]));
+ const buttonBefore=await page.locator('.menu-toggle').boundingBox();
+ await page.getByRole('button',{name:'MENU',exact:true}).click();await page.waitForTimeout(1250);
+ const linkRects=await page.locator('#navigation a').evaluateAll(es=>es.map(e=>{const r=e.getBoundingClientRect();return {x:r.x,y:r.y,width:r.width,height:r.height};}));
+ assert.deepEqual(await page.locator('#navigation a').allTextContents(),['HOME','ME','WORK','CONTACT']);
+ assert.equal(new Set(linkRects.map(r=>r.width)).size,1);
+ assert.ok(linkRects.every(r=>r.y===buttonBefore.y&&r.height===buttonBefore.height));
+ assert.ok(linkRects.at(-1).x+linkRects.at(-1).width<buttonBefore.x);
+ assert.deepEqual(await page.locator('.menu-toggle').boundingBox(),buttonBefore);
+ await page.keyboard.press('Escape');await page.locator('#navigation').waitFor({state:'hidden'});
+ const ball=await page.locator('.hero-ball').boundingBox(),line=await page.locator('.hero-line').boundingBox();
+ assert.ok(line.x>ball.x+ball.width&&line.x+line.width>1440);
+ const smallPortrait=await page.locator('.hero-portrait').boundingBox();
+ await page.setViewportSize({width:1920,height:1080});await page.waitForTimeout(100);
+ const largePortrait=await page.locator('.hero-portrait').boundingBox();
+ assert.ok(largePortrait.width>smallPortrait.width*1.3&&largePortrait.x<0);
+ assert.equal(new Set(await page.locator('.display-heading').evaluateAll(es=>es.map(e=>getComputedStyle(e).fontSize))).size,1);
+ assert.ok(parseFloat(await page.locator('.display-heading').first().evaluate(e=>getComputedStyle(e).fontSize))>parseFloat(sizes[0]));
+ await page.setViewportSize({width:1440,height:1000});await page.evaluate(()=>scrollTo({top:0,behavior:'instant'}));
+ await page.mouse.move(720,450);await page.mouse.wheel(0,700);
+ await page.waitForFunction(()=>document.documentElement.dataset.scrollPhase==='settle');
+ await page.waitForFunction(()=>document.documentElement.dataset.scrollPhase==='idle');await page.waitForTimeout(150);
+ assert.ok(Math.abs(await page.evaluate(()=>scrollY)-1000)<2,'First wheel did not snap to gallery');
+ await page.mouse.wheel(0,700);
+ await page.waitForFunction(()=>document.documentElement.dataset.scrollPhase==='settle');
+ await page.waitForFunction(()=>document.documentElement.dataset.scrollPhase==='idle');
+ assert.ok(Math.abs(await page.evaluate(()=>scrollY)-2000)<2,'Wheel over the gallery did not snap to Experience');
+ await page.locator('.contact-footer').evaluate(e=>e.scrollIntoView({behavior:'instant'}));
+ const crown=await page.locator('.crown').boundingBox(),contact=await page.locator('.contact-word > a').boundingBox();
+ const contactInkOffset=await page.locator('.contact-word > a').evaluate(el=>parseFloat(getComputedStyle(el).fontSize)*.27);
+ assert.ok(crown.y+crown.height<contact.y+contactInkOffset,'Crown overlaps the Contact Me lettering');
+ assert.ok(crown.x<contact.x+contact.width*.25,'Crown is not at the left');
+ assert.equal(await page.locator('.crown').evaluate(e=>getComputedStyle(e).animationDuration),'10s');
+ await page.goto('http://127.0.0.1:4173/aboutme/',{waitUntil:'networkidle'});
+ await page.locator('.bold-section').evaluate(e=>e.scrollIntoView({behavior:'instant'}));
+ await page.waitForTimeout(4300);
+ assert.notEqual(await page.locator('.word-track').evaluate(e=>getComputedStyle(e).transform),'none','About words did not animate');
+ await page.goto('http://127.0.0.1:4173/projects/spierer-university/',{waitUntil:'networkidle'});
+ const overview=page.getByRole('region',{name:'Spierer University overview'});
+ await overview.evaluate(e=>e.scrollIntoView({behavior:'instant'}));await page.waitForTimeout(300);
+ const machines=await overview.locator('[data-state-machine]').all();
+ let catalog;
+ for(const machine of machines){if(await machine.evaluate(e=>JSON.parse(e.dataset.stateMachine).transitions.some(t=>t.event==='ON_CLICK'))){catalog=machine;break;}}
+ assert.ok(catalog,'No Figma click interaction was imported for the catalog');
+ const before=await catalog.locator(':scope > .reference-state.active').getAttribute('data-state');
+ await catalog.click({position:{x:50,y:50}});await page.waitForTimeout(400);
+ assert.notEqual(await catalog.locator(':scope > .reference-state.active').getAttribute('data-state'),before,'Catalog click did not change the image');
+ await page.goto('http://127.0.0.1:4173/contact/',{waitUntil:'networkidle'});
+ assert.equal(await page.evaluate(()=>getComputedStyle(document.documentElement).scrollSnapType),'none');
+ await page.mouse.move(720,450);await page.mouse.wheel(0,333);await page.waitForTimeout(500);
+ const contactScroll=await page.evaluate(()=>scrollY);assert.ok(contactScroll>100&&contactScroll<700,'Contact is not scrolling continuously');
+ const timeline=page.locator('[data-dropdown]').first(),budget=page.locator('[data-dropdown]').nth(1);
+ await timeline.locator('button').click();await timeline.getByRole('option',{name:'Within a month',exact:true}).click();
+ assert.equal(await timeline.locator('select').inputValue(),'Within a month');
+ await budget.locator('button').click();await page.keyboard.press('ArrowDown');await page.keyboard.press('Enter');
+ assert.equal(await budget.locator('select').inputValue(),'$3,000 – $5,000');
+ assert.equal(await timeline.locator('.dropdown-options').isVisible(),false);
+ for(const [name,cases] of Object.entries({email:[['not an email',false],['name@example',false],['name@example.com',true]],phone:[['letters',false],['12345',false],['----(())',false],['+1 (714) 555-0123',true],['+44 20 7946 0958',true]]})){
+  for(const [value,valid] of cases){const field=page.locator(`[name=${name}]`);await field.fill(value);assert.equal(await field.evaluate(el=>el.checkValidity()),valid,`${name} format: ${value}`);}
+ }
+ await page.goto('http://127.0.0.1:4173/projects/mercedesbenz/',{waitUntil:'networkidle'});
+ await page.getByRole('link',{name:'Back to projects',exact:true}).click();await page.waitForURL('**/projects/');
+ console.log('Design checks passed: menu geometry, responsive typography, portrait scaling, line extension, weighted snapping, crown clearance, About animation, catalog interaction, continuous Contact, input validation, dropdowns and the project return link.');
+}finally{await browser.close();}

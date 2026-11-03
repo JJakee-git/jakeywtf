@@ -1,0 +1,1306 @@
+{
+  "3d-printed-darksaber": {
+    "context": "Engineering course project",
+    "hero": {
+      "path": "assets/projects/3d-printed-darksaber/finished-hilt.jpg",
+      "width": 1800,
+      "height": 1350,
+      "alt": "3D Printed Darksaber: finished hilt"
+    },
+    "left": [
+      {
+        "path": "assets/projects/3d-printed-darksaber/finished-hilt.jpg",
+        "width": 1800,
+        "height": 1350,
+        "alt": "3D Printed Darksaber: finished hilt"
+      }
+    ],
+    "right": null,
+    "process": [
+      {
+        "path": "assets/projects/3d-printed-darksaber/proportion-study.jpg",
+        "width": 608,
+        "height": 608,
+        "alt": "Reference proportion study",
+        "caption": "Reference proportion study"
+      },
+      {
+        "path": "assets/projects/3d-printed-darksaber/detail-measurements.jpg",
+        "width": 608,
+        "height": 608,
+        "alt": "Reference detail measurements",
+        "caption": "Reference detail measurements"
+      }
+    ],
+    "sections": [
+      {
+        "heading": "OVERVIEW",
+        "text": "For a 3D-printing engineering elective, I built a Darksaber hilt that I could keep, use, and continue improving. The project brought together Fusion 360 modeling, printed components, lighting, and a modular assembly."
+      },
+      {
+        "heading": "CHALLENGES & GOALS",
+        "text": "The main challenge was fitting electronics into a handheld shell without exposing them or weakening the print. Small details had to remain readable at the scale of the finished object while allowing enough clearance for assembly."
+      },
+      {
+        "heading": "RESEARCH & ITERATIONS",
+        "text": "I measured reference imagery, blocked out the major forms, and hollowed the body for an electronics insert. Repeated prints helped refine the fit between the handle, guard, and lighting components. Editable dimensions made small clearance changes easier to carry through the model."
+      },
+      {
+        "heading": "SOLUTION WITH AESTHETICS",
+        "text": "Black and gray surfaces emphasize the angular hilt and its repeated grooves. LEDs behind white acrylic create a diffused glow, while removable parts make repairs and later changes possible without rebuilding the entire object."
+      }
+    ]
+  },
+  "transylvania-typeface": {
+    "context": "GD 201 · Course project",
+    "hero": {
+      "path": "assets/projects/transylvania-typeface/specimen.jpg",
+      "width": 1800,
+      "height": 1200,
+      "alt": "Transylvania Typeface: specimen"
+    },
+    "left": [
+      {
+        "path": "assets/projects/transylvania-typeface/specimen.jpg",
+        "width": 1800,
+        "height": 1200,
+        "alt": "transylvania typeface: specimen"
+      },
+      {
+        "path": "assets/projects/transylvania-typeface/fontstruct-trials.jpg",
+        "width": 1600,
+        "height": 716,
+        "alt": "transylvania typeface: fontstruct trials"
+      }
+    ],
+    "right": {
+      "path": "assets/projects/transylvania-typeface/letterforms.jpg",
+      "width": 1600,
+      "height": 716,
+      "alt": "Transylvania Typeface: letterforms"
+    },
+    "process": [
+      {
+        "path": "assets/projects/transylvania-typeface/sketches.jpg",
+        "width": 1600,
+        "height": 716,
+        "alt": "Letterform sketches",
+        "caption": "Letterform sketches"
+      },
+      {
+        "path": "assets/projects/transylvania-typeface/fontstruct-trials.jpg",
+        "width": 1600,
+        "height": 716,
+        "alt": "FontStruct trials",
+        "caption": "FontStruct trials"
+      },
+      {
+        "path": "assets/projects/transylvania-typeface/revisions.jpg",
+        "width": 1600,
+        "height": 716,
+        "alt": "Digital revisions",
+        "caption": "Digital revisions"
+      }
+    ],
+    "sections": [
+      {
+        "heading": "OVERVIEW",
+        "text": "I developed Dracula, a display typeface presented through a Transylvania-themed specimen. The project explores how a limited set of modular shapes can form a consistent alphabet with a distinct Gothic character."
+      },
+      {
+        "heading": "CHALLENGES & GOALS",
+        "text": "The goal was to combine thin, restrained letterforms with older serif details and curved shapes. FontStruct’s block-based construction made curved transitions and a consistent relationship between uppercase and lowercase letters the main challenges."
+      },
+      {
+        "heading": "RESEARCH & ITERATIONS",
+        "text": "Hand-drawn studies established the alphabet’s direction before digital trials tested the same features across different letters. Revisions focused on keeping the curves, stems, and decorative details related throughout the character set."
+      },
+      {
+        "heading": "SOLUTION WITH AESTHETICS",
+        "text": "The final specimen uses red, dark backgrounds, and castle imagery to connect the lettering to its Dracula theme. The contrast supports the typeface’s narrow forms while giving the alphabet a setting that reinforces its personality."
+      }
+    ]
+  },
+  "omega-burger": {
+    "context": "GD 201 · Course project",
+    "hero": {
+      "path": "assets/projects/omega-burger/menu.jpg",
+      "width": 1575,
+      "height": 2100,
+      "alt": "Omega Burger: menu"
+    },
+    "left": [
+      {
+        "path": "assets/projects/omega-burger/handheld.jpg",
+        "width": 1600,
+        "height": 1036,
+        "alt": "omega burger: handheld"
+      },
+      {
+        "path": "assets/projects/omega-burger/revisions.jpg",
+        "width": 1600,
+        "height": 716,
+        "alt": "omega burger: revisions"
+      }
+    ],
+    "right": {
+      "path": "assets/projects/omega-burger/wall-menu.jpg",
+      "width": 1600,
+      "height": 474,
+      "alt": "Omega Burger: wall menu"
+    },
+    "process": [
+      {
+        "path": "assets/projects/omega-burger/moodboard.jpg",
+        "width": 1600,
+        "height": 716,
+        "alt": "Visual direction",
+        "caption": "Visual direction"
+      },
+      {
+        "path": "assets/projects/omega-burger/compositions.jpg",
+        "width": 1600,
+        "height": 716,
+        "alt": "Menu compositions",
+        "caption": "Menu compositions"
+      },
+      {
+        "path": "assets/projects/omega-burger/revisions.jpg",
+        "width": 1600,
+        "height": 716,
+        "alt": "Hierarchy and layout revisions",
+        "caption": "Hierarchy and layout revisions"
+      }
+    ],
+    "sections": [
+      {
+        "heading": "OVERVIEW",
+        "text": "This menu redesign brings Omega Burger’s handheld and wall menus into one visual system. The project addresses inconsistent layouts while giving each format a role that fits how people read and order from it."
+      },
+      {
+        "heading": "CHALLENGES & GOALS",
+        "text": "The handheld menu needed clear categories and room for detailed information. The wall menu had to work at a distance, with stronger illustration and a hierarchy that makes the main choices easy to find."
+      },
+      {
+        "heading": "RESEARCH & ITERATIONS",
+        "text": "Site observations, visual research, and successive compositions informed the redesign. Layout trials explored the balance between food categories, supporting information, and illustration, followed by revisions and print checks."
+      },
+      {
+        "heading": "SOLUTION WITH AESTHETICS",
+        "text": "Blue, red, and yellow connect the menus, while line illustrations referencing Greek architecture give the system a recognizable character. Repeated typography and category treatments create continuity across the different sizes."
+      }
+    ]
+  },
+  "jacob-spierer-logo": {
+    "context": "GD 201 · Personal identity project",
+    "hero": {
+      "path": "assets/projects/jacob-spierer-logo/mark.jpg",
+      "width": 1800,
+      "height": 1850,
+      "alt": "Jacob Spierer Logo: mark"
+    },
+    "left": [
+      {
+        "path": "assets/projects/jacob-spierer-logo/applications.jpg",
+        "width": 1600,
+        "height": 1237,
+        "alt": "jacob spierer logo: applications"
+      },
+      {
+        "path": "assets/projects/jacob-spierer-logo/mark.jpg",
+        "width": 1800,
+        "height": 1850,
+        "alt": "jacob spierer logo: mark"
+      }
+    ],
+    "right": {
+      "path": "assets/projects/jacob-spierer-logo/palette.jpg",
+      "width": 1600,
+      "height": 1237,
+      "alt": "Jacob Spierer Logo: palette"
+    },
+    "process": [
+      {
+        "path": "assets/projects/jacob-spierer-logo/thumbnails.jpg",
+        "width": 1600,
+        "height": 1237,
+        "alt": "Initial logo thumbnails",
+        "caption": "Initial logo thumbnails"
+      },
+      {
+        "path": "assets/projects/jacob-spierer-logo/tights.jpg",
+        "width": 1600,
+        "height": 1237,
+        "alt": "Refined mark studies",
+        "caption": "Refined mark studies"
+      }
+    ],
+    "sections": [
+      {
+        "heading": "OVERVIEW",
+        "text": "I created a personal identity that reflects my interest in vector work and clean line art. The mark is designed to feel approachable and memorable while remaining simple enough to carry across different applications."
+      },
+      {
+        "heading": "CHALLENGES & GOALS",
+        "text": "The challenge was to find a balance between a refined, sophisticated identity and a more relaxed, bubbly personality. Curves, folds, and color needed to add character without making the mark feel crowded."
+      },
+      {
+        "heading": "RESEARCH & ITERATIONS",
+        "text": "A broad set of hand-drawn thumbnails led to a smaller group of tighter directions. I refined the shapes and relationships, then developed a palette, typography choices, patterns, and application studies around the selected mark."
+      },
+      {
+        "heading": "SOLUTION WITH AESTHETICS",
+        "text": "The final identity follows a less-is-more approach. Rounded lines and folded forms establish the mark’s personality, while the supporting color and pattern system give it flexibility beyond the logo itself."
+      }
+    ]
+  },
+  "baps": {
+    "context": "GD 203 · Course concept",
+    "hero": {
+      "path": "assets/projects/baps/identity.jpg",
+      "width": 1600,
+      "height": 991,
+      "alt": "BAPS Shri Swaminarayan: identity"
+    },
+    "left": [
+      {
+        "path": "assets/projects/baps/identity.jpg",
+        "width": 1600,
+        "height": 991,
+        "alt": "baps: identity"
+      },
+      {
+        "path": "assets/projects/baps/palette.jpg",
+        "width": 1600,
+        "height": 991,
+        "alt": "baps: palette"
+      }
+    ],
+    "right": {
+      "path": "assets/projects/baps/promotions.jpg",
+      "width": 1600,
+      "height": 862,
+      "alt": "BAPS Shri Swaminarayan: promotions"
+    },
+    "process": [
+      {
+        "path": "assets/projects/baps/palette.jpg",
+        "width": 1600,
+        "height": 991,
+        "alt": "Core color palette",
+        "caption": "Core color palette"
+      },
+      {
+        "path": "assets/projects/baps/typography.jpg",
+        "width": 1600,
+        "height": 991,
+        "alt": "Typography system",
+        "caption": "Typography system"
+      }
+    ],
+    "sections": [
+      {
+        "heading": "OVERVIEW",
+        "text": "This identity concept for BAPS Shri Swaminarayan brings architectural references, color, typography, and promotional artwork into a shared set of guidelines. The available brand book documents the finished visual system and its applications."
+      },
+      {
+        "heading": "CHALLENGES & GOALS",
+        "text": "The identity needed to communicate cultural depth and a sense of community while remaining consistent across different formats. Primary, secondary, and standalone marks give the system options without losing the relationship between its parts."
+      },
+      {
+        "heading": "RESEARCH & ITERATIONS",
+        "text": "The documented system takes its direction from the Mandir’s architecture. The guidelines establish mark variants, monochrome treatments, usage restrictions, photography, and typographic hierarchy to support consistent application."
+      },
+      {
+        "heading": "SOLUTION WITH AESTHETICS",
+        "text": "Deep green, sandstone, yellow, pink, and near-black create a palette with distinct supporting roles. Architectural forms in the mark connect the identity to the temple, while promotional layouts extend that language into event communication."
+      }
+    ],
+    "processHeading": "DESIGN SYSTEM & APPLICATIONS"
+  },
+  "tarantino-book-set": {
+    "context": "GD 100 · Course project",
+    "hero": {
+      "path": "assets/projects/tarantino-book-set/collection.jpg",
+      "width": 1600,
+      "height": 900,
+      "alt": "Tarantino Book Set: collection"
+    },
+    "left": [
+      {
+        "path": "assets/projects/tarantino-book-set/chain-stitch.jpg",
+        "width": 1600,
+        "height": 900,
+        "alt": "Tarantino Book Set: chain stitch"
+      },
+      {
+        "path": "assets/projects/tarantino-book-set/pamphlet.jpg",
+        "width": 1600,
+        "height": 900,
+        "alt": "Tarantino Book Set: pamphlet"
+      }
+    ],
+    "right": {
+      "path": "assets/projects/tarantino-book-set/japanese-binding.jpg",
+      "width": 1600,
+      "height": 900,
+      "alt": "Tarantino Book Set: japanese binding"
+    },
+    "process": [
+      {
+        "path": "assets/projects/tarantino-book-set/coptic-binding.jpg",
+        "width": 1600,
+        "height": 900,
+        "alt": "Hardcover Coptic binding",
+        "caption": "Hardcover Coptic binding"
+      },
+      {
+        "path": "assets/projects/tarantino-book-set/japanese-binding.jpg",
+        "width": 1600,
+        "height": 900,
+        "alt": "Japanese stab binding",
+        "caption": "Japanese stab binding"
+      },
+      {
+        "path": "assets/projects/tarantino-book-set/chain-stitch.jpg",
+        "width": 1600,
+        "height": 900,
+        "alt": "Chain-stitch books",
+        "caption": "Chain-stitch books"
+      }
+    ],
+    "sections": [
+      {
+        "heading": "OVERVIEW",
+        "text": "I made a cohesive set of handmade books inspired by Quentin Tarantino films as a gift for my dad. Each cover translates a recognizable scene into simplified shapes and color, while each binding responds to the character of its film."
+      },
+      {
+        "heading": "CHALLENGES & GOALS",
+        "text": "The project combined visual consistency with the demands of physical construction. Cutting, measuring, gluing, and stitching needed careful planning so the books could work as individual objects and as a collection."
+      },
+      {
+        "heading": "RESEARCH & ITERATIONS",
+        "text": "The set explores chain stitch, three- and five-hole pamphlets, hardcover construction, Japanese stab binding, and Coptic binding. Moving between these methods helped me understand how structure changes both the process and the finished object."
+      },
+      {
+        "heading": "SOLUTION WITH AESTHETICS",
+        "text": "Reduced illustrations and repeated color relationships tie the covers together. The varied bindings make the physical construction part of the concept, adding another way to distinguish each film while preserving the set’s shared identity."
+      }
+    ]
+  },
+  "everybody-poster": {
+    "context": "GD 103 · Course project",
+    "hero": {
+      "path": "assets/projects/everybody-poster/poster.jpg",
+      "width": 1504,
+      "height": 1450,
+      "alt": "Everybody: poster"
+    },
+    "left": [
+      {
+        "path": "assets/projects/everybody-poster/poster.jpg",
+        "width": 1504,
+        "height": 1450,
+        "alt": "Everybody: poster"
+      }
+    ],
+    "right": {
+      "path": "assets/projects/everybody-poster/revisions.jpg",
+      "width": 1600,
+      "height": 716,
+      "alt": "Everybody: revisions"
+    },
+    "process": [
+      {
+        "path": "assets/projects/everybody-poster/sketches.jpg",
+        "width": 1600,
+        "height": 716,
+        "alt": "Poster thumbnails",
+        "caption": "Poster thumbnails"
+      },
+      {
+        "path": "assets/projects/everybody-poster/moodboard.jpg",
+        "width": 1600,
+        "height": 716,
+        "alt": "Visual research",
+        "caption": "Visual research"
+      },
+      {
+        "path": "assets/projects/everybody-poster/tights.jpg",
+        "width": 1600,
+        "height": 716,
+        "alt": "Refined compositions",
+        "caption": "Refined compositions"
+      }
+    ],
+    "sections": [
+      {
+        "heading": "OVERVIEW",
+        "text": "This poster promotes Everybody through a figure whose identity remains deliberately open. The composition brings the play’s themes into a clear event poster aimed at a Chapman student audience."
+      },
+      {
+        "heading": "CHALLENGES & GOALS",
+        "text": "The central challenge was to suggest a person without making the figure too specific. The poster also needed to balance an expressive concept with an information hierarchy that keeps the title and event details legible."
+      },
+      {
+        "heading": "RESEARCH & ITERATIONS",
+        "text": "Thumbnails, moodboards, and tighter compositions explored the relationship between the head, repeated title, and supporting information. Revisions narrowed the direction toward a wireframe figure and a more controlled arrangement of type."
+      },
+      {
+        "heading": "SOLUTION WITH AESTHETICS",
+        "text": "Purple introduces mystery, yellow establishes emphasis, and white supports the information. The repeated title fades through the composition, while the wireframe head creates an anonymous figure that can stand for anybody."
+      }
+    ]
+  },
+  "norton-wine": {
+    "context": "GD 103 · Course concept",
+    "hero": {
+      "path": "assets/projects/norton-wine/advertisement.jpg",
+      "width": 1120,
+      "height": 1781,
+      "alt": "Norton Wine: advertisement"
+    },
+    "left": [
+      {
+        "path": "assets/projects/norton-wine/advertisement.jpg",
+        "width": 1120,
+        "height": 1781,
+        "alt": "Norton Wine: advertisement"
+      }
+    ],
+    "right": {
+      "path": "assets/projects/norton-wine/labels.jpg",
+      "width": 1600,
+      "height": 1049,
+      "alt": "Norton Wine: labels"
+    },
+    "process": [
+      {
+        "path": "assets/projects/norton-wine/thumbnails.jpg",
+        "width": 1600,
+        "height": 1049,
+        "alt": "Label thumbnails",
+        "caption": "Label thumbnails"
+      },
+      {
+        "path": "assets/projects/norton-wine/tights.jpg",
+        "width": 1600,
+        "height": 1049,
+        "alt": "Refined label studies",
+        "caption": "Refined label studies"
+      },
+      {
+        "path": "assets/projects/norton-wine/ad-compositions.jpg",
+        "width": 1600,
+        "height": 1049,
+        "alt": "Advertisement compositions",
+        "caption": "Advertisement compositions"
+      }
+    ],
+    "sections": [
+      {
+        "heading": "OVERVIEW",
+        "text": "This wine-label and advertising concept develops a connected direction for three Norton wines. Sailing imagery and a shared visual language bring the bottles together as a family while leaving room for each label to feel distinct."
+      },
+      {
+        "heading": "CHALLENGES & GOALS",
+        "text": "The labels needed to communicate a sense of elegance and relaxation, then extend into an advertisement that could hold the same atmosphere. Color and contrast had to work both on the bottle and in a larger composition."
+      },
+      {
+        "heading": "RESEARCH & ITERATIONS",
+        "text": "Moodboards led into thumbnail studies, refined label directions, and bottle compositions. Advertisement trials tested how the product imagery could connect to the sailing theme before the final layout was resolved."
+      },
+      {
+        "heading": "SOLUTION WITH AESTHETICS",
+        "text": "Desaturated hues and illustrative references to sailing and mythology establish the tone. The advertisement carries that direction through the line “Set Sail Towards Greatness,” connecting the visual setting to the bottle family."
+      }
+    ]
+  },
+  "appropriation-exhibition": {
+    "context": "GD 103 · Unbuilt exhibition concept",
+    "hero": {
+      "path": "assets/projects/appropriation-exhibition/exhibition.jpg",
+      "width": 1600,
+      "height": 824,
+      "alt": "The Uncomfortable Cycle: exhibition"
+    },
+    "left": [
+      {
+        "path": "assets/projects/appropriation-exhibition/interior.jpg",
+        "width": 1600,
+        "height": 868,
+        "alt": "appropriation exhibition: interior"
+      },
+      {
+        "path": "assets/projects/appropriation-exhibition/exhibition.jpg",
+        "width": 1600,
+        "height": 824,
+        "alt": "appropriation exhibition: exhibition"
+      },
+      {
+        "path": "assets/projects/appropriation-exhibition/sketches.jpg",
+        "width": 1600,
+        "height": 1049,
+        "alt": "appropriation exhibition: sketches"
+      }
+    ],
+    "right": {
+      "path": "assets/projects/appropriation-exhibition/model.jpg",
+      "width": 1600,
+      "height": 1049,
+      "alt": "The Uncomfortable Cycle: model"
+    },
+    "process": [
+      {
+        "path": "assets/projects/appropriation-exhibition/sketches.jpg",
+        "width": 1600,
+        "height": 1049,
+        "alt": "Spatial sketches",
+        "caption": "Spatial sketches"
+      },
+      {
+        "path": "assets/projects/appropriation-exhibition/spatial-studies.jpg",
+        "width": 1600,
+        "height": 1049,
+        "alt": "Layout development",
+        "caption": "Layout development"
+      }
+    ],
+    "sections": [
+      {
+        "heading": "OVERVIEW",
+        "text": "The Uncomfortable Cycle of Appropriation is an exhibition concept for the Guggenheim Gallery. It uses Aladdin as a point of departure to explore how representations can repeat and pass between generations."
+      },
+      {
+        "heading": "CHALLENGES & GOALS",
+        "text": "The challenge was to translate an abstract cultural issue into a spatial experience within a limited footprint. The layout needed to guide visitors through the idea rather than relying entirely on explanatory text."
+      },
+      {
+        "heading": "RESEARCH & ITERATIONS",
+        "text": "Research imagery, sketches, and model studies informed the exhibition’s sequence and arrangement. Interior compositions tested how the installation could create a contained narrative and direct attention through the proposed space."
+      },
+      {
+        "heading": "SOLUTION WITH AESTHETICS",
+        "text": "The final renders describe an educational installation centered on repetition and an uncomfortable cycle. The design uses the physical arrangement to connect the subject, the viewer’s movement, and the idea of recurring representation."
+      }
+    ]
+  },
+  "aomedia-website": {
+    "context": "GD 202 · Course project",
+    "hero": {
+      "path": "assets/projects/aomedia-website/website.jpg",
+      "width": 1600,
+      "height": 716,
+      "alt": "AOMedia: website"
+    },
+    "left": [
+      {
+        "path": "assets/projects/aomedia-website/website.jpg",
+        "width": 1600,
+        "height": 716,
+        "alt": "AOMedia: website"
+      },
+      {
+        "path": "assets/projects/aomedia-website/style-guide.jpg",
+        "width": 1600,
+        "height": 716,
+        "alt": "AOMedia: style guide"
+      }
+    ],
+    "right": {
+      "path": "assets/projects/aomedia-website/wireframes.jpg",
+      "width": 1600,
+      "height": 716,
+      "alt": "AOMedia: wireframes"
+    },
+    "process": [
+      {
+        "path": "assets/projects/aomedia-website/wireframe-sketches.jpg",
+        "width": 1600,
+        "height": 716,
+        "alt": "Hand-drawn wireframes",
+        "caption": "Hand-drawn wireframes"
+      },
+      {
+        "path": "assets/projects/aomedia-website/moodboard.jpg",
+        "width": 1600,
+        "height": 716,
+        "alt": "Visual direction",
+        "caption": "Visual direction"
+      },
+      {
+        "path": "assets/projects/aomedia-website/revisions.jpg",
+        "width": 1600,
+        "height": 716,
+        "alt": "Digital revisions",
+        "caption": "Digital revisions"
+      }
+    ],
+    "sections": [
+      {
+        "heading": "OVERVIEW",
+        "text": "I developed a connected Home, About, and Services website for AOMedia. The project focuses on making the business, its work, and the next step for an interested visitor easier to understand across desktop and mobile layouts."
+      },
+      {
+        "heading": "CHALLENGES & GOALS",
+        "text": "The website needed a coherent structure that could present different types of information without feeling disconnected. A clear hierarchy, consistent cards, and visible contact points were central goals."
+      },
+      {
+        "heading": "RESEARCH & ITERATIONS",
+        "text": "The process included interviews, competitor research, personas, and a heuristic review, followed by hand-drawn wireframes and low-fidelity layouts. Digital revisions refined the grid and the relationship between content sections."
+      },
+      {
+        "heading": "SOLUTION WITH AESTHETICS",
+        "text": "AOMedia’s red anchors the visual system. Rounded forms and glass-like surfaces give the layouts a friendly character, while repeated grids and cards provide a consistent framework across the three pages."
+      }
+    ]
+  },
+  "encino-app": {
+    "context": "GD 202 · Course concept",
+    "hero": {
+      "path": "assets/projects/encino-app/app.jpg",
+      "width": 1600,
+      "height": 716,
+      "alt": "Encino: app"
+    },
+    "left": [
+      {
+        "path": "assets/projects/encino-app/app.jpg",
+        "width": 1600,
+        "height": 716,
+        "alt": "Encino: app"
+      },
+      {
+        "path": "assets/projects/encino-app/wireframes.jpg",
+        "width": 1600,
+        "height": 716,
+        "alt": "Encino: wireframes"
+      }
+    ],
+    "right": null,
+    "process": [
+      {
+        "path": "assets/projects/encino-app/sketches.jpg",
+        "width": 1600,
+        "height": 716,
+        "alt": "Initial screen sketches",
+        "caption": "Initial screen sketches"
+      },
+      {
+        "path": "assets/projects/encino-app/flow-sketches.jpg",
+        "width": 1600,
+        "height": 716,
+        "alt": "Screen and flow development",
+        "caption": "Screen and flow development"
+      },
+      {
+        "path": "assets/projects/encino-app/moodboard.jpg",
+        "width": 1600,
+        "height": 716,
+        "alt": "Color and visual direction",
+        "caption": "Color and visual direction"
+      }
+    ],
+    "sections": [
+      {
+        "heading": "OVERVIEW",
+        "text": "This Encino app concept gathers local information into Home, Calendar, Info, Community, and Profile areas. It brings weather, events, local history, photos, and community content into a connected mobile experience."
+      },
+      {
+        "heading": "CHALLENGES & GOALS",
+        "text": "The main challenge was organizing a dense set of city information without making the interface difficult to navigate. The design needed to separate different kinds of content while preserving a consistent structure between screens."
+      },
+      {
+        "heading": "RESEARCH & ITERATIONS",
+        "text": "Design-thinking exercises, hand-drawn screens, moodboards, and low-fidelity layouts informed the organization. Revisions explored grouping, navigation, and how the app could move between practical information and a more personal view of the city."
+      },
+      {
+        "heading": "SOLUTION WITH AESTHETICS",
+        "text": "Natural colors, rounded shapes, and soft gradients create a modern but nostalgic tone. The visual direction uses the Gelato Luxe reference as a starting point, then carries related hierarchy and spacing across the app’s main sections."
+      }
+    ]
+  },
+  "salus-vitae": {
+    "context": "GD 302 · Course concept",
+    "hero": {
+      "path": "assets/projects/salus-vitae/brand-book.jpg",
+      "width": 1600,
+      "height": 716,
+      "alt": "Salus Vitae: brand book"
+    },
+    "left": [
+      {
+        "path": "assets/projects/salus-vitae/brand-book.jpg",
+        "width": 1600,
+        "height": 716,
+        "alt": "Salus Vitae: brand book"
+      },
+      {
+        "path": "assets/projects/salus-vitae/website.jpg",
+        "width": 1600,
+        "height": 716,
+        "alt": "Salus Vitae: website"
+      }
+    ],
+    "right": {
+      "path": "assets/projects/salus-vitae/campaign.jpg",
+      "width": 1600,
+      "height": 716,
+      "alt": "Salus Vitae: campaign"
+    },
+    "process": [
+      {
+        "path": "assets/projects/salus-vitae/logo-sketches.jpg",
+        "width": 1600,
+        "height": 716,
+        "alt": "Logo sketches",
+        "caption": "Logo sketches"
+      },
+      {
+        "path": "assets/projects/salus-vitae/logo-development.jpg",
+        "width": 1600,
+        "height": 716,
+        "alt": "Logo development",
+        "caption": "Logo development"
+      },
+      {
+        "path": "assets/projects/salus-vitae/web-sketches.jpg",
+        "width": 1600,
+        "height": 716,
+        "alt": "Website sketches",
+        "caption": "Website sketches"
+      },
+      {
+        "path": "assets/projects/salus-vitae/wireframes.jpg",
+        "width": 1600,
+        "height": 716,
+        "alt": "Website wireframes",
+        "caption": "Website wireframes"
+      }
+    ],
+    "sections": [
+      {
+        "heading": "OVERVIEW",
+        "text": "Salus Vitae is a smart-ring brand concept developed through an identity system, brand book, website, social content, and advertising. The project explores how one visual direction can hold together across product communication and digital applications."
+      },
+      {
+        "heading": "CHALLENGES & GOALS",
+        "text": "The challenge was maintaining consistency across a broad set of deliverables. The logo, typography, color, layout, and campaign imagery needed to work together without making every format look identical."
+      },
+      {
+        "heading": "RESEARCH & ITERATIONS",
+        "text": "Research and moodboards informed logo sketches and refinements, followed by brand-book studies. Website sketches and wireframes developed the digital structure, while separate composition studies explored social and advertising applications."
+      },
+      {
+        "heading": "SOLUTION WITH AESTHETICS",
+        "text": "The final system repeats its core identity across editorial layouts, product-focused web pages, and campaign material. A shared visual structure links the different formats while allowing the content and emphasis to change."
+      }
+    ],
+    "credit": "Selected website background, social, and advertising imagery is AI-assisted, as disclosed in the project process book."
+  },
+  "avatar-series": {
+    "context": "GD 309 · Course project",
+    "hero": {
+      "path": "assets/projects/avatar-series/color-avatar.jpg",
+      "width": 1600,
+      "height": 962,
+      "alt": "Personal Avatar Series: color avatar"
+    },
+    "left": [
+      {
+        "path": "assets/projects/avatar-series/color-avatar.jpg",
+        "width": 1600,
+        "height": 962,
+        "alt": "Personal Avatar Series: color avatar"
+      },
+      {
+        "path": "assets/projects/avatar-series/monochrome-avatar.jpg",
+        "width": 1600,
+        "height": 962,
+        "alt": "Personal Avatar Series: monochrome avatar"
+      }
+    ],
+    "right": {
+      "path": "assets/projects/avatar-series/portrait.jpg",
+      "width": 1600,
+      "height": 962,
+      "alt": "Personal Avatar Series: portrait"
+    },
+    "process": [
+      {
+        "path": "assets/projects/avatar-series/moodboard.jpg",
+        "width": 1600,
+        "height": 716,
+        "alt": "Portrait references",
+        "caption": "Portrait references"
+      },
+      {
+        "path": "assets/projects/avatar-series/compositions.jpg",
+        "width": 1600,
+        "height": 716,
+        "alt": "Composition studies",
+        "caption": "Composition studies"
+      },
+      {
+        "path": "assets/projects/avatar-series/revisions.jpg",
+        "width": 1600,
+        "height": 716,
+        "alt": "Digital revisions",
+        "caption": "Digital revisions"
+      }
+    ],
+    "sections": [
+      {
+        "heading": "OVERVIEW",
+        "text": "This portrait series develops a visual language for a personal avatar and a related portrait. Color and monochrome versions explore how the same approach can remain recognizable while changing its palette and emphasis."
+      },
+      {
+        "heading": "CHALLENGES & GOALS",
+        "text": "I wanted the avatar to feel expressive without fixing it to one obvious emotion. A three-quarter view and deliberately ambiguous expression became ways to suggest personality while keeping the first impression open."
+      },
+      {
+        "heading": "RESEARCH & ITERATIONS",
+        "text": "Art Deco, abstraction, and Neo-Pop informed the direction, with Mondrian’s primary colors and Basquiat’s energy among the references. Compositions and digital revisions tested how far the faces could be simplified while retaining their character."
+      },
+      {
+        "heading": "SOLUTION WITH AESTHETICS",
+        "text": "Block-like shapes, strong color relationships, and reduced features connect the portraits. The monochrome treatment tests that structure without relying on color, while the related portrait extends the same language to another subject."
+      }
+    ]
+  },
+  "princess-cake": {
+    "context": "GD 309 · Course concept for Valhalla Bakery",
+    "hero": {
+      "path": "assets/projects/princess-cake/campaign.jpg",
+      "width": 1600,
+      "height": 716,
+      "alt": "Princess Cake: campaign"
+    },
+    "left": [
+      {
+        "path": "assets/projects/princess-cake/poster-1.jpg",
+        "width": 1400,
+        "height": 2100,
+        "alt": "Princess Cake: poster 1"
+      },
+      {
+        "path": "assets/projects/princess-cake/poster-2.jpg",
+        "width": 1401,
+        "height": 2100,
+        "alt": "Princess Cake: poster 2"
+      }
+    ],
+    "right": {
+      "path": "assets/projects/princess-cake/poster-3.jpg",
+      "width": 1401,
+      "height": 2100,
+      "alt": "Princess Cake: poster 3"
+    },
+    "process": [
+      {
+        "path": "assets/projects/princess-cake/sketches.jpg",
+        "width": 1600,
+        "height": 716,
+        "alt": "Campaign thumbnails",
+        "caption": "Campaign thumbnails"
+      },
+      {
+        "path": "assets/projects/princess-cake/compositions.jpg",
+        "width": 1600,
+        "height": 716,
+        "alt": "Poster compositions",
+        "caption": "Poster compositions"
+      },
+      {
+        "path": "assets/projects/princess-cake/moodboard.jpg",
+        "width": 1600,
+        "height": 716,
+        "alt": "Final visual direction",
+        "caption": "Final visual direction"
+      },
+      {
+        "path": "assets/projects/princess-cake/swan-revisions.jpg",
+        "width": 1600,
+        "height": 716,
+        "alt": "Swan poster revisions",
+        "caption": "Swan poster revisions"
+      }
+    ],
+    "sections": [
+      {
+        "heading": "OVERVIEW",
+        "text": "This three-poster campaign presents Princess Cake through three qualities: elegant, beautiful, and delicate. Each illustration uses a different bird to express one of those qualities while keeping the cake at the center of the campaign."
+      },
+      {
+        "heading": "CHALLENGES & GOALS",
+        "text": "The posters needed to feel like a family without repeating the same scene. The goal was to communicate the cake’s character through illustration, balancing a recognizable product with a more atmospheric and expressive setting."
+      },
+      {
+        "heading": "RESEARCH & ITERATIONS",
+        "text": "Thumbnails and moodboards led into coordinated compositions and individual bird studies. Revisions refined the swan, peacock, and hummingbird posters, using a shared format and a directional composition to lead attention toward the cake."
+      },
+      {
+        "heading": "SOLUTION WITH AESTHETICS",
+        "text": "Midcentury and Art Deco references inform the shapes, color, and typography. The swan suggests elegance, the peacock beauty, and the hummingbird delicacy. Related pastel colors and a consistent typographic structure connect all three posters."
+      }
+    ]
+  },
+  "spring-fig": {
+    "context": "GD 309 · Personal spring illustration",
+    "hero": {
+      "path": "assets/projects/spring-fig/illustration.jpg",
+      "width": 1800,
+      "height": 1800,
+      "alt": "Spring Fig: illustration"
+    },
+    "left": [
+      {
+        "path": "assets/projects/spring-fig/illustration.jpg",
+        "width": 1800,
+        "height": 1800,
+        "alt": "Spring Fig: illustration"
+      }
+    ],
+    "right": {
+      "path": "assets/projects/spring-fig/mockup.jpg",
+      "width": 1600,
+      "height": 716,
+      "alt": "Spring Fig: mockup"
+    },
+    "process": [
+      {
+        "path": "assets/projects/spring-fig/fruit-sketches.jpg",
+        "width": 1600,
+        "height": 716,
+        "alt": "Fruit thumbnails",
+        "caption": "Fruit thumbnails"
+      },
+      {
+        "path": "assets/projects/spring-fig/compositions.jpg",
+        "width": 1600,
+        "height": 716,
+        "alt": "Shape and color studies",
+        "caption": "Shape and color studies"
+      },
+      {
+        "path": "assets/projects/spring-fig/revisions.jpg",
+        "width": 1600,
+        "height": 716,
+        "alt": "Digital revisions",
+        "caption": "Digital revisions"
+      },
+      {
+        "path": "assets/projects/spring-fig/application.jpg",
+        "width": 1600,
+        "height": 716,
+        "alt": "Application study",
+        "caption": "Application study"
+      }
+    ],
+    "sections": [
+      {
+        "heading": "OVERVIEW",
+        "text": "For this spring illustration, I chose a fig as a personal connection to growing and ripening fruit. The finished image pairs a whole fig with a cut half, creating a compact illustration that can work on its own or in a small application."
+      },
+      {
+        "heading": "CHALLENGES & GOALS",
+        "text": "The image needed to remain recognizable through simplified shapes while retaining enough texture to feel rich and tactile. It also had to work beyond a single composition, including print and sticker-sized uses."
+      },
+      {
+        "heading": "RESEARCH & ITERATIONS",
+        "text": "The project moved from early spring concepts into fruit sketches, flat-color compositions, and digital revisions. The final direction focused on the contrast between the fig’s exterior and its exposed interior."
+      },
+      {
+        "heading": "SOLUTION WITH AESTHETICS",
+        "text": "Purple, red, and yellow separate the skin and flesh, while stippled texture adds depth to the flat forms. A clean silhouette makes the illustration adaptable to small printed applications without requiring a fixed background."
+      }
+    ]
+  },
+  "chromakopia-collectible": {
+    "context": "GD 309 · Fan-art course project",
+    "hero": {
+      "path": "assets/projects/chromakopia-collectible/collectible.jpg",
+      "width": 1600,
+      "height": 716,
+      "alt": "Chromakopia Collectible: collectible"
+    },
+    "left": [
+      {
+        "path": "assets/projects/chromakopia-collectible/collectible.jpg",
+        "width": 1600,
+        "height": 716,
+        "alt": "Chromakopia Collectible: collectible"
+      },
+      {
+        "path": "assets/projects/chromakopia-collectible/digital-model.jpg",
+        "width": 1600,
+        "height": 716,
+        "alt": "Chromakopia Collectible: digital model"
+      }
+    ],
+    "right": {
+      "path": "assets/projects/chromakopia-collectible/details.jpg",
+      "width": 1600,
+      "height": 716,
+      "alt": "Chromakopia Collectible: details"
+    },
+    "process": [
+      {
+        "path": "assets/projects/chromakopia-collectible/sketches.jpg",
+        "width": 1600,
+        "height": 716,
+        "alt": "Container concept sketches",
+        "caption": "Container concept sketches"
+      },
+      {
+        "path": "assets/projects/chromakopia-collectible/model-development.jpg",
+        "width": 1600,
+        "height": 716,
+        "alt": "Model development",
+        "caption": "Model development"
+      },
+      {
+        "path": "assets/projects/chromakopia-collectible/materials.jpg",
+        "width": 1600,
+        "height": 716,
+        "alt": "Fabrication materials",
+        "caption": "Fabrication materials"
+      }
+    ],
+    "sections": [
+      {
+        "heading": "OVERVIEW",
+        "text": "I translated the shipping-container imagery of Chromakopia into a small collectible. The piece combines a container and hanging mask, bringing the visual atmosphere of the music video into a physical object."
+      },
+      {
+        "heading": "CHALLENGES & GOALS",
+        "text": "The main challenge was balancing recognizable proportions with a stylized interpretation. The finish needed to feel like a considered collectible, with believable surface wear and controlled detail at a small scale."
+      },
+      {
+        "heading": "RESEARCH & ITERATIONS",
+        "text": "I studied shipping containers, industrial labeling, street infrastructure, and the campaign’s palette. I modeled the container in Fusion 360, then developed its textures, graffiti, and weathering before printing and hand-finishing the object."
+      },
+      {
+        "heading": "SOLUTION WITH AESTHETICS",
+        "text": "Muted green, black, white, and brown establish a restrained palette. Song and collaborator text takes the role of industrial labeling, while limited graffiti and worn edges connect the object to the gritty atmosphere of its references."
+      }
+    ]
+  },
+  "nvidia-drop": {
+    "context": "GD 402 · Unofficial course concept",
+    "hero": {
+      "path": "assets/projects/nvidia-drop/mobile.jpg",
+      "width": 1600,
+      "height": 716,
+      "alt": "NVIDIA Drop: mobile"
+    },
+    "left": [
+      {
+        "path": "assets/projects/nvidia-drop/mobile.jpg",
+        "width": 1600,
+        "height": 716,
+        "alt": "NVIDIA Drop: mobile"
+      },
+      {
+        "path": "assets/projects/nvidia-drop/queue-states.jpg",
+        "width": 1600,
+        "height": 716,
+        "alt": "NVIDIA Drop: queue states"
+      }
+    ],
+    "right": {
+      "path": "assets/projects/nvidia-drop/error-states.jpg",
+      "width": 1600,
+      "height": 716,
+      "alt": "NVIDIA Drop: error states"
+    },
+    "process": [
+      {
+        "path": "assets/projects/nvidia-drop/journey.jpg",
+        "width": 1600,
+        "height": 716,
+        "alt": "Journey and sitemap",
+        "caption": "Journey and sitemap"
+      },
+      {
+        "path": "assets/projects/nvidia-drop/sketches.jpg",
+        "width": 1600,
+        "height": 716,
+        "alt": "Low-fidelity sketches",
+        "caption": "Low-fidelity sketches"
+      },
+      {
+        "path": "assets/projects/nvidia-drop/wireframes.jpg",
+        "width": 1600,
+        "height": 716,
+        "alt": "Screen wireframes",
+        "caption": "Screen wireframes"
+      },
+      {
+        "path": "assets/projects/nvidia-drop/revisions.jpg",
+        "width": 1600,
+        "height": 716,
+        "alt": "State and interface revisions",
+        "caption": "State and interface revisions"
+      }
+    ],
+    "sections": [
+      {
+        "heading": "OVERVIEW",
+        "text": "This NVIDIA drop concept focuses on the journey from entering a release to completing a purchase. The design prioritizes clear status, availability, and next steps for someone making decisions under time pressure."
+      },
+      {
+        "heading": "CHALLENGES & GOALS",
+        "text": "The challenge was communicating enough information without adding clutter to the purchase flow. Queue position, stock status, connection problems, time limits, and completion states all needed to remain clear and consistent."
+      },
+      {
+        "heading": "RESEARCH & ITERATIONS",
+        "text": "Journey maps, a sitemap, logic mapping, sketches, and wireframes established the flow. Revisions developed the buying sequence alongside success, sold-out, timeout, and connection states, with related dark and light interface treatments."
+      },
+      {
+        "heading": "SOLUTION WITH AESTHETICS",
+        "text": "NVIDIA’s green and black provide the foundation, with additional tones for depth and state changes. Sharp forms, strong hierarchy, and restrained interaction feedback support a fast, direct visual character across mobile and tablet layouts."
+      }
+    ]
+  },
+  "video-downloader": {
+    "context": "GD 402 · Course redesign concept",
+    "hero": {
+      "path": "assets/projects/video-downloader/home.jpg",
+      "width": 402,
+      "height": 874,
+      "alt": "Video Downloader: home"
+    },
+    "left": [
+      {
+        "path": "assets/projects/video-downloader/home.jpg",
+        "width": 402,
+        "height": 874,
+        "alt": "Video Downloader: home"
+      },
+      {
+        "path": "assets/projects/video-downloader/library.jpg",
+        "width": 404,
+        "height": 874,
+        "alt": "Video Downloader: library"
+      }
+    ],
+    "right": {
+      "path": "assets/projects/video-downloader/downloaded.jpg",
+      "width": 402,
+      "height": 874,
+      "alt": "Video Downloader: downloaded"
+    },
+    "process": [
+      {
+        "path": "assets/projects/video-downloader/sketches.jpg",
+        "width": 1536,
+        "height": 2048,
+        "alt": "Journey sketches",
+        "caption": "Journey sketches"
+      },
+      {
+        "path": "assets/projects/video-downloader/flow.jpg",
+        "width": 1800,
+        "height": 1058,
+        "alt": "Sitemap",
+        "caption": "Sitemap"
+      },
+      {
+        "path": "assets/projects/video-downloader/style-guide.jpg",
+        "width": 800,
+        "height": 800,
+        "alt": "Interface style guide",
+        "caption": "Interface style guide"
+      },
+      {
+        "path": "assets/projects/video-downloader/source.jpg",
+        "width": 402,
+        "height": 874,
+        "alt": "Source selection",
+        "caption": "Source selection"
+      }
+    ],
+    "sections": [
+      {
+        "heading": "OVERVIEW",
+        "text": "This app redesign follows a video-download journey from choosing a source through downloading and finding the saved file. The supplied brief focuses on making one user journey clearer and more intuitive."
+      },
+      {
+        "heading": "CHALLENGES & GOALS",
+        "text": "The goal was to connect the app’s actions into an understandable sequence while keeping the library easy to navigate. Source selection, download options, progress, completion, and errors all form part of that journey."
+      },
+      {
+        "heading": "RESEARCH & ITERATIONS",
+        "text": "Hand-drawn screen studies and a sitemap established the structure before high-fidelity screens developed the interface. The final folder includes related views for signing in, the library, folders, download settings, completion, and export."
+      },
+      {
+        "heading": "SOLUTION WITH AESTHETICS",
+        "text": "Consistent navigation and repeated screen structures connect the individual actions. The finished screens present the selected journey as a coherent interface, with a shared style guide supporting the visual language."
+      }
+    ]
+  },
+  "penelopes-coffee": {
+    "context": "GD 203 · Course concept",
+    "hero": {
+      "path": "assets/projects/penelopes-coffee/packaging.jpg",
+      "width": 725,
+      "height": 1211,
+      "alt": "Penelope’s Coffee & Tea: packaging"
+    },
+    "left": [
+      {
+        "path": "assets/projects/penelopes-coffee/coffee-flat.jpg",
+        "width": 1600,
+        "height": 1095,
+        "alt": "Penelope’s Coffee & Tea: coffee flat"
+      },
+      {
+        "path": "assets/projects/penelopes-coffee/tea-flat.jpg",
+        "width": 1600,
+        "height": 1095,
+        "alt": "Penelope’s Coffee & Tea: tea flat"
+      }
+    ],
+    "right": {
+      "path": "assets/projects/penelopes-coffee/palette.jpg",
+      "width": 1600,
+      "height": 732,
+      "alt": "Penelope’s Coffee & Tea: palette"
+    },
+    "process": [
+      {
+        "path": "assets/projects/penelopes-coffee/sketches.jpg",
+        "width": 1459,
+        "height": 2100,
+        "alt": "Packaging sketches",
+        "caption": "Packaging sketches"
+      },
+      {
+        "path": "assets/projects/penelopes-coffee/sketches-2.jpg",
+        "width": 1459,
+        "height": 2100,
+        "alt": "Further packaging studies",
+        "caption": "Further packaging studies"
+      }
+    ],
+    "sections": [
+      {
+        "heading": "OVERVIEW",
+        "text": "This packaging concept develops a family of coffee and tea packs for Penelope’s. Brand analysis in the project materials emphasizes warmth, shared experiences, and a relaxed atmosphere as the direction for the work."
+      },
+      {
+        "heading": "CHALLENGES & GOALS",
+        "text": "The packaging needed to connect different products through a common structure while giving each origin or variety a distinct place. The flat artwork also had to account for how the panels meet when the package is assembled."
+      },
+      {
+        "heading": "RESEARCH & ITERATIONS",
+        "text": "Brand analysis and fieldwork informed sketches and packaging studies. Dieline-based layouts explored how the logo, product information, origin imagery, and supporting messages could move around the folded form."
+      },
+      {
+        "heading": "SOLUTION WITH AESTHETICS",
+        "text": "A repeated turquoise field and related supporting colors connect the range. Map-based graphics distinguish the products, while the illustrated marks and shared type treatments preserve a recognizable family across coffee and tea."
+      }
+    ]
+  }
+}
