@@ -11,6 +11,10 @@ try{
    await page.goto(base+'/'+route,{waitUntil:'networkidle'});
    await page.evaluate(()=>document.fonts.ready);
    const section=page.locator('.project-process-flow'),strip=section.locator('.process-strip');
+   for(const selector of ['.project-story','.process-strip']){
+    const bar=await page.locator(selector).evaluate(e=>({size:getComputedStyle(e,'::-webkit-scrollbar').width,color:getComputedStyle(e,'::-webkit-scrollbar-thumb').backgroundColor}));
+    assert.equal(bar.size,'4px');assert.equal(bar.color,'rgb(246, 12, 9)','Scrollbar thumb lost the bright-red style');
+   }
    const layout=await section.evaluate(s=>({
     start:s.getBoundingClientRect().top+scrollY,
     range:s.querySelector('.process-strip').scrollWidth-s.querySelector('.process-strip').clientWidth,

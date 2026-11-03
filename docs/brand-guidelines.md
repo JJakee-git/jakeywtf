@@ -46,7 +46,7 @@ These standards record the user's approved direction. Desktop is the priority. M
 - Writeup inner padding: 24 px. Normal paragraph gaps: 12 px.
 - Home and About supporting text share the same outer insets.
 - Deliberately composed artwork retains its internal geometry.
-- Only project writeups and process strips show red scrollbars, at 4 px thickness in browsers with pixel-sized scrollbar support; other browsers retain their native thin-scrollbar fallback. Hide the outer page scrollbar while preserving normal page scrolling.
+- Only project writeups and process strips show scrollbars: a 4 px Primary 2 (`#f60c09`) thumb that stays red on hover/press, with no arrow buttons. Browsers without pixel-sized scrollbar support retain their native thin-scrollbar fallback. Hide the outer page scrollbar while preserving normal page scrolling.
 
 ## Motion and exceptions
 
