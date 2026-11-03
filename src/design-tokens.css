@@ -11,4 +11,13 @@
   --red: var(--variable-collection-PRIMARY-2);
   --dark-red: var(--variable-collection-PRIMARY-1);
   --white: var(--variable-collection-WHITE-95);
+  --space-12: calc(12 * var(--ui));
+  --space-24: calc(24 * var(--ui));
+  --space-36: calc(36 * var(--ui));
+  --space-48: calc(48 * var(--ui));
+  --space-72: calc(72 * var(--ui));
+  --paragraph-gap: var(--space-12);
+  --panel-gap: var(--space-24);
+  --content-gutter: var(--space-48);
+  --supporting-inset: var(--space-48);
 }

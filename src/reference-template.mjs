@@ -61,7 +61,7 @@ export function renderProjectDetails(ref,project,{esc,img}){
  };
  let columns='';
  if(project.slug==='mercedesbenz')columns=`<div class="project-column">${artwork('118:1170','Mercedes-Benz poster mockup')}</div><div class="project-column">${renderStory(get('118:1746'),{esc,title:project.title})}${artwork('118:1193','Mercedes-Benz G55 Cabrio illustration')}</div>`;
- if(project.slug==='fjallraven')columns=`<div class="project-column">${artwork('145:838','Fjällräven backpack and pattern designs')}</div><div class="project-column">${renderStory(get('145:886'),{esc,title:project.title})}${artwork('135:761','Fjällräven scouting pattern')}</div>`;
+ if(project.slug==='fjallraven')columns=`<div class="project-column">${artwork('135:758','Fjällräven backpack designs')}${artwork('145:836','Fjällräven pattern designs')}</div><div class="project-column">${renderStory(get('145:886'),{esc,title:project.title})}${artwork('135:761','Fjällräven scouting pattern')}</div>`;
  if(project.slug==='spierer-university')columns=`<div class="project-column">${artwork('143:515','Spierer University merchandise catalog')}${artwork('143:539','Spierer University additional catalog artwork')}</div><div class="project-column">${artwork('143:518','Spierer University mascot and sticker sets')}${renderStory(get('143:583'),{esc,title:project.title})}</div>`;
  const heading=ref.process.nodes.find(n=>descendants([n]).some(c=>c.type==='TEXT'&&c.text==='PROCESS & SKETCHES'));
  const processMeta=descendants([heading]).filter(n=>n.type==='TEXT'&&n.fontSize<=12);

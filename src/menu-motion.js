@@ -30,3 +30,41 @@ export function createMenuMotion(nav,header){
   current.finished.then(()=>{if(animation===current&&!open){nav.hidden=true;current.cancel();}},()=>{});
  };
 }
+
+// Keep native link behavior for new tabs and reduced motion. Normal returns
+// cover the stationary Back button first, then fade it before navigation.
+export function enableProjectReturn(header,closeMenu){
+ const back=header.querySelector('.project-back-button');
+ if(!back)return;
+ const menu=header.querySelector('.menu-toggle');
+ let leaving=false,cover,fade,visit=0;
+ function restore(){
+  visit++;leaving=false;cover?.cancel();fade?.cancel();
+  menu.inert=false;back.inert=false;back.removeAttribute('aria-disabled');
+  delete header.dataset.projectReturn;
+ }
+ addEventListener('pageshow',event=>{if(event.persisted)restore();});
+ back.addEventListener('click',async event=>{
+  if(event.defaultPrevented||event.button!==0||event.metaKey||event.ctrlKey||event.shiftKey||event.altKey||back.target==='_blank')return;
+  if(leaving){event.preventDefault();return;}
+  if(matchMedia('(prefers-reduced-motion: reduce)').matches)return;
+  event.preventDefault();leaving=true;
+  const sequence=++visit;
+  closeMenu();
+  const start=getComputedStyle(menu).transform;
+  const gap=parseFloat(getComputedStyle(menu.parentElement).columnGap)||0;
+  const travel=back.offsetWidth+gap;
+  header.dataset.projectReturn='covering';
+  back.setAttribute('aria-disabled','true');menu.inert=true;back.inert=true;
+  try{
+   cover=menu.animate([{transform:start},{transform:`translateX(${travel}px)`}],{duration:760,easing:'cubic-bezier(.4,0,.2,1)',fill:'forwards'});
+   await cover.finished;
+   header.dataset.projectReturn='fading';
+   fade=back.animate([{opacity:1},{opacity:0}],{duration:180,easing:'ease-out',fill:'forwards'});
+   await fade.finished;
+  }catch{
+   // A superseding navigation or disabled animation should not strand the link.
+  }
+  if(leaving&&sequence===visit)location.assign(back.href);
+ });
+}

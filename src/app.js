@@ -1,7 +1,7 @@
 import {clampCamera,galleryScale} from './gallery-math.mjs';
 import {enableSectionScrolling} from './scroll-controller.js';
 import {initializeViewportLayout} from './viewport-layout.js';
-import {createMenuMotion} from './menu-motion.js';
+import {createMenuMotion,enableProjectReturn} from './menu-motion.js';
 
 initializeViewportLayout();
 
@@ -18,6 +18,7 @@ function setMenu(open){
   moveMenu(open);
 }
 menu.addEventListener('click',()=>setMenu(menu.getAttribute('aria-expanded')!=='true'));
+enableProjectReturn(header,()=>setMenu(false));
 document.addEventListener('pointerdown',event=>{if(!header.contains(event.target))setMenu(false);});
 document.addEventListener('keydown',event=>{
   if(event.key==='Escape'&&menu.getAttribute('aria-expanded')==='true'){setMenu(false);menu.focus();}
