@@ -34,7 +34,7 @@ These standards record the user's approved direction. Desktop is the priority. M
 - The red bottom/right treatment is a hard offset shadow: 8 px right and 8 px down, without blur.
 - Pressed shadow: 10 px right and 10 px down.
 - Black action buttons keep their black background; text changes from White 95 to White 80 on hover.
-- Approved Back exception: white face, 2 px black outline, and the existing cover/reveal animation. Arrow and text change from Black 100 to Black 90 on hover.
+- Approved Back exception: white face with a 3 px black edge on the bottom and right only, the standard red offset shadow, and the existing cover/reveal animation. Arrow and text change from Black 100 to White 80 (`#b0b0b0`) on hover.
 - Approved Résumé exception: retain its current narrow, white-outline style rather than the standard wide action-button treatment.
 - Form dropdown styling is a form-field decision; do not automatically restyle every HTML button as a primary action.
 

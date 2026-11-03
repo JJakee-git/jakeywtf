@@ -51,9 +51,9 @@
 @keyframes crown-float{0%,100%{transform:translateY(0) rotate(-20deg)}50%{transform:translateY(calc(-25 * var(--ui))) rotate(-20deg)}}
 .page-project .site-header{--nav-width:min(calc(130 * var(--nav-count) * var(--ui)),calc(100vw - 2 * var(--gutter) - var(--menu-width) - 112 * var(--ui) - var(--control-height) - var(--space-24)))}
 .page-project .navigation-shell{display:flex;gap:var(--space-24);--menu-end:calc(var(--control-height) + var(--space-24))}
-.project-back-button{position:relative;z-index:2;flex:none;flex-direction:column;width:var(--control-height);border:calc(2 * var(--ui)) solid #000;background:var(--white);color:#000;font:700 calc(12 * var(--ui))/1 Brutalisme,sans-serif}
+.project-back-button{position:relative;z-index:2;flex:none;flex-direction:column;width:var(--control-height);border:solid #000;border-width:0 calc(3 * var(--ui)) calc(3 * var(--ui)) 0;background:var(--white);color:#000;font:700 calc(12 * var(--ui))/1 Brutalisme,sans-serif}
 .page-project .menu-toggle{animation:project-menu-reveal 1.05s cubic-bezier(.22,.8,.22,1) both}
-.project-back-button:hover{color:var(--variable-collection-BLACK-90)}
+.project-back-button:hover{color:var(--variable-collection-WHITE-80)}
 .project-back-button:active{color:#000}
 @keyframes project-menu-reveal{
  0%{transform:translateX(calc(var(--control-height) + var(--space-24)))}
