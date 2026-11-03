@@ -22,7 +22,8 @@ test('loose 24-anchor contours enclose every original artwork corner',async()=>{
  const contours=artworkContours(rectangles,scene.width,scene.height);
  for(const contour of contours)assert.equal(contour.length,24,'The boundary should have only 24 anchors');
  const path=artworkOutline(rectangles,scene.width,scene.height);
- assert.equal((path.match(/C/g)??[]).length,contours.length*24,'Every anchor should connect through an interpolated curve');
+ assert.equal((path.match(/L/g)??[]).length,contours.length*23,'Straight lines should join all 24 points before closing');
+ assert.ok(!/[CQAS]/.test(path),'The boundary should contain no curves');
  for(const r of rectangles)for(const point of [[r.left,r.top],[r.right,r.top],[r.right,r.bottom],[r.left,r.bottom]])assert.ok(contours.some(c=>inside(point,c)),'Contour cuts into artwork at '+point.join(','));
  for(const [x,y] of contours.flat())assert.ok(Number.isFinite(x)&&Number.isFinite(y)&&x>0&&y>0&&x<scene.width&&y<scene.height);
  assert.equal(artworkOutline(rectangles,scene.width,scene.height),artworkOutline(rectangles,scene.width,scene.height),'Rebuilding should not randomly change the outline');

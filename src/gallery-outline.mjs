@@ -1,5 +1,5 @@
 // Twenty-four widely spaced anchors describe a loose perimeter around the art.
-// Interpolated curves connect them without the old dense sawtooth edge.
+// Straight segments connect them without the old dense sawtooth edge.
 export function artworkContours(rectangles,width,height){
  if(!rectangles.length)return [];
  const padding=350;
@@ -53,13 +53,5 @@ export function artworkContours(rectangles,width,height){
 
 export function artworkOutline(rectangles,width,height){
  const format=p=>p.map(n=>Number(n.toFixed(2))).join(' ');
- return artworkContours(rectangles,width,height).map(points=>{
-  const n=points.length;
-  return 'M'+format(points[0])+' '+points.map((p,i)=>{
-   const before=points[(i+n-1)%n],next=points[(i+1)%n],after=points[(i+2)%n];
-   const first=p.map((v,axis)=>v+(next[axis]-before[axis])/8);
-   const second=next.map((v,axis)=>v-(after[axis]-p[axis])/8);
-   return 'C'+format(first)+' '+format(second)+' '+format(next);
-  }).join(' ')+' Z';
- }).join(' ');
+ return artworkContours(rectangles,width,height).map(points=>points.map((p,i)=>(i?'L':'M')+format(p)).join(' ')+' Z').join(' ');
 }
