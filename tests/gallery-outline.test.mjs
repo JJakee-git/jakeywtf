@@ -25,6 +25,21 @@ test('loose 24-anchor contours enclose every original artwork corner',async()=>{
  assert.equal((path.match(/L/g)??[]).length,contours.length*23,'Straight lines should join all 24 points before closing');
  assert.ok(!/[CQAS]/.test(path),'The boundary should contain no curves');
  for(const r of rectangles)for(const point of [[r.left,r.top],[r.right,r.top],[r.right,r.bottom],[r.left,r.bottom]])assert.ok(contours.some(c=>inside(point,c)),'Contour cuts into artwork at '+point.join(','));
+ for(const contour of contours)for(let i=0;i<contour.length;i++){
+  const a=contour[i],b=contour[(i+1)%contour.length];
+  const orientation=(p,q,r)=>(q[0]-p[0])*(r[1]-p[1])-(q[1]-p[1])*(r[0]-p[0]);
+  for(let j=i+2;j<contour.length;j++){
+   if(i===0&&j===contour.length-1)continue;
+   const c=contour[j],d=contour[(j+1)%contour.length];
+   assert.ok(!(orientation(a,b,c)*orientation(a,b,d)<0&&orientation(c,d,a)*orientation(c,d,b)<0),'Boundary crosses itself');
+  }
+  for(let step=0;step<=50;step++){
+   const p=a.map((value,axis)=>value+(b[axis]-value)*step/50);
+   const clearance=Math.min(...rectangles.map(r=>Math.hypot(Math.max(r.left-p[0],0,p[0]-r.right),Math.max(r.top-p[1],0,p[1]-r.bottom))));
+   assert.ok(clearance>=140,'Boundary gets too close to the artwork');
+   assert.ok(clearance<=550,'Boundary wanders too far from the artwork');
+  }
+ }
  for(const [x,y] of contours.flat())assert.ok(Number.isFinite(x)&&Number.isFinite(y)&&x>0&&y>0&&x<scene.width&&y<scene.height);
  assert.equal(artworkOutline(rectangles,scene.width,scene.height),artworkOutline(rectangles,scene.width,scene.height),'Rebuilding should not randomly change the outline');
 });

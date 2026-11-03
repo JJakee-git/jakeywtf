@@ -1,5 +1,17 @@
 // Twenty-four widely spaced anchors describe a loose perimeter around the art.
 // Straight segments connect them without the old dense sawtooth edge.
+function crossesClearance(a,b,r){
+ let enter=0,leave=1;
+ for(const [axis,min,max] of [[0,r.left-150,r.right+150],[1,r.top-150,r.bottom+150]]){
+  const direction=b[axis]-a[axis];
+  if(Math.abs(direction)<1e-8){if(a[axis]<min||a[axis]>max)return false;continue;}
+  const first=(min-a[axis])/direction,last=(max-a[axis])/direction;
+  enter=Math.max(enter,Math.min(first,last));leave=Math.min(leave,Math.max(first,last));
+  if(enter>leave)return false;
+ }
+ return true;
+}
+const distanceFromArt=(p,rectangles)=>Math.min(...rectangles.map(r=>Math.hypot(Math.max(r.left-p[0],0,p[0]-r.right),Math.max(r.top-p[1],0,p[1]-r.bottom))));
 export function artworkContours(rectangles,width,height){
  if(!rectangles.length)return [];
  const padding=350;
@@ -41,12 +53,22 @@ export function artworkContours(rectangles,width,height){
    const p=smooth[edge],q=smooth[(edge+1)%smooth.length],t=(target-distance)/(lengths[edge]||1);
    sampled.push([p[0]+(q[0]-p[0])*t,p[1]+(q[1]-p[1])*t]);
   }
-  contours.push(sampled.map((p,i)=>{
+  const varied=sampled.map(p=>[...p]);
+  for(let i=0;i<count;i++){
+   const p=sampled[i];
    const before=sampled[(i+count-1)%count],after=sampled[(i+1)%count],dx=after[0]-before[0],dy=after[1]-before[1],length=Math.hypot(dx,dy)||1;
    const hash=Math.sin(i*127.1+area*.00001)*43758.5453,noise=hash-Math.floor(hash);
-   const offset=45+noise*75+Math.sin(i*.83)*30;
-   return [Math.max(20,Math.min(width-20,p[0]+dy/length*offset)),Math.max(20,Math.min(height-20,p[1]-dx/length*offset))];
-  }));
+   // Unequal peaks and deeper inward valleys break up the rounded base.
+   const offset=i%3===0?45+noise*70:-65-noise*95;
+   for(let amount=1;amount>0;amount-=.1){
+    const candidate=[Math.max(20,Math.min(width-20,p[0]+dy/length*offset*amount)),Math.max(20,Math.min(height-20,p[1]-dx/length*offset*amount))];
+    const before=varied[(i+count-1)%count],after=varied[(i+1)%count];
+    if(distanceFromArt(candidate,rectangles)>550)continue;
+    if(rectangles.some(r=>crossesClearance(before,candidate,r)||crossesClearance(candidate,after,r)))continue;
+    varied[i]=candidate;break;
+   }
+  }
+  contours.push(varied);
  }
  return contours;
 }
